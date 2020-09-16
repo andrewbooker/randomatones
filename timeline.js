@@ -7,6 +7,13 @@ const timeline =
         text: "Three units taking shape now. First task for each one is to position the speakers. The middle-sized on is the prototype, so I had already done this. The other two are similar, but each unit has a different combination of speaker sizes for individuality."
     },
     {
+        when: "2020-09-09",
+        heading: "Making a mental note",
+        image: "https://lh3.googleusercontent.com/urMZyrsx4Id77JDrQuzLQN3rZM57IFTZsVxCgKqDLVsnM8cISolfVeoybQHYMTBgq4SgqJcic1ZnIdx914wLuR4TK-rDv4lot1ARvEMhcj5Ii7BkiF6GlEm77lzs-tBY-COlWQxubDrgr5mNi3XlFgA40M07okpPvLVkBpjtNUrhfVD-cir3zIjWWkVaQ6HVgvzYyRE3cQ36-e863FgP1pYmiOCEU0EBQgatXsuZq6rTy0H6jf_2ABx4wRzA4Evle5nudGHr64-TMwVoJVsRWCO5s9gz7dxNXr7hLi3xLDv8h5oaW6bi854yOPjrghxzrJIkCd_289PF229CAFIfTrhQe3cbPFDyyFxaea3DU73YjF6lQ-RjkzXwaZz6Gtu3sLuLthBlOMGMQOV0iNCBCijmRwN_ZVJEFIPOKI5SCkea0uTk7AL5rEt3N45ie21NoL8arwhtxrTxmgEsGh9nJ0eyYT9lJ7HhWphhLNFVaH8l4y2T4tOrZgfnnf7K0VxCnbZ5PnoIKjFM4fBpLjlRU7i7L_Bsvv6ynDDBP2_4Ycu9-cxYXlNLQO7765qYPQ1r7JbDZSp0X-AEZi6KqJVN3WlHswVrbh_6lh5n1GYXeFPzpBlr9bxTrA3nJM9OXiPVStXd_ANUDHjBceu0inHe8IEvMr3GQEX79e9-h0lLnCdJZI6cUGkiYKNs2hhIjIA=w1070-h602-no?authuser=0",
+        orientation: "landscape",
+        text: "This looks like a nice spot. The acoustics under the first bridge are sweet, and the traffic noise from above might even complement the sounds. What to call it though - Water Music For Randomatons? Also somehow I have to get these things to float. My heaviest 12V batteries are 5.5Kg. That's going to need a big tyre."
+    },
+    {
         when: "2020-09-08",
         heading: "Floating an idea",
         image: "https://lh3.googleusercontent.com/oPTE6yb20iLU45_Bf0OqAdG0bia6uQYOZLZfNKAkoLStl4D9xSjSvuUshkoNz6Lf97Jhy3FNDBnAmRMzwiy4WACZ3No5AvQweWTTTe9ZeM8D-3uHLcSpmpSVNPshea5j6mDctS7Tm9wME4o1U4dNtYam5kM5CsvPmo1Y1LQ97XKmL6AYxCVR-iI4D4CXojY4IpdG_CP0bZkoP4rnaEpbU9-12xadWD9_TuLNdy1jkCozgaYB3gmloR1jXnwqvVNIjo5MKWwL6PNMqI46yoIxhWSzTGj_oB8tulYuOdm-9DMvJxdCSUuwx4q4rpaCpVpvz23IIGoXDoVnDwssffOBwYmD3M5h0OAENE3x6SVjbGLZQVj61Im4BE5EvkrkcNttBDG0rSfT8KPmbe4M0D2rLdURkxWpR-jWPNfDyKpw2VSVfUMyop9f7EkcumnyyBcnRZEKeaw2cOqbFGMfymDEWpoCHjlWeGFwib4xr41G0lLlp39UKduLUcUE9LD5aegttqr4PCWV8wNPMXFy0QMHMeT7I_vjTBwywU2Ofwg57Zo2hzNbf-dHXQzLFWA-Eh23xJ2zQQsfD7MucIkrSc0v4OgUTwM_7-8vzC18lsI1tohL_tqHZ_U_lP4wl9rIWD01xa27Wqd9es9DggiieBHlPcHAvlXSRcLbRmcYag13DZToX55ITgowSEdIaH7sQrA=w1070-h602-no?authuser=0",

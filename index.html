@@ -26,9 +26,10 @@
                 heading.appendChild(h);
                 els.push(heading);
                 
+                const landscape = t.orientation === "landscape";
                 const img = document.createElement("img");
                 img.src = t.image;
-                img.width = (t.orientation === "landscape" ? 320 : 180);
+                img.width = landscape ? 320 : 180;
                 img.height = (img.width === 180 ? 320 : 180);
                 img.setAttribute("style", "float: left; margin-right: 20px;");
                 els.push(img);
@@ -38,7 +39,7 @@
                 els.push(txt);
 
                 const entry = document.createElement("div");
-                entry.setAttribute("style", "min-height: 380px;");               
+                entry.setAttribute("style", "min-height: " + (landscape ? 280 : 380) + "px;");               
                 els.map(e => entry.appendChild(e));
                 container.appendChild(entry);
 		    });
