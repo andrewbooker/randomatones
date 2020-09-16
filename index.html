@@ -1,0 +1,47 @@
+<html>
+	<body style="margin:20px; color: white; background-color: black; font-family: Arial;">
+		<div style="font-size: 800%; margin-bottom: 20px; font-weight: bold;">Music for Randomatons</div>
+		<div style="font-size: 200%; margin-bottom: 20px; font-weight: bold; color: grey;">Programmed units generating ambient music in harmony.</div>
+		<div id="timeline"></div>
+	    <script src="./timeline.js" type="text/javascript"></script>
+        <script>
+            const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+            const container = document.getElementById("timeline");
+
+		    timeline.map(t => {
+                const els = [];
+
+                const when = document.createElement("span");
+                const d = new Date(t.when);
+                when.innerHTML = (d.getDate() < 10 ? "0" : "") + d.getDate() + " " + months[d.getMonth()] + " " + d.getFullYear();
+                when.setAttribute("style", "color: grey; font-size: 120%; margin-right: 20px;");
+
+                const h = document.createElement("span");
+                h.setAttribute("style", "font-size: 160%");
+                h.innerHTML = t.heading;
+
+                const heading = document.createElement("div");
+                heading.setAttribute("style", "font-weight: bold; margin: 10px 0;");
+                heading.appendChild(when);
+                heading.appendChild(h);
+                els.push(heading);
+                
+                const img = document.createElement("img");
+                img.src = t.image;
+                img.width = (t.orientation === "landscape" ? 320 : 180);
+                img.height = (img.width === 180 ? 320 : 180);
+                img.setAttribute("style", "float: left; margin-right: 20px;");
+                els.push(img);
+
+                const txt = document.createElement("div");
+                txt.innerHTML = t.text;
+                els.push(txt);
+
+                const entry = document.createElement("div");
+                entry.setAttribute("style", "min-height: 380px;");               
+                els.map(e => entry.appendChild(e));
+                container.appendChild(entry);
+		    });
+	    </script>
+	</body>
+</html>
