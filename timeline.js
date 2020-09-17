@@ -17,7 +17,7 @@ const timeline =
         heading: "Mental notes",
         image: "https://lh3.googleusercontent.com/urMZyrsx4Id77JDrQuzLQN3rZM57IFTZsVxCgKqDLVsnM8cISolfVeoybQHYMTBgq4SgqJcic1ZnIdx914wLuR4TK-rDv4lot1ARvEMhcj5Ii7BkiF6GlEm77lzs-tBY-COlWQxubDrgr5mNi3XlFgA40M07okpPvLVkBpjtNUrhfVD-cir3zIjWWkVaQ6HVgvzYyRE3cQ36-e863FgP1pYmiOCEU0EBQgatXsuZq6rTy0H6jf_2ABx4wRzA4Evle5nudGHr64-TMwVoJVsRWCO5s9gz7dxNXr7hLi3xLDv8h5oaW6bi854yOPjrghxzrJIkCd_289PF229CAFIfTrhQe3cbPFDyyFxaea3DU73YjF6lQ-RjkzXwaZz6Gtu3sLuLthBlOMGMQOV0iNCBCijmRwN_ZVJEFIPOKI5SCkea0uTk7AL5rEt3N45ie21NoL8arwhtxrTxmgEsGh9nJ0eyYT9lJ7HhWphhLNFVaH8l4y2T4tOrZgfnnf7K0VxCnbZ5PnoIKjFM4fBpLjlRU7i7L_Bsvv6ynDDBP2_4Ycu9-cxYXlNLQO7765qYPQ1r7JbDZSp0X-AEZi6KqJVN3WlHswVrbh_6lh5n1GYXeFPzpBlr9bxTrA3nJM9OXiPVStXd_ANUDHjBceu0inHe8IEvMr3GQEX79e9-h0lLnCdJZI6cUGkiYKNs2hhIjIA=w1070-h602-no?authuser=0",
         orientation: "landscape",
-        text: "This looks like a nice spot for it. The acoustics under the first bridge are sweet, and the traffic noise from above might even complement the sounds. What to call it though - Water Music For Randomatons? Also somehow I have to get these things to float. My heaviest 12V batteries are 5.5Kg. That's going to need a big tyre."
+        text: "This looks like a nice spot for it. The acoustics under the first bridge are sweet, and the traffic noise from above might even complement the sounds. What to call it though - Water Music For Randomatones? Randomaquatones? Also somehow I have to get these things to float. My heaviest 12V batteries are 5.5Kg. That's going to need a big tyre."
     },
     {
         when: "2020-09-08",
@@ -34,7 +34,7 @@ const timeline =
     },
     {
         when: "2020-08-19",
-        heading: "Randomaton One",
+        heading: "Randomatone One",
         image: "https://lh3.googleusercontent.com/2lx0sfEZ1BZnWJZrO2HbgvbSTvK8h_AnNymgg9keG1uBOT4ijiYpvnCd0j1sUlLgfRxE-fDLwosHdIRoBpBiB2qBw_cSLBQ1cXIkNwOkbIF5X2BuX7Ce41xakdOoc39EklRqB_fzyepconAGLerAP900hjWXku0pwHIYOU_M49aBIZDOoRyHeKGIL2WxhviYjmw10eHLf-z9HW5FtTWR0cjsXuWsmPHoGb85O7C4sMblZgX6FCu78AiY4YZDwNjKprQCx255gxjOh_fdWE--zarwWiHVzf6T-UZAyD8yQzkwicBMX2YvfQXxjg2u0ZrDrXPdhwnljJU542KLm627a9so5zZdhOGtoTzt_tkh5FOZCoDCVfjOGLKG6vlbUgjqepy3ywOKkt2NLoxKqwZgDcxZIDsXrxWguv3YttOm6TyOeNtTSKNT53vhkudy4-hjYi3i_KsURqsbB1lvBYsbr2VMXx5T8XyYaCIGC2XBmzfXrPCNDazVX85JD3gKxfp7r8yECGZ3yiLolgv00ke6bfGC7yVvRy2uVac10k4G4UOlNpB2g1bMJzsqZ2FXJafBg_XZXzi0Mc4BmeVJakoi_VN9vw5Q6JeYv32uhZCa6Kq16clUp6P2Pn91mQEVps9pHhMCXiBOCLSkW6CY8zRgTyWRDgfXMYjzoy98bRGBBbQJ5TVMPLEVqs1YZXnGu8s=w496-h881-no?authuser=0", 
         text: "Assembled prototype. You can just see that behind the circuit boards is a massive 12V 20Ah battery, the kind you find in a mobility scooter. This powers the Raspberry Pi via a step-down to 5V, and a 2x20W amp, currently driving two cheap speakers from Halfords. I've been preparing the software for this for some time now and had it working on a regular linux machine, and have tried it out on the RPi by itself over Wifi, not in this assembly yet."
     }
