@@ -2,7 +2,7 @@
 	<body style="margin:20px; color: white; background-color: black; font-family: Arial;">
 		<div style="font-size: 800%; margin-bottom: 20px; font-weight: bold;">Music for Randomatons</div>
 		<div style="font-size: 200%; margin-bottom: 20px; font-weight: bold; color: grey;">Programmed units generating ambient music in harmony.</div>
-		<div id="timeline"></div>
+		<div id="timeline" style="max-width: 800px"></div>
 	    <script src="./timeline.js" type="text/javascript"></script>
         <script>
             const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
@@ -39,7 +39,7 @@
                 els.push(txt);
 
                 const entry = document.createElement("div");
-                entry.setAttribute("style", "min-height: " + (landscape ? 280 : 380) + "px;");               
+                entry.setAttribute("style", "margin-bottom: 20px; min-height: " + (landscape ? 280 : 380) + "px;");
                 els.map(e => entry.appendChild(e));
                 container.appendChild(entry);
 		    });
