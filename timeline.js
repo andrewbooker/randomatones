@@ -1,10 +1,30 @@
 const timeline = 
 [
     {
+        when: "2020-09-22",
+        heading: "Saving for later",
+        orientation: "landscape",
+        image: "https://live.staticflickr.com/65535/50373295302_5a29c0b1ed_b.jpg",
+        text: "These from the car mending work shop on the industrial estate where my drum practice room is. They were about to chuck them out. At 25 litres, each would provide many times more buoyancy than I need for a Randomatone, even cut up into smaller miniature barges. These are by no means ideal, as I really want something round, or with a high degree of rotational symmetry, as eventually I want to rotate them in the water."
+    },        
+    {
+        when: "2020-09-20",
+        heading: "Will it float? Nope.",
+        orientation: "landscape",
+        image: "https://live.staticflickr.com/65535/50373295662_22f4d085e4_b.jpg",
+        text: "Test assembly already weighing in excess of 4Kg. The plan was to attach large bottles perpendicularly to the three joists just before they converge at the base. Utter failure. The bottles buckled as soon as they hit the water and the centre of gravity was far too high. I should probably be learning some fluid mechanics if I really want a go at this. My first thought was to seat the unit in an inner tube of a car tyre. I have one ready to try. However, I am still clinging to the idea of using bottles, this time facing downwards and running along the lower joists rather than perpendicular to them. Plus I have a fallback plan if I really want to make floating Randomatones, but it will involve a different frame."
+    },
+    {
+        when: "2020-09-19",
+        heading: "Undercoats",
+        image: "https://live.staticflickr.com/65535/50373294927_5b70704e1c_b.jpg",
+        text: "After the nth coat of white paint. The plan was next to daub them each with a fluourescent colour, but right now I'm enjoing them just in plain white. Up close, with my imperfect woodwork and rough sanding, they look like miniature adobe towers. I'm thinking I will wire them all up as they are and make a first video somewhere, before considering colours."
+    },
+    {
         when: "2020-09-13",
         heading: "Assembly",
         image: "https://live.staticflickr.com/65535/50353163628_ddc6f6110f_c.jpg", 
-        text: "Three units taking shape now. First task for each one is to position the speakers. The middle-sized on is the prototype, so I had already done this. The other two are similar, but each unit has a different combination of speaker sizes for individuality. The plan is to position the multiple units in separate parts of the room, but I actually quite like the way these units look clustered together. It makes me thing the speaker positioning should be random, rather than regular and predictable as they are here. Next task is to take the speakers off, put other bits of wood on for mounting the electronics later, then sand and paint in bright colours. Because why not."
+        text: "Three units taking shape now. First task for each one is to position the speakers. The middle-sized one is the prototype, so I had already done this. The other two are similar, but each unit has a different combination of speaker sizes for individuality. The plan is to position the multiple units in separate parts of the room, but I actually quite like the way these units look clustered together. It makes me thing the speaker positioning should be random, rather than regular and predictable as they are here. Next task is to take the speakers off, put other bits of wood on for mounting the electronics later, then sand and paint in bright colours. Because why not."
     },
     {
         when: "2020-09-11",

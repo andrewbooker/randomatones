@@ -2,6 +2,7 @@
 	<body style="margin:20px; color: white; background-color: rgb(23,23,43); font-family: Arial; max-width: 1167px"">
 		<div style="font-size: 1000%; margin-bottom: 20px; font-weight: bold;">Randomatones</div>
 		<div style="font-size: 200%; margin-bottom: 20px; font-weight: bold; color: grey;">Programmed units generating ambient harmony</div>
+        <div style="font-size: 80%;">Visionary, programmer and amateur carpenter: <a target="_blank" href="https://www.facebook.com/andrewbookerdrums">Andrew Booker</a></div>
         <table cellpadding="10px" cellspacing="10px">
 		    <tbody id="timeline"></tbody>
         <table>
@@ -18,10 +19,10 @@
                 const when = document.createElement("td");
                 const d = new Date(t.when);
                 when.innerHTML = (d.getDate() < 10 ? "0" : "") + d.getDate() + " " + months[d.getMonth()] + " " + d.getFullYear();
-                when.setAttribute("style", "color: grey; font-size: 180%; font-weight: bold; float: right; margin-right: 20px;");
+                when.setAttribute("style", "color: grey; font-size: 150%; font-weight: bold; float: right; margin-right: 20px;");
 
                 const h = document.createElement("td");
-                h.setAttribute("style", "font-size: 180%; font-weight: bold;");
+                h.setAttribute("style", "font-size: 150%; font-weight: bold;");
                 h.innerHTML = t.heading;
                 head.appendChild(when);
                 head.appendChild(h);
@@ -38,6 +39,7 @@
 
                 const txt = document.createElement("td");
                 txt.innerHTML = t.text;
+                txt.setAttribute("style", "font-size: 90%; color: rgb(221,234,234);");
                 body.appendChild(i.appendChild(txt))
 
                 container.appendChild(head);
