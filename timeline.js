@@ -4,27 +4,27 @@ const timeline =
         when: "2020-09-25",
         heading: "Stair case study",
         image: "https://live.staticflickr.com/65535/50386159062_3a5ddd1b55_b.jpg",
-        text: "Trying all three units out for the first time, after a making a remote control via wifi that can adjust the volume or shutdown all three units together. Batteries lasted a good few hours despite their age, though the unit with the Model B+ Raspberry Pi ran down much quicker and died. Maybe I'll need the massive golf-buggy 20Ah batteries next time, as those are new.<br/><br/> The sound was fairly lush, though there were some technical issues with the audio not ramping up or panning properly, for which I have a plan B. Even just on the stairs there wasn't a lot of spacial definition, ie sounds obviously coming from one place or another. I realise now that the nature of the sounds, which ramp up and slowly back down in volume, probably do not lend themselves to directionality, whereas perhaps more percussive sounds might. Something to try later.<br/><br/> As a listening experience it was soothing and not at all irksome even after having it playing round the house for many hours. Liske seeing residual patches of colour when the lights go out, after turning it all off, I still heard the sounds playing in my head. Utterly unsingable, of course."
+        text: "Trying all three units for the first time, after a making a remote control via wifi that can adjust the volume or shut down all three units together. Batteries lasted a good few hours despite their age, though the unit with the Model B Raspberry Pi (which consumes more power than the Model A+ versions on the other units) ran down much quicker and died. Maybe I'll need the massive golf-buggy 20Ah batteries next time, as not only are those more beefy, they are new.<br/><br/>The sound was fairly lush, though there were some technical issues with the audio not ramping up or panning properly, for which I have a plan B. Even just on the stairs there wasn't a lot of spacial definition, ie sounds that discernably come from one place or another. I realise now that the nature of the sounds, which ramp up and slowly back down in volume, probably do not lend themselves to directionality, whereas more percussive sounds might. Something to try later.<br/><br/> As a listening experience it was soothing and not at all irksome even after having it playing round the house for many hours. After turning it all off, I still heard the sounds playing in my head, like seeing residual auras of colour when the lights go out. Just as unsingable, too."
     },
     {
         when: "2020-09-22",
         heading: "Saving for later",
         orientation: "landscape",
         image: "https://live.staticflickr.com/65535/50373295302_5a29c0b1ed_b.jpg",
-        text: "These from the car mending work shop on the industrial estate where my drum practice room is. They were about to chuck them out. At 25 litres, each would provide many times more buoyancy than I need for a Randomatone, even cut up into smaller miniature barges. These are by no means ideal, as I really want something round, or with a high degree of rotational symmetry, as eventually I want to rotate them in the water."
+        text: "These from the car mending work shop on the industrial estate where my drum practice room is. They were about to chuck them out. At 25 litres, each would provide easily buoyancy I need for a Randomatone, even cut in half into miniature barges. These are by no means ideal, as I really want something round, or with a high degree of rotational symmetry, as I want to rotate them in the water while keeping them tethered."
     },        
     {
         when: "2020-09-20",
         heading: "Will it float? Nope.",
         orientation: "landscape",
         image: "https://live.staticflickr.com/65535/50373295662_22f4d085e4_b.jpg",
-        text: "Test assembly already weighing in excess of 4Kg. The plan was to attach large bottles perpendicularly to the three joists just before they converge at the base. Utter failure. The bottles buckled as soon as they hit the water and the centre of gravity was far too high. I should probably be learning some fluid mechanics if I really want a go at this. My first thought was to seat the unit in an inner tube of a car tyre. I have one ready to try. However, I am still clinging to the idea of using bottles, this time facing downwards and running along the lower joists rather than perpendicular to them. Plus I have a fallback plan if I really want to make floating Randomatones, but it will involve a different frame."
+        text: "Test assembly already weighing in excess of 4Kg. The plan was to attach large bottles perpendicularly to the three joists just before they converge at the base. Utter failure. The flimsy 2l milk bottles buckled as soon as they hit the water and the centre of gravity was far too high. I should probably be learning some fluid mechanics if I really want a go at this. My first thought was to seat the unit in an inner tube of a car tyre. I have one ready to try. However, I am still clinging to the idea of using bottles, this time facing downwards and running along the lower joists rather than perpendicular to them. Plus I have a fallback plan if I really want to make floating Randomatones, but it will involve a different frame."
     },
     {
         when: "2020-09-19",
         heading: "Undercoats",
         image: "https://live.staticflickr.com/65535/50373294927_5b70704e1c_b.jpg",
-        text: "After the nth coat of white paint. The plan was next to daub them each with a fluourescent colour, but right now I'm enjoing them just in plain white. Up close, with my imperfect woodwork and rough sanding, they look like miniature adobe towers. I'm thinking I will wire them all up as they are and make a first video somewhere, before considering colours."
+        text: "After the nth coat of white paint. The plan was next to daub them each with a fluourescent pigment, but right now I'm enjoing them just in plain white. Up close, with my imperfect woodwork and rough sanding, they look like miniature adobe towers. I'm thinking I will wire them all up as they are and make a first video somewhere, before considering colours."
     },
     {
         when: "2020-09-13",
