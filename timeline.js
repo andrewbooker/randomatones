@@ -1,6 +1,12 @@
 const timeline = 
 [
     {
+        when: "2020-09-25",
+        heading: "Stair case study",
+        image: "https://live.staticflickr.com/65535/50386159062_3a5ddd1b55_b.jpg",
+        text: "Trying all three units out for the first time, after a making a remote control via wifi that can adjust the volume or shutdown all three units together. Batteries lasted a good few hours despite their age, though the unit with the Model B+ Raspberry Pi ran down much quicker and died. Maybe I'll need the massive golf-buggy 20Ah batteries next time, as those are new.<br/><br/> The sound was fairly lush, though there were some technical issues with the audio not ramping up or panning properly, for which I have a plan B. Even just on the stairs there wasn't a lot of spacial definition, ie sounds obviously coming from one place or another. I realise now that the nature of the sounds, which ramp up and slowly back down in volume, probably do not lend themselves to directionality, whereas perhaps more percussive sounds might. Something to try later.<br/><br/> As a listening experience it was soothing and not at all irksome even after having it playing round the house for many hours. Liske seeing residual patches of colour when the lights go out, after turning it all off, I still heard the sounds playing in my head. Utterly unsingable, of course."
+    },
+    {
         when: "2020-09-22",
         heading: "Saving for later",
         orientation: "landscape",
