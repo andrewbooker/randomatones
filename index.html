@@ -1,17 +1,24 @@
 <html>
-	<body style="margin:20px; color: white; background-color: rgb(23,23,43); font-family: Arial; max-width: 1167px"">
-		<div style="font-size: 1000%; margin-bottom: 20px; font-weight: bold;">Randomatones</div>
-		<div style="font-size: 200%; margin-bottom: 20px; font-weight: bold; color: grey;">Programmed units generating ambient harmony</div>
-        <div style="font-size: 80%;">Visionary, programmer and amateur carpenter: <a target="_blank" href="https://www.facebook.com/andrewbookerdrums">Andrew Booker</a></div>
-        <table cellpadding="10px" cellspacing="10px">
-		    <tbody id="timeline"></tbody>
-        <table>
-	    <script src="./timeline.js" type="text/javascript"></script>
+    <body style="margin: 0; padding: 0; background-color: rgb(37,31,28); font-family: Arial; position: relative; text-align: center;">
+        <img src="https://live.staticflickr.com/65535/50386149742_676acfbb6b_h.jpg" width="1280" height="720">
+        
+        <div style="font-size: 1000%; margin-bottom: 20px; font-weight: Bold; color: rgb(37,31,28); transform: translate(0%, -700px);">Randomatones</div>
+        <div style="font-size: 200%; margin-bottom: 20px; font-weight: bold; color: grey; transform: translate(0%, -730px);">Programmed units generating ambient harmony</div>
+	    <div style="margin:20px; color: white; transform: translate(0%, -240px);">
+            <table cellpadding="10px" cellspacing="10px" style="margin-left: auto; margin-right: auto; max-width: 1280px;">
+		        <tbody id="timeline"></tbody>
+            <table>
+        </div>
+        <div>
+            <div style="font-size: 80%; margin: 40px 0 10px 0;">Visionary, programmer and amateur carpenter:<br/><a target="_blank" href="https://www.facebook.com/andrewbookerdrums">Andrew Booker</a></div>
+            <img src="ab.png" />
+        </div>
+        <script src="./timeline.js" type="text/javascript"></script>
         <script>
             const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
             const container = document.getElementById("timeline");
 
-		    timeline.map(t => {
+	        timeline.map(t => {
                 const head = document.createElement("tr");
                 const body = document.createElement("tr");
                 body.setAttribute("style", "vertical-align: top;");
@@ -22,7 +29,7 @@
                 when.setAttribute("style", "color: grey; font-size: 150%; font-weight: bold; float: right; margin-right: 20px;");
 
                 const h = document.createElement("td");
-                h.setAttribute("style", "font-size: 150%; font-weight: bold;");
+                h.setAttribute("style", "font-size: 150%; color: white; font-weight: bold;");
                 h.innerHTML = t.heading;
                 head.appendChild(when);
                 head.appendChild(h);
@@ -44,7 +51,7 @@
 
                 container.appendChild(head);
                 container.appendChild(body);
-		    });
-	    </script>
+	        });
+        </script>
 	</body>
 </html>
