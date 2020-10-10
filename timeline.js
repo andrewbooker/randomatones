@@ -1,6 +1,13 @@
 const timeline = 
 [
     {
+        when: "2020-10-08",
+        heading: "Introducing the Randomatones",
+        image: "http://img.youtube.com/vi/1_lulLSQ8UY/0.jpg",
+        href: "https://www.youtube.com/watch?v=1_lulLSQ8UY",
+        text: "A short demonstration of the first three Randomatones positioned strategically on the stairs up to my study. Strategically here is another word for <i>in the way</i>."
+    },
+    {
         when: "2020-10-04",
         heading: "Flooded tunnel video shoot",
         image: "https://live.staticflickr.com/65535/50419782381_d6298fd81d_b.jpg",
