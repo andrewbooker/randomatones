@@ -53,10 +53,12 @@
                 i.appendChild(a);
                 body.appendChild(i);
 
-                const txt = document.createElement("td");
+                const txt = document.createElement("div");
                 txt.innerHTML = t.text;
-                txt.setAttribute("style", "font-size: 90%; color: rgb(221,234,234);");
-                body.appendChild(i.appendChild(txt))
+                txt.setAttribute("style", "font-size: 90%; margin-bottom: 20px; color: rgb(221,234,234);");
+                td = document.createElement("td");
+                td.appendChild(txt);
+                body.appendChild(td);
 
                 container.appendChild(head);
                 container.appendChild(body);
