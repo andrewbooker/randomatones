@@ -1,6 +1,19 @@
 const timeline = 
 [
     {
+        when: "2020-10-04",
+        heading: "Flooded tunnel video shoot",
+        image: "https://live.staticflickr.com/65535/50419782381_d6298fd81d_b.jpg",
+        orientation: "landscape",
+        text: "Never one to miss an opportunity if I can avoid it, I spent the day trying to fit a small 12V pump to the diamond unit so that it would rotate when lowered into the water. After just about getting it working, I put on my nastiest old trainers and carried the whole thing plus my inflated inner tube down to the subway. Just as I was starting, a cyclist appeared, wondering if he could get through. I warned him I had tried yesterday and it had endhttps://www.youtube.com/watch?v=1_lulLSQ8UYed badly. He asked, is that a science experiment? No, I replied, more like an art experiment. He stayed to watch me wade a little way into the tunnel with the floating Randomatone, trying not to drop my phone in the water.<br/><br/>I learned a few things doing this: 1) The sound was not nearly loud enough to resonate in the tunnel acoustic. The volume was not set to maximum, even then I'm wondering if it would have been enough. 2) I'm glad I used polypropylene speakers, even if they were a bit small, as they caught a lot of rain. 3) Amazingly the electronics survived, despite being completely exposed, though I will not do this again without putting them in a plastic enclosure. 4) The water felt moderately warm after I'd been in it for a few minutes."
+    },
+    {
+        when: "2020-10-03",
+        heading: "Another flooded tunnel closer to home",
+        image: "https://live.staticflickr.com/65535/50419575281_2b7f2d9c01_b.jpg",
+        text: "Cycling to the drum room, I took a long meandering route via my favourite nearby locations for possible floating Randomatone action, keen to see the state they were in after 2 inches of rain in the last 24 hrs. Biggest surprise was the south tunnel under the Waterworks Roundabout, knee deep in water, as I found out when I tried to cycle through it. Later I wondered whether I should go straight ahead and build a randomatone frame for the half of one of 25l bottles. Then I remembered I had bought an inner tube weeks ago exactly for this purpose, and could probably get the single diamond one up and running faster."
+    },
+    {
         when: "2020-09-25",
         heading: "Stair case study",
         image: "https://live.staticflickr.com/65535/50386159062_3a5ddd1b55_b.jpg",
@@ -51,6 +64,13 @@ const timeline =
         image: "https://live.staticflickr.com/65535/50354023557_eec8ed7162_b.jpg",
         orientation: "landscape",
         text: "An eventful week of blowing up a Raspberry Pi and an amp. Tried a new smaller RPi (model A+) and found it had some glitches, but these could be reproduced simply by adjusting the system volume, so I'm not confident about the analogue output. Needing replacement amp as well I went for a HifiBerry Pi \"hat\", which is entirely digital and will thus bypass all the RPi audio bits which I think are the issue. Also, brilliantly, it takes 12V but will do the step down to 5V itself for the RPi. This will save me having to have an extra unit with wiring issues. Tried it all out after the necessary config changes in the RPi to tell it where its audio has to go. Not only does everything work, the audio is basically clean. Needs a volume control though, without a keybaord or a mouse. Hmm! In a totally unrelated flight of consciousness, I have begun pursuing the crazy idea of making a set of these units that will float. This would be the basic chassis, and one way of making it float might be to use the inner tube of a car tyre. So I've ordered one. I might work on this frame idea a bit more. I'm pleased with my elementary woodworking skills to have made this item, which at least looks like it fits together."
+    },
+    {
+        when: "2020-08-29",
+        heading: "Subway flooding",
+        image: "https://live.staticflickr.com/65535/50446120058_04e6599b85_b.jpg",
+        orientation: "landscape",
+        text: "A long walk to the drum practice room for exercise, made even longer on discovering a strategic footway under the Central Line at Snaresbrook was flooded. This little-used subway has a terrific acoustic and would otherwise be a prime candidate for recording some Randomatones. Sigh."
     },
     {
         when: "2020-08-28",
