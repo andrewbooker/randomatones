@@ -5,7 +5,7 @@ const timeline =
         heading: "Introducing the Randomatones",
         image: "http://img.youtube.com/vi/1_lulLSQ8UY/0.jpg",
         href: "https://www.youtube.com/watch?v=1_lulLSQ8UY",
-        text: "A short demonstration of the first three Randomatones positioned strategically on the stairs up to my study. Strategically here is another word for <i>in the way</i>."
+        text: "A short demonstration of the first three Randomatones positioned strategically on the stairs up to my study. Strategically in this context is another word for <i>in the way</i>. The Randomatone audio in this is all from the phone mic, plus the zoom recorder you can just see attached to the middle unit. I did no overdubbing afterwards."
     },
     {
         when: "2020-10-04",
