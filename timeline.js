@@ -1,6 +1,13 @@
 const timeline = 
 [
     {
+        when: "2020-10-14",
+        heading: "Music for a flooded subway",
+        image: "http://img.youtube.com/vi/ZwcasP6kKJk/0.jpg",
+        href: "https://www.youtube.com/watch?v=ZwcasP6kKJk",
+        text: "A video of a floating Randomatone making its way through a flooded foot tunnel.<br/><br/>My original aim was to capture the tunnel acoustic. But in the rush to video something before the water drained away, I was ill-prepared with mics, the unit was too quiet and there was too much traffic noise.<br/><br/>Instead, what came out of this opportune shoot was a unique perspective on two semi-submerged murals of tunnel graffiti that I would normally never look at, at least not while looking where I was going. The wide-angle camera gets further away than the eye ordinarily can, and its view close to the waterline as it makes its way through the tunnel is striking. While I’m not generally a fan of spray-painting Victorian brickwork in fluorescent colours, in an ugly featureless concrete people-conduit like this, I begin to see the graffiti as modern example of the way people have been expressing themselves on walls for millennia, like 21st century cave paintings."
+    },
+    {
         when: "2020-10-08",
         heading: "Introducing the Randomatones",
         image: "http://img.youtube.com/vi/1_lulLSQ8UY/0.jpg",
