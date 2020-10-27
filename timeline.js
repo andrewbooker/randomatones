@@ -1,6 +1,13 @@
 const timeline = 
 [
     {
+        when: "2020-10-27",
+        heading: "New A-frames",
+        image: "https://live.staticflickr.com/65535/50538712046_29d9f0763b_b.jpg",
+        orientation: "landscape",
+        text: "Some new woodwork for three smaller units that should see some action in a few locations around South Woodford over the coming weeks. Unlike previous constructions these are more-or-less uniform, except one of them will make space for a WiFi router. White undercoats and fluorescent overcoats to follow, prior to assembly. Also each one needs a hook." 
+    },
+    {
         when: "2020-10-14",
         heading: "Music for a flooded subway",
         image: "http://img.youtube.com/vi/ZwcasP6kKJk/0.jpg",
