@@ -1,6 +1,13 @@
 const timeline = 
 [
     {
+        when: "2020-10-31",
+        heading: "Seize the night",
+        href: "https://www.youtube.com/watch?v=eIS7tWrvk-c",
+		image: "http://img.youtube.com/vi/eIS7tWrvk-c/0.jpg",
+        text: "A Randomatone in a pumpkin.<br/><br/>Not a placement I intend to pursue, but a bit of fun that I couldn't resist, between taking the floating unit to bits and reassembling it in another setup. Also an excuse to get started on some simple pitch shifting of samples, of which I intend to make much more use later. Purely for the spooks I used a chromatic note generation scheme instead of a conventional minor or major key, and stuck to sine waves. It turned out no more scary than a 1950s B-moving where the aliens have landed, in fact I prefer it. The notes arrive too slowly to clash, and there is a sense of freedom to it.<br/><br/>On the soundtrack, the bangs in the background are geniune, and I have little idea where they came from. But like serendipitous moments that happen when improvising music, they work brilliantly as an improptu percussion accompaniment to the eerie space-calls from the two bug-eye speakers."
+	},
+    {
         when: "2020-10-27",
         heading: "New A-frames",
         image: "https://live.staticflickr.com/65535/50538712046_29d9f0763b_b.jpg",
