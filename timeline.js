@@ -25,7 +25,7 @@ const timeline =
 		heading: "Overcoats",
 		image: "https://live.staticflickr.com/65535/50556742816_8e8fce2c4b_b.jpg",
 		orientation: "landscape",
-		text: "Going ahead with some painting for the new frames that I postponed when constructing the uprights (in main image above). I used to make wooden assemblies for my variouts bits of electronic drum components and paint them all matt black so they would not be noticeable on stage. Nowadays I'm a bit of a sucker for fluorescent colours for exactly the opposite reason. Loving the Daler Rowney range, thick and creamy and a single coat is almost enough. I used a cheap one for the orange and you can see it needs daubing in at least two more layers."
+		text: "Going ahead with some painting for the new frames that I postponed when constructing the uprights (in main image above). I used to make wooden assemblies for my variouts bits of electronic drum components and paint them all matt black so they would not be noticeable on stage. Nowadays I'm a bit of a sucker for fluorescent colours for exactly the opposite reason. Loving the Daler Rowney range, thick and creamy and a single coat is almost enough. I used a cheap one for the orange and you can see it needs daubing on at least two more layers."
 	},
     {
         when: "2020-10-31",
