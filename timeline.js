@@ -1,6 +1,12 @@
 const timeline = 
 [
-	{
+    {
+        when: "2020-11-06",
+        heading: "A406 tunnel #2",
+        image: "https://live.staticflickr.com/65535/50576301737_a95d755463.jpg",
+        text: "Making another video, this time with three Randomatones made to attach to railings in a foot tunnel under the A406 just west of South Woodford. Again I had the volume a bit quiet and could not make it louder, having had problems making the units connect automatically to portable Wifi dongle (or any Wifi they already knew about).<br/><br/>Visually they were somewhat dwarfed in the vast space, something to bear in mind for planned A406 tunnel #3. Also the yellow fluorescent hue is a let-down. While the red and orange blend seamlessly, the yellow is too much of a gradation.<br/><br/>The acoustic in this tunnel was excellent, and had the units been loud enough, and the traffic above quiet enough, the weird sounds that were still coming from the units since their Halloween update sounded entrancing in the space. As it was, the rumble of the vehicles hurtling past overhead was strong enough to make the railings vibrate, as I discovered when I tried to attach my camera."
+    },
+    {
 		when: "2020-11-01",
 		heading: "Overcoats",
 		image: "https://live.staticflickr.com/65535/50556742816_8e8fce2c4b_b.jpg",
