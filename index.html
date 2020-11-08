@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-		<link rel="icon" type="image/png" href="./favicon.png"/>
+        <title>Randomatones</title>
+        <meta charset="utf-8"/>
+        <link rel="icon" type="image/png" href="./favicon.png"/>
         <style>
-			body {
-				margin: 0;
-				padding: 0;
-				background-color: rgb(37,31,28);
-				font-family: Arial;
-				position: relative;
-				text-align: center;
-			}
+            body {
+                margin: 0;
+                padding: 0;
+                background-color: rgb(37,31,28);
+                font-family: Arial;
+                position: relative;
+                text-align: center;
+            }
             #heading {
                 margin-bottom: 20px;
                 font-weight: Bold;
@@ -23,15 +25,15 @@
                 color: rgba(37,31,28, 0.2);
                 transform: translate(0%, -746px);
             }
-			#recent-contents {
-				text-align: left;
-				transform: translate(0%, -560px);
-			}
-			#content {
-				margin:20px;
-				color: white;
-				transform: translate(0%, -340px);
-			}
+            #recent-contents {
+                text-align: left;
+                transform: translate(0%, -560px);
+            }
+            #content {
+                margin:20px;
+                color: white;
+                transform: translate(0%, -340px);
+            }
             #author {
                 transform: translate(0%, -340px)
             }
@@ -42,10 +44,10 @@
         
         <div id="heading">Randomatones</div>
         <div id="tagline"><span style="letter-spacing: 31px;">Randomised Automaton Tone</span>s</div>
-		<div id="recent-contents"></div>
-	    <div id="content">
+        <div id="recent-contents"></div>
+        <div id="content">
             <table cellpadding="0" cellspacing="0" style="margin-left: auto; margin-right: auto; max-width: 1280px;">
-		        <tbody id="timeline"></tbody>
+                <tbody id="timeline"></tbody>
             </table>
         </div>
         <div id="author">
@@ -60,39 +62,39 @@
                 document.getElementById("heading").setAttribute("style", "font-size: " + fh + "%");
                 document.getElementById("tagline").setAttribute("style", "font-size: " + ft + "%");
 
-				let lm =  Math.min(62, window.innerWidth / 24.0);
-				const m = (window.innerWidth / 2) - 640;
-				if (m > 0) {
-					lm += m;
-				}
-				document.getElementById("recent-contents").setAttribute("style", "margin-left:" + lm + "px;");
+                let lm =  Math.min(62, window.innerWidth / 24.0);
+                const m = (window.innerWidth / 2) - 640;
+                if (m > 0) {
+                    lm += m;
+                }
+                document.getElementById("recent-contents").setAttribute("style", "margin-left:" + lm + "px;");
             }
             resize();
             window.onresize = resize;
             const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
             const container = document.getElementById("timeline");
 
-			for (let i = 0; i != 5; ++i) {
-				const c = document.createElement("div");
-				const a = document.createElement("a");
-				a.setAttribute("href", "#" + timeline[i].when);
-				a.innerHTML = timeline[i].heading;
-				c.appendChild(a);
-				document.getElementById("recent-contents").appendChild(c);
-			}
+            for (let i = 0; i != 5; ++i) {
+                const c = document.createElement("div");
+                const a = document.createElement("a");
+                a.setAttribute("href", "#" + timeline[i].when);
+                a.innerHTML = timeline[i].heading;
+                c.appendChild(a);
+                document.getElementById("recent-contents").appendChild(c);
+            }
 
-	        timeline.map(t => {
+            timeline.map(t => {
                 const head = document.createElement("tr");
                 const body = document.createElement("tr");
                 body.setAttribute("style", "vertical-align: top;");
 
-				const whenAnchor = document.createElement("a");
+                const whenAnchor = document.createElement("a");
                 const when = document.createElement("td");
                 const d = new Date(t.when);
                 when.innerHTML = (d.getDate() < 10 ? "0" : "") + d.getDate() + " " + months[d.getMonth()] + " " + d.getFullYear();
                 when.setAttribute("style", "color: grey; font-size: 150%; font-weight: bold; float: right; margin-right: 30px;");
-				whenAnchor.setAttribute("id", t.when);
-				whenAnchor.appendChild(when);
+                whenAnchor.setAttribute("id", t.when);
+                whenAnchor.appendChild(when);
 
                 const h = document.createElement("td");
                 h.setAttribute("style", "font-size: 150%; color: white; font-weight: bold; text-align: left;");
@@ -100,23 +102,30 @@
                 head.appendChild(whenAnchor);
                 head.appendChild(h);
 
-                const landscape = t.orientation === "landscape";
-                const img = document.createElement("img");
-                img.src = t.image;
-                img.width = landscape ? 320 : 180;
-                img.height = (img.width === 180 ? 320 : 180);
-                if (t.image.includes("youtube")) {
-                    img.width = 270;
-                    img.height = 180;
-                }
-                img.setAttribute("style", "float: right; margin: 4px 30px 20px 0;");
-                const a = document.createElement("a");
-                a.setAttribute("href", t.href || t.image);
-                a.setAttribute("target", "_blank");
-                a.appendChild(img);
-
                 const i = document.createElement("td");
-                i.appendChild(a);
+                if (t.image.includes("youtube")) {
+                    const y = document.createElement("iframe");
+                    y.setAttribute("width", 302);
+                    y.setAttribute("height", 198);
+                    y.setAttribute("allowfullscreen", "true")
+                    y.setAttribute("style", "border: none; margin-right: 30px; float: right;");
+                    y.setAttribute("src", "https://www.youtube.com/embed/" + t.href.split("=")[1]);
+                    i.appendChild(y);
+                } else {
+                    const landscape = t.orientation === "landscape";
+                    const img = document.createElement("img");
+                    img.src = t.image;
+                    img.width = landscape ? 320 : 180;
+                    img.height = (img.width === 180 ? 320 : 180);
+
+                    img.setAttribute("style", "float: right; margin: 4px 30px 20px 0;");
+                    const a = document.createElement("a");
+                    a.setAttribute("href", t.href || t.image);
+                    a.setAttribute("target", "_blank");
+                    a.appendChild(img);
+
+                    i.appendChild(a);
+                }
                 body.appendChild(i);
 
                 const txt = document.createElement("div");
@@ -128,7 +137,7 @@
 
                 container.appendChild(head);
                 container.appendChild(body);
-	        });
+            });
         </script>
-	</body>
+    </body>
 </html>
