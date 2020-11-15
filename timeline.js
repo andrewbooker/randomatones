@@ -1,6 +1,13 @@
 const timeline = 
 [
     {
+        when: "2020-11-15",
+        heading: "Old electronics",
+        image: "https://live.staticflickr.com/65535/50605350726_368b5e6539_b.jpg",
+        orientation: "landscape",
+        text: "After making a video last week of three brightly coloured Randomatones in a dreary tunnel under the North Circular, the first piece of feedback I received was \"Fantastic! Did you leave them there?\" No way, I thought, there's £100 of gear on each one at least! But then I thought, if this is supposed to be art, I should be aiming to do exactly that. What could I change that would make me comfortable leaving something there for, say, a day?<br/><br/>Leaving expendable stuff, is what. No Raspberry Pi/HifiBerry units, no £20 speakers (though £20 for a speaker is very cheap) and no brand new batteries. Whereupon, various bits of old junk I had in the study or the shed came to mind. I have no recollection what piece of kit this amp came from, but electronics with crazy printed circuit boards like that I reckon are from the 1970s. So, naturally, it all still worked. I soldered up some power leads where I thought the 12V supply should go, plus two speakers from an old TV (15W each, surprisingly), and a 3.5mm stereo jack to the input. Then dug out an old unloved mp3 player and plugged in. Even with those puny speakers it was pretty loud, though I know loudness in the home is on a different scale to loudness in the outdoors. This will not be a true randomatone, as it will have to play a recording. But as the real units are not yet interactive, I can load an hour of sounds on an mp3 to play in a loop, and the effect will be the same. Random ambient music for dog walkers."
+    },
+    {
         when: "2020-11-06",
         heading: "A406 tunnel #2",
         image: "https://live.staticflickr.com/65535/50576301737_a95d755463.jpg",
