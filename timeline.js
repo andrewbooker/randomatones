@@ -1,6 +1,13 @@
 const timeline = 
 [
     {
+        when: "2020-11-27",
+        heading: "Music For Walking Under Trains",
+        image: "http://img.youtube.com/vi/jwDxtLA3_fU/0.jpg",
+        href: "https://www.youtube.com/watch?v=jwDxtLA3_fU",
+        text: "A lockdown exercise megawalk recently took me though this footpath underpass beneath the Liverpool St main line. Even on a cloudy day the colourful walls seemed to glow, and despite an open air section in the middle it had a reasonable acoustic. So a couple of days later I stuffed two Randomatones into my rucksack and biked over there for a quick lunchtime installation.<br/><br/>Having done all the shots in the last video pointing at the Randomatones, in this one I hardly did any, I was so taken by the colours and geometry of this walkway. Unlike in the previous video, the positioning of the units along the ceiling line goes some way towards explaining their shape. I had planned to put one device under each tunnel section, but the ceiling was higher in the north tunnel and I found I could not reach it. At least this time I had the volume good and loud, and the units properly sang through the walkway. A lot of the ambient audio in this video was picked up by the mic on each unit."
+    },
+    {
         when: "2020-11-15",
         heading: "Old electronics",
         image: "https://live.staticflickr.com/65535/50605350726_368b5e6539_b.jpg",
