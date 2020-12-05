@@ -1,6 +1,13 @@
 const timeline = 
 [
     {
+        when: "2020-12-02",
+        heading: "New shapes",
+        image: "https://live.staticflickr.com/65535/50683251631_e1376cdea8_b.jpg",
+        orientation: "landscape",
+        text: "Stage one of assembling some new units for placement on a sloping surface in a large area hopefully later this month. In the spirit of randomness, no two legs of these three tripods are of equal length. Will use the same Randomatone units, probably at near maximum volume, with some generally larger speakers. I have not figured out where the battery will go yet, though one idea might be to hang it from the apex, allowing it to be upright (which for lead acid batteries is best) no matter the orientation of the structure on the slope."
+    },
+    {
         when: "2020-11-27",
         heading: "Music For Walking Under Trains",
         image: "http://img.youtube.com/vi/jwDxtLA3_fU/0.jpg",
