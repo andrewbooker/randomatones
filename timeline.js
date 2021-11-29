@@ -1,6 +1,13 @@
 const timeline = 
 [
     {
+        when: "2021-11-23",
+        heading: "First video shoot for rotating units",
+        image: "https://live.staticflickr.com/65535/51712340289_485d6b6f0e_b.jpg",
+        orientation: "landscape",
+        text: "I took the red prototype and a second blue unit to a railway bridge in the Walthamstow Marshes earlier today to make the next Randomatones video. The acoustic was reasonable, though I was mainly drawn to this location because it is a quiet railway underpass rather than a noise road bridge. Also it had a handy ledge for me to climb up on and attach the units without a step ladder. Though I was there early in the morning, this passage was a surprisingly busy thoroughfare for dogwalkers, joggers and cyclists. Not one seemed remotely bothered that I was attaching mysterious devices to the underside of their bridge."
+    },
+	{
         when: "2021-11-08",
         heading: "Sirenatone prototype",
         image: "https://img.youtube.com/vi/iitPTLBF4_k/0.jpg",
