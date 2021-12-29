@@ -1,13 +1,41 @@
 const timeline = 
 [
     {
+        when: "2021-12-21",
+        heading: "Waterside shoot",
+        image: "https://live.staticflickr.com/65535/51785882676_975aa2ca26_b.jpg",
+        orientation: "landscape",
+        text: "I've been meaning to make a video here for a while (see <a href=\"#2020-09-09\">09 Sep 2020</a>), though my original idea was to have units floating in the river and rotated by the current. I am still a little way off making a good floating unit, but at least these ones rotate."
+    },
+    {
+        when: "2021-12-08",
+        heading: "Walthamstow Marshians",
+        href: "https://www.youtube.com/watch?v=sBHxgcOxsO8",
+        image: "https://img.youtube.com/vi/sBHxgcOxsO8/0.jpg",
+        text: "Despite the witty title implying sources of weird noises, the music from these is tame compared to some earlier versions (eg <a href=\"#2020-10-31\">this</a>).<br/><br/>One day I will get a good audio recording of the space, but this was another poor effort, as my microphones were too close to the units and picked up the motor noise more than the music. I knew this was a risk, and spent some time tuning the motors so that each of the discrete speeds the motors ran was in tune and in key with the notes from the Randomatones. The motors are driven from a pulse width modulation (PWM) output from the Raspberry Pi (via a couple of power transistors), and I achieved the tuning by selecting the appropriate width and pulse of the PWM. This sounded convincing indoors. Outside, all you can hear is a tuneless whining buzz like an electric shaver.<br/><br/>One of the things that attracted me to this location was the ledge on either side of the thoroughfare on which I could set up the units without being in the way of passers-by. Having only ever biked along it, I did not realise until I got there for the video that the ledge was above my head height. I insist on showing you how bad I was at climbing up onto it. I must have done so at least 12 times during the shoot. Sadly practice made no perfection, instead I got worse and worse at it."
+    },
+    {
         when: "2021-11-23",
         heading: "First video shoot for rotating units",
         image: "https://live.staticflickr.com/65535/51712340289_485d6b6f0e_b.jpg",
         orientation: "landscape",
         text: "I took the red prototype and a second blue unit to a railway bridge in the Walthamstow Marshes earlier today to make the next Randomatones video. The acoustic was reasonable, though I was mainly drawn to this location because it is a quiet railway underpass rather than a noise road bridge. Also it had a handy ledge for me to climb up on and attach the units without a step ladder. Though I was there early in the morning, this passage was a surprisingly busy thoroughfare for dogwalkers, joggers and cyclists. Not one seemed remotely bothered that I was attaching mysterious devices to the underside of their bridge."
     },
-	{
+    {
+        when: "2021-11-21",
+        heading: "Stairwell test",
+        image: "https://live.staticflickr.com/65535/51786135468_b6e21eccac_b.jpg",
+        orientation: "landscape",
+        text: "Testing the rotation of both units on the stairs before going out to make a video of them somewhere out in the wild. The test was worth it, as I had set the voltages on the blue motor too low, and it didn't turn."
+    },
+    {
+        when: "2021-11-14",
+        heading: "Frame for another rotating unit",
+        image: "https://live.staticflickr.com/65535/51785881006_698628d6d1_b.jpg",
+        orientation: "landscape",
+        text: "Before assembly, sometimes the empty frames look appealing just by themselves. I love these acrylic fluourescent paints, glowing even in the cloudy daylight. This one has been carefully measured and constructed around the battery, with an arm each side to support a speaker. Then I take it apart again for painting inside and out, somewhat unnecessarily, as the battery will cover up some of the painted surface."
+    },
+    {
         when: "2021-11-08",
         heading: "Sirenatone prototype",
         image: "https://img.youtube.com/vi/iitPTLBF4_k/0.jpg",
@@ -56,19 +84,19 @@ const timeline =
         text: "Making another video, this time with three Randomatones made to attach to railings in a foot tunnel under the A406 just west of South Woodford. Again I had the volume a bit quiet and could not make it louder, having had problems making the units connect automatically to portable Wifi dongle (or any Wifi they already knew about).<br/><br/>Visually they were somewhat dwarfed in the vast space, something to bear in mind for planned A406 tunnel #3. Also the yellow fluorescent hue is a let-down. While the red and orange blend seamlessly, the yellow is too much of a gradation.<br/><br/>The acoustic in this tunnel was excellent, and had the units been loud enough, and the traffic above quiet enough, the weird sounds that were still coming from the units since their Halloween update sounded entrancing in the space. As it was, the rumble of the vehicles hurtling past overhead was strong enough to make the railings vibrate, as I discovered when I tried to attach my camera."
     },
     {
-		when: "2020-11-01",
-		heading: "Overcoats",
-		image: "https://live.staticflickr.com/65535/50556742816_8e8fce2c4b_b.jpg",
-		orientation: "landscape",
-		text: "Going ahead with some painting for the new frames that I postponed when constructing the uprights (in main image above). I used to make wooden assemblies for my variouts bits of electronic drum components and paint them all matt black so they would not be noticeable on stage. Nowadays I'm a bit of a sucker for fluorescent colours for exactly the opposite reason. Loving the Daler Rowney range, thick and creamy and a single coat is almost enough. I used a cheap one for the orange and you can see it needs daubing on at least two more layers."
-	},
+        when: "2020-11-01",
+        heading: "Overcoats",
+        image: "https://live.staticflickr.com/65535/50556742816_8e8fce2c4b_b.jpg",
+        orientation: "landscape",
+        text: "Going ahead with some painting for the new frames that I postponed when constructing the uprights (in main image above). I used to make wooden assemblies for my variouts bits of electronic drum components and paint them all matt black so they would not be noticeable on stage. Nowadays I'm a bit of a sucker for fluorescent colours for exactly the opposite reason. Loving the Daler Rowney range, thick and creamy and a single coat is almost enough. I used a cheap one for the orange and you can see it needs daubing on at least two more layers."
+    },
     {
         when: "2020-10-31",
         heading: "Seize the night",
         href: "https://www.youtube.com/watch?v=eIS7tWrvk-c",
-		image: "http://img.youtube.com/vi/eIS7tWrvk-c/0.jpg",
+        image: "http://img.youtube.com/vi/eIS7tWrvk-c/0.jpg",
         text: "A Randomatone in a pumpkin.<br/><br/>Not a placement I intend to pursue, but a bit of fun that I couldn't resist, between taking the floating unit to bits and reassembling it in another setup. Also an excuse to get started on some simple pitch shifting of samples, of which I intend to make much more use later. Purely for the spooks I used a chromatic note generation scheme instead of a conventional minor or major key, and stuck to sine waves. It turned out no more scary than a 1950s B-moving where the aliens have landed, in fact I prefer it. The notes arrive too slowly to clash, and there is a sense of freedom to it.<br/><br/>On the soundtrack, the bangs in the background are genuine, and I have little idea where they came from. But like serendipitous moments that happen when improvising music, they work brilliantly as an impromptu percussion accompaniment to the eerie space-calls from the two bug-eye speakers."
-	},
+    },
     {
         when: "2020-10-27",
         heading: "New A-frames",
