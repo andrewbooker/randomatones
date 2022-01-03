@@ -2,6 +2,7 @@
 
 from xml.dom import minidom
 import json
+import datetime
 
 tl = open("timeline.js", "r")
 timeline = json.load(tl)
@@ -27,9 +28,8 @@ for t in timeline:
 
     whenAnchor = document.createElement("a")
     when = document.createElement("td")
-    #d = new Date(t.when)
-    #when.innerHTML = (d.getDate() < 10 ? "0" : "") + d.getDate() + " " + months[d.getMonth()] + " " + d.getFullYear()
-    when.appendChild(document.createTextNode(t["when"]))
+    w = datetime.datetime.strptime(t["when"], "%Y-%m-%d").strftime('%d %b %Y')
+    when.appendChild(document.createTextNode(w))
     when.setAttribute("style", "color: grey; font-size: 150%; font-weight: bold; float: right; margin-right: 30px;")
     whenAnchor.setAttribute("id", t["when"])
     whenAnchor.appendChild(when)
