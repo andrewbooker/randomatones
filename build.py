@@ -3,6 +3,7 @@
 from xml.dom import minidom
 import json
 import datetime
+import sys
 
 tl = open("timeline.js", "r")
 timeline = json.load(tl)
@@ -103,7 +104,7 @@ page = page.replace("&quot;","\"")
 page = page.replace("&lt;", "<")
 page = page.replace("&gt;", ">")
 
-with open("out.html", "w") as out:
+with open(sys.argv[1], "w") as out:
     out.write("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n")
     out.write(page)
 
