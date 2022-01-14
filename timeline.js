@@ -1,5 +1,19 @@
 [
     {
+        "when": "2022-01-08",
+        "heading": "Under Roding Roads",
+        "href": "https://www.youtube.com/watch?v=XPCSZZWegAk",
+        "image": "https://img.youtube.com/vi/XPCSZZWegAk/0.jpg",
+        "text": "Another video prompting me to reflect on what sort of setting works for the Randomatones and what I want them to do.<br/><br>I'm still a sucker for graffiti and enclosed outdoor spaces with some kind of acoustic. This location, on the river Roding just north of the Redbridge roundabout in East London, is all of that, and had exactly the look I wanted. But it was far too noisy to make a meaningful video demonstrating the sonic delights of the Randomatones. Of course it would be noisy, I should have known that. The time I first considered it as a location was summer 2020, when possibly fewer people were rushing up and down the North Circular and it was quieter. I don't remember.<br/><br>Anyway I'm reasonably pleased with the look of this video, if the sound does have to come direct from the units, and not from microphones that just picked up traffic noise. I think I need bigger units. Once again these looked tiny in their vast concrete arena. But they are still fun to capture close-up, and I risk boring even myself if I follow through with plans for several more videos like this."
+    },
+    {
+        "when": "2022-01-05",
+        "heading": "Supporting roles",
+        "image": "https://live.staticflickr.com/65535/51820968449_294c11cdff_b.jpg",
+        "orientation": "landscape",
+        "text": "Some very important props. Forthcoming videos involving the new rotating devices each need their own pair of supports to fit the location. The black ones bottom-left were the railing fixings for the Roding video, to be released in a day or two. The two white ones on the left have just done their work on a video shot this afternoon.<br/><br/>The grey and purple ones are for the next couple of planned shoots, though I may build some bigger units before then. The purple ones are almost certainly the wrong colour, but I'll see."
+    },
+    {
         "when": "2021-12-21",
         "heading": "Waterside shoot",
         "image": "https://live.staticflickr.com/65535/51785882676_975aa2ca26_b.jpg",
@@ -141,7 +155,7 @@
         "heading": "Saving for later",
         "orientation": "landscape",
         "image": "https://live.staticflickr.com/65535/50373295302_5a29c0b1ed_b.jpg",
-        "text": "These from the car mending work shop on the industrial estate where my drum practice room is. They were about to chuck them out. At 25 litres, each would provide easily buoyancy I need for a Randomatone, even cut in half into miniature barges. These are by no means ideal, as I really want something round, or with a high degree of rotational symmetry, as I want to rotate them in the water while keeping them tethered."
+        "text": "These from the car mending work shop on the industrial estate where my drum practice room is. They were about to chuck them out. At 25 litres, each would provide easily the buoyancy I need for a Randomatone, even cut in half into miniature barges. These are by no means ideal, as I really want something round, or with a high degree of rotational symmetry, as I want to rotate them in the water while keeping them tethered."
     },        
     {
         "when": "2020-09-20",
@@ -180,7 +194,7 @@
         "heading": "Floating an idea",
         "image": "https://live.staticflickr.com/65535/50354023557_eec8ed7162_b.jpg",
         "orientation": "landscape",
-        "text": "An eventful week of blowing up a Raspberry Pi and an amp. Tried a new smaller RPi (model A+) and found it had some glitches, but these could be reproduced simply by adjusting the system volume, so I'm not confident about the analogue output. Needing replacement amp as well I went for a HifiBerry Pi \"hat\", which is entirely digital and will thus bypass all the RPi audio bits which I think are the issue. Also, brilliantly, it takes 12V but will do the step down to 5V itself for the RPi. This will save me having to have an extra unit with wiring issues. Tried it all out after the necessary config changes in the RPi to tell it where its audio has to go. Not only does everything work, the audio is basically clean. Needs a volume control though, without a keybaord or a mouse. Hmm! In a totally unrelated flight of consciousness, I have begun pursuing the crazy idea of making a set of these units that will float. This would be the basic chassis, and one way of making it float might be to use the inner tube of a car tyre. So I've ordered one. I might work on this frame idea a bit more. I'm pleased with my elementary woodworking skills to have made this item, which at least looks like it fits together."
+        "text": "An eventful week of blowing up a Raspberry Pi and an amp. Tried a new smaller RPi (model A+) and found it had some glitches, but these could be reproduced simply by adjusting the system volume, so I'm not confident about the analogue output. Needing a replacement amp as well I went for a HifiBerry Pi \"hat\", which is entirely digital and will thus bypass all the RPi audio bits which I think are the issue. Also, brilliantly, it takes 12V but will do the step down to 5V itself for the RPi. This will save me having to have an extra unit with wiring issues. Tried it all out after the necessary config changes in the RPi to tell it where its audio has to go. Not only does everything work, the audio is basically clean. Needs a volume control though, without a keybaord or a mouse. Hmm! In a totally unrelated flight of consciousness, I have begun pursuing the crazy idea of making a set of these units that will float. This would be the basic chassis, and one way of making it float might be to use the inner tube of a car tyre. So I've ordered one. I might work on this frame idea a bit more. I'm pleased with my elementary woodworking skills to have made this item, which at least looks like it fits together."
     },
     {
         "when": "2020-08-29",
