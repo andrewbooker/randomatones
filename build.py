@@ -52,7 +52,7 @@ for t in timeline:
         y.appendChild(document.createTextNode(""))
         i.appendChild(y)
     else:
-        landscape = t["orientation"] == "landscape" if "orientation" in t else False;
+        landscape = t["orientation"] != "portrait" if "orientation" in t else True;
         img = document.createElement("img")
         img.setAttribute("src", t["image"])
         img.setAttribute("width", str(320 if landscape else 180))
