@@ -1,5 +1,12 @@
 [
     {
+        "when": "2022-01-15",
+        "heading": "Location discovery",
+        "image": "https://live.staticflickr.com/65535/51822598935_b001e710c9_b.jpg",
+        "orientation": "landscape",
+        "text": "Sometimes location scouting turns up a real gem of a candidate, such as this, the Spital Brook tunnel under the A10 near Hoddesdon.<br/><br/>The A10 is a dual carriageway at this point, but the banks are very wide, making this tunnel both long and surprisingly quiet. All surfaces are concrete, including the footpath, meaning the acoustic in the middle is excellent. The railings are perfect for hanging Randomatones from, and the water right now looks only a couple of inches deep, allowing paddling around with a tripod if desired. Even the walls have graffiti, though it's hard to see as there is no lighting inside. I will need to adorn each of the rotating units with another 10W or so of LED lighting.<br/><br/>I may not use this one, as it is a car journey from where I live (South Woodford) and I believe there is a similar specimen nearer to home that I aim to check out soon."
+    },
+    {
         "when": "2022-01-08",
         "heading": "Under Roding Roads",
         "href": "https://www.youtube.com/watch?v=XPCSZZWegAk",
@@ -11,7 +18,7 @@
         "heading": "Supporting roles",
         "image": "https://live.staticflickr.com/65535/51820968449_294c11cdff_b.jpg",
         "orientation": "landscape",
-        "text": "Some very important props. Forthcoming videos involving the new rotating devices each need their own pair of supports to fit the location. The black ones bottom-left were the railing fixings for the Roding video, to be released in a day or two. The two white ones on the left have just done their work on a video shot this afternoon.<br/><br/>The grey and purple ones are for the next couple of planned shoots, though I may build some bigger units before then. The purple ones are almost certainly the wrong colour, but I'll see."
+        "text": "Some very important props. I never throw old bits of wood away, nor paints that are still vaguely liquid. Forthcoming videos involving the new rotating devices each need their own pair of supports to fit the location. The black ones bottom-left were the railing fixings for the Roding video, to be released in a day or two. The two white ones on the left have just done their work on a video shot this afternoon.<br/><br/>The grey and purple ones are for the next couple of planned shoots, though I may build some bigger units before then. The purple ones are almost certainly the wrong colour, but I'll see."
     },
     {
         "when": "2021-12-21",
