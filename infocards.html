@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <style>
+            body {
+                font-family: Arial;
+            }
+            tbody {
+                margin: 10mm 4mm 10mm 1mm;
+            }
+            h1 {
+                font-family: Arial;
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <table>
+                <tbody></tbody>
+            </table>
+        </div>
+        <script>
+function text(tag, t) {
+    const e = document.createElement(tag);
+    e.innerHTML = t;
+    return e;
+}
+
+function img(src) {
+    const sqr = 100;
+    const i = document.createElement("img");
+    i.setAttribute("src", src);
+    i.setAttribute("width", sqr);
+    i.setAttribute("height", sqr);
+    return i;
+}
+const tbody = document.getElementsByTagName("tbody")[0];
+const row = document.createElement("tr");
+const cell = document.createElement("td");
+
+const thumbnail = img("thumbnail.png")
+thumbnail.setAttribute("style", "border-radius: 16px");
+
+cell.appendChild(text("h1", "Randomatones"));
+cell.appendChild(text("div", "randomatones.co.uk"));
+cell.appendChild(text("div", "improvizone@gmail.com"));
+cell.appendChild(img("qrcode.png"));
+cell.appendChild(thumbnail);
+row.appendChild(cell);
+tbody.appendChild(row);
+        </script>
+    </body>
+</html>
