@@ -1,15 +1,22 @@
 <html>
     <head>
-        <style>
-            body {
-                font-family: Arial;
-            }
+        <style>           
             tbody {
                 margin: 10mm 4mm 10mm 1mm;
             }
             h1 {
                 font-family: Arial;
                 margin-bottom: 10px;
+            }
+            p {
+                font-family: Arial;
+                font-size: 26pt;
+                margin: 6px;
+            }
+            #imgs {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
             }
         </style>
     </head>
@@ -26,26 +33,29 @@ function text(tag, t) {
     return e;
 }
 
-function img(src) {
-    const sqr = 100;
+function img(src, size) {
     const i = document.createElement("img");
     i.setAttribute("src", src);
-    i.setAttribute("width", sqr);
-    i.setAttribute("height", sqr);
+    if (size) {
+        i.setAttribute("width", size);
+        i.setAttribute("height", size);
+    }
     return i;
 }
 const tbody = document.getElementsByTagName("tbody")[0];
 const row = document.createElement("tr");
 const cell = document.createElement("td");
 
-const thumbnail = img("thumbnail.png")
-thumbnail.setAttribute("style", "border-radius: 16px");
+const thumbnail = img("thumbnail.png", 160)
+thumbnail.setAttribute("style", "border-radius: 12px");
 
-cell.appendChild(text("h1", "Randomatones"));
-cell.appendChild(text("div", "randomatones.co.uk"));
-cell.appendChild(text("div", "improvizone@gmail.com"));
-cell.appendChild(img("qrcode.png"));
-cell.appendChild(thumbnail);
+const imgs = document.createElement("div");
+imgs.setAttribute("id", "imgs");
+imgs.appendChild(thumbnail);
+imgs.appendChild(img("qrcode.png"));
+
+cell.appendChild(imgs);
+cell.appendChild(text("p", "randomatones.co.uk"));
 row.appendChild(cell);
 tbody.appendChild(row);
         </script>
