@@ -1,13 +1,6 @@
 <html>
     <head>
-        <style>           
-            tbody {
-                margin: 10mm 4mm 10mm 1mm;
-            }
-            h1 {
-                font-family: Arial;
-                margin-bottom: 10px;
-            }
+        <style>
             p {
                 font-family: Arial;
                 font-size: 26pt;
@@ -18,14 +11,25 @@
                 align-items: center;
                 justify-content: space-between;
             }
+            #container {
+                width: 200mm;
+                height: 270mm;
+                margin: 2mm;
+            }
+            .row {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                max-height: 60mm;
+                margin-bottom: 15mm;
+            }
+            .cell {
+                max-width: 88mm;
+            }        
         </style>
     </head>
     <body>
-        <div id="container">
-            <table>
-                <tbody></tbody>
-            </table>
-        </div>
+        <div id="container"></div>
         <script>
 function text(tag, t) {
     const e = document.createElement(tag);
@@ -42,22 +46,40 @@ function img(src, size) {
     }
     return i;
 }
-const tbody = document.getElementsByTagName("tbody")[0];
-const row = document.createElement("tr");
-const cell = document.createElement("td");
 
-const thumbnail = img("thumbnail.png", 160)
-thumbnail.setAttribute("style", "border-radius: 12px");
+function addCard(addTo) {
+    const cell = document.createElement("div");
+    cell.setAttribute("class", "cell");
 
-const imgs = document.createElement("div");
-imgs.setAttribute("id", "imgs");
-imgs.appendChild(thumbnail);
-imgs.appendChild(img("qrcode.png"));
+    const thumbnail = img("thumbnail.png", 160)
+    thumbnail.setAttribute("style", "border-radius: 12px");
 
-cell.appendChild(imgs);
-cell.appendChild(text("p", "randomatones.co.uk"));
-row.appendChild(cell);
-tbody.appendChild(row);
+    const imgs = document.createElement("div");
+    imgs.setAttribute("id", "imgs");
+    imgs.appendChild(thumbnail);
+    imgs.appendChild(img("qrcode.png"));
+
+    cell.appendChild(imgs);
+    cell.appendChild(text("p", "randomatones.co.uk"));
+    addTo.appendChild(cell);
+}
+
+function addRow(addTo) {
+    const row = document.createElement("div");
+    row.setAttribute("class", "row");
+    
+    addCard(row);
+    addCard(row);
+    addTo.appendChild(row);
+}
+
+
+const container = document.getElementById("container");
+addRow(container);
+addRow(container);
+addRow(container);
+addRow(container);
+
         </script>
     </body>
 </html>
