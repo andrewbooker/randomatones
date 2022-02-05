@@ -1,5 +1,12 @@
 [
     {
+        "when": "2022-01-21",
+        "heading": "Spinning sirens of the Woolwich Foot tunnel",
+        "href": "https://www.youtube.com/watch?v=PmSZrsthFks",
+        "image": "https://img.youtube.com/vi/PmSZrsthFks/0.jpg",
+        "text": "On the theme of gem locations, they don't much better than this.<br/><br/>Besides the sound being a bit muddy (it was much clearer listening to it in the tunnel), and the autofocus on my phone not handling spinning objects in low light conditions, this latest video a terrific demo of how these units sound in a reverberant acoustic. It also demonstrates how chronic noise pollution can be ameliorated, here forming an integral part of an ambient music piece.<br/><br/>I was very anxious about this shoot. CCTV camera pods every 50 paces, drunks yelling from one end to the other, generally being in the way of people and fast cyclists. Least of all was that the alarm, which I had recorded and set the Randomatones to play in their key, would have stopped or changed to something in the wrong key. My worst fear was one of the supports coming off and the unit falling on someone's head. That’s assuming I got the supports the right length. Too short and I would not be able to hook onto the pipes, too long and people would be hitting their heads on them.<br/><br/>Nothing of the kind went wrong. The supports were perfect. The units sounded stunning and fitted perfectly with the alarm that was still sounding 10 days after I last heard it.<br/><br/>Not everything went smoothly. I had tried and tested small suction cups to stick on the tiled walls for mouting my camera (phone) and my Zoom audio recorder. On the day, the cups immediately fell off, and that was without anything attached to them, luckily. Most of the still shots I did with my phone on a gooseneck stand clamped to my cycling helmet."
+    },
+    {
         "when": "2022-01-15",
         "heading": "Location discovery",
         "image": "https://live.staticflickr.com/65535/51822598935_b001e710c9_b.jpg",
