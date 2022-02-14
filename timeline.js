@@ -8,8 +8,7 @@
     {
         "when": "2022-01-21",
         "heading": "Spinning sirens of the Woolwich Foot tunnel",
-        "href": "https://www.youtube.com/watch?v=PmSZrsthFks",
-        "image": "https://img.youtube.com/vi/PmSZrsthFks/0.jpg",
+        "youtube": "PmSZrsthFks",
         "text": "On the theme of gem locations, they don't get much better than this.<br/><br/>Besides the sound being a bit muddy (it was much clearer listening to it in the tunnel), and the autofocus on my phone not handling spinning objects in low light conditions, this latest video is a terrific demo of how these units sound in a reverberant acoustic. It also demonstrates how chronic noise pollution can be ameliorated, here forming an integral part of an ambient music piece.<br/><br/>I was very anxious about this shoot. CCTV camera pods every 50 paces, drunks yelling from one end to the other, generally being in the way of people and fast cyclists. Least of all was that the alarm, which I had recorded and set the Randomatones to play in their key, would have stopped or changed to something in the wrong key. My worst fear was one of the supports coming off and the unit falling on someone's head. That’s assuming I got the supports the right length. Too short and I would not be able to hook onto the pipes, too long and people would be hitting their heads on them.<br/><br/>Nothing of the kind went wrong. The supports were perfect. The units sounded stunning and fitted perfectly with the alarm that was still sounding 10 days after I last heard it. For six blissful minutes I wondered around videoing from various angles thinking \"this is beautiful.\"<br/><br/>Not everything went smoothly. I had tried and tested small suction cups to stick on the tiled walls for mouting my camera (phone) and my Zoom audio recorder. On the day, the cups immediately fell off, and that was without anything attached to them, luckily. Most of the still shots I did with my phone on a gooseneck stand clamped to my cycling helmet."
     },
     {
@@ -21,8 +20,7 @@
     {
         "when": "2022-01-08",
         "heading": "Under Roding Roads",
-        "href": "https://www.youtube.com/watch?v=XPCSZZWegAk",
-        "image": "https://img.youtube.com/vi/XPCSZZWegAk/0.jpg",
+        "youtube": "XPCSZZWegAk",
         "text": "Another video prompting me to reflect on what sort of setting works for the Randomatones and what I want them to do.<br/><br>I'm still a sucker for graffiti and enclosed outdoor spaces with some kind of acoustic. This location, on the river Roding just north of the Redbridge roundabout in East London, is all of that, and had exactly the look I wanted. But it was far too noisy to make a meaningful video demonstrating the sonic delights of the Randomatones. Of course it would be noisy, I should have known that. The time I first considered it as a location was summer 2020, when possibly fewer people were rushing up and down the North Circular and it was quieter. I don't remember.<br/><br>Anyway I'm reasonably pleased with the look of this video, if the sound does have to come direct from the units, and not from microphones that just picked up traffic noise. I think I need bigger units. Once again these looked tiny in their vast concrete arena. But they are still fun to capture close-up, and I risk boring even myself if I follow through with plans for several more videos like this."
     },
     {
@@ -40,8 +38,7 @@
     {
         "when": "2021-12-08",
         "heading": "Walthamstow Marshians",
-        "href": "https://www.youtube.com/watch?v=sBHxgcOxsO8",
-        "image": "https://img.youtube.com/vi/sBHxgcOxsO8/0.jpg",
+        "youtube": "sBHxgcOxsO8",
         "text": "Despite the witty title implying sources of weird noises, the music from these is tame compared to some earlier versions (eg <a href=\"#2020-10-31\">this</a>).<br/><br/>One day I will get a good audio recording of the space, but this was another poor effort, as my microphones were too close to the units and picked up the motor noise more than the music. I knew this was a risk, and spent some time tuning the motors so that each of the discrete speeds the motors ran was in tune and in key with the notes from the Randomatones. The motors are driven from a pulse width modulation (PWM) output from the Raspberry Pi (via a couple of power transistors), and I achieved the tuning by selecting the appropriate width and pulse of the PWM. This sounded convincing indoors. Outside, all you can hear is a tuneless whining buzz like an electric shaver.<br/><br/>One of the things that attracted me to this location was the ledge on either side of the thoroughfare on which I could set up the units without being in the way of passers-by. Having only ever biked along it, I did not realise until I got there for the video that the ledge was above my head height. I insist on showing you how bad I was at climbing up onto it. I must have done so at least 12 times during the shoot. Sadly practice made no perfection, instead I got worse and worse at it."
     },
     {
@@ -65,15 +62,13 @@
     {
         "when": "2021-11-08",
         "heading": "Sirenatone prototype",
-        "image": "https://img.youtube.com/vi/iitPTLBF4_k/0.jpg",
-        "href": "https://www.youtube.com/watch?v=iitPTLBF4_k",
+        "youtube": "iitPTLBF4_k",
         "text": "Back after several months away with a prototype hanging spinning Randomatone. This one has a 40 RPM geared motor whose speed is varied using one of the PWM ports on the Rasperry Pi. The motor mechanism issues its own clearly audible whine, but by using some combination of PWM voltage and frequency, I am wondering if I could tune the motor to the Randomatone notes. I want variable speed, so that several together will all rotate differently and chaotically, but I would be happy with them shifting between discrete speeds rather than varying continuously as now.<br/><br/>Also note the introduction of a cheap plastic horn speaker. Compared to the other more hi-fi cardboard cone speaker, its sound quality is poor, but the squawky mid-range of the horn does suit some of the rougher waveforms the unit generates. It's also lighter and more weatherproof than the card-cone speaker. Not that I plan to hang these from trees or lamp posts just yet.<br/><br/>I will probably rethink the decorative red and blue LEDs. It looks like a kind of weird megaphone, but when I watch the thing spinning I think of a siren on a police car or fire engine. A Sirenatone. (I doubt I will call it that for long.)"
     },
     {
         "when": "2020-12-20",
         "heading": "Music For Underground Drains",
-        "image": "http://img.youtube.com/vi/KFTdGqR01eI/0.jpg",
-        "href": "https://www.youtube.com/watch?v=KFTdGqR01eI",
+        "youtube": "KFTdGqR01eI",
         "text": "A video in a foot tunnel under the Central Line near Snaresbrook. A long way from the dual carriageways near some of the previous locations, this tunnel is comparatively quiet with a beautiful acoustic. The only constant sound is the water coursing from the surrounding soil into the drains. Earlier in the year those drains blocked, and the whole thing flooded. I was hoping it would stay that way so that I could make a video in it with some floating Randomatones, but before I even had time to build one, all the water was pumped out and has yet to reappear. I hope one day it does, but I probably won't be ready then either."
     },
     {
@@ -85,8 +80,7 @@
     {
         "when": "2020-11-27",
         "heading": "Music For Walking Under Trains",
-        "image": "http://img.youtube.com/vi/jwDxtLA3_fU/0.jpg",
-        "href": "https://www.youtube.com/watch?v=jwDxtLA3_fU",
+        "youtube": "jwDxtLA3_fU",
         "text": "A lockdown exercise megawalk recently took me though this footpath underpass beneath the Liverpool St main line. Even on a cloudy day the colourful walls seemed to glow, and despite an open air section in the middle it had a reasonable acoustic. So a couple of days later I stuffed two Randomatones into my rucksack and biked over there for a quick lunchtime installation.<br/><br/>Having done all the shots in the last video pointing at the Randomatones, in this one I hardly did any, I was so taken by the colours and geometry of this walkway. Unlike in the previous video, the positioning of the units along the ceiling line goes some way towards explaining their shape. I had planned to put one device under each tunnel section, but the ceiling was higher in the north tunnel and I found I could not reach it. At least this time I had the volume good and loud, and the units properly sang through the walkway. A lot of the ambient audio in this video was picked up by the mic on each unit."
     },
     {
@@ -98,8 +92,7 @@
     {
         "when": "2020-11-14",
         "heading": "Music For An Excavated Forest",
-        "image": "http://img.youtube.com/vi/k2WSEi149CM/0.jpg",
-        "href": "https://www.youtube.com/watch?v=k2WSEi149CM",
+        "youtube": "k2WSEi149CM",
         "text": "Not that I am a conservation activist, but the title refers to the gouging of an enormous channel though the remains of Epping Forest (actually this section is called Walthamstow Forest) in the late 1960s. Where there were once oak trees there are now seven lanes of motorway, and former paths though the forest are now carried over the road, or under it, as in this tunnel at the western end. There is very little beauty in this perfunctory subway, but it does have a great acoustic, if you can tune out the traffic noise. Sadly I could not, as even the three units in concert were nowhere near loud enough, but by now I have made them capture recordings of their output, allowing me to cheat with some echo treatments at home."
     },
     {
@@ -118,8 +111,7 @@
     {
         "when": "2020-10-31",
         "heading": "Seize the night",
-        "href": "https://www.youtube.com/watch?v=eIS7tWrvk-c",
-        "image": "http://img.youtube.com/vi/eIS7tWrvk-c/0.jpg",
+        "youtube": "eIS7tWrvk-c",
         "text": "A Randomatone in a pumpkin.<br/><br/>Not a placement I intend to pursue, but a bit of fun that I couldn't resist, between taking the floating unit to bits and reassembling it in another setup. Also an excuse to get started on some simple pitch shifting of samples, of which I intend to make much more use later. Purely for the spooks I used a chromatic note generation scheme instead of a conventional minor or major key, and stuck to sine waves. It turned out no more scary than a 1950s B-moving where the aliens have landed, in fact I prefer it. The notes arrive too slowly to clash, and there is a sense of freedom to it.<br/><br/>On the soundtrack, the bangs in the background are genuine, and I have little idea where they came from. But like serendipitous moments that happen when improvising music, they work brilliantly as an impromptu percussion accompaniment to the eerie space-calls from the two bug-eye speakers."
     },
     {
@@ -131,15 +123,13 @@
     {
         "when": "2020-10-14",
         "heading": "Music for a flooded subway",
-        "image": "http://img.youtube.com/vi/ZwcasP6kKJk/0.jpg",
-        "href": "https://www.youtube.com/watch?v=ZwcasP6kKJk",
+        "youtube": "ZwcasP6kKJk",
         "text": "A video of a floating Randomatone making its way through a flooded foot tunnel.<br/><br/>My original aim was to capture the tunnel acoustic. But in the rush to video something before the water drained away, I was ill-prepared with mics, the unit was too quiet and there was too much traffic noise.<br/><br/>Instead, what came out of this opportune shoot was a unique perspective on two semi-submerged murals of tunnel graffiti that I would normally never look at, at least not while looking where I was going. The wide-angle camera gets further away than the eye ordinarily can, and its view close to the waterline as it makes its way through the tunnel is striking. While I’m not generally a fan of spray-painting Victorian brickwork in fluorescent colours, in an ugly featureless concrete people-conduit like this, I begin to see the graffiti as modern example of the way people have been expressing themselves on walls for millennia, like 21st century cave paintings."
     },
     {
         "when": "2020-10-08",
         "heading": "Introducing the Randomatones",
-        "image": "http://img.youtube.com/vi/1_lulLSQ8UY/0.jpg",
-        "href": "https://www.youtube.com/watch?v=1_lulLSQ8UY",
+        "youtube": "1_lulLSQ8UY",
         "text": "A short demonstration of the first three Randomatones positioned strategically on the stairs up to my study. Strategically in this context is another word for <i>in the way</i>. The Randomatone audio in this is all from the phone mic, plus the zoom recorder you can just see attached to the middle unit. I did no overdubbing afterwards."
     },
     {
