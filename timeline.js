@@ -1,5 +1,11 @@
 [
     {
+        "when": "2022-02-11",
+        "heading": "East Ham train depot bridges",
+        "youtube": "mqyPdZHDas4",
+        "text": "A location I considered some time ago, though mindful that it could not possibly compete with the Woolwich Foot Tunnel. Nonetheless I set up here for completeness, motivated by little more than ticking it off the list, but found it to be a great setting.<br/><br/>The acoustic was favourable and the colours were surprisingly flattering. Most appealing when I look back at the video was the reflective concrete ceiling. Just as people preoccupied with videoing a situation scarcely notice what's around them, I barely noticed it at the time.<br/><br>I had been working on the sounds and by this point had introduced occasional octave sweeps. I did wonder whether these might be a little extreme and disturbing to the many depot workers entering and exiting their site, perhaps worrying them that one of their buildings might be on fire."
+    },
+    {
         "when": "2022-01-21",
         "heading": "Spinning sirens of the Woolwich Foot tunnel",
         "href": "https://www.youtube.com/watch?v=PmSZrsthFks",
