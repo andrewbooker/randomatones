@@ -51,15 +51,6 @@ for t in timeline:
         y.setAttribute("src", "https://www.youtube.com/embed/" + t["youtube"])
         y.appendChild(document.createTextNode(""))
         i.appendChild(y)
-    elif "youtube" in t["image"]:
-        y = document.createElement("iframe")
-        y.setAttribute("width", str(302))
-        y.setAttribute("height", str(198))
-        y.setAttribute("allowfullscreen", "true")
-        y.setAttribute("class", "post-yt")
-        y.setAttribute("src", "https://www.youtube.com/embed/" + t["href"].split("=")[1])
-        y.appendChild(document.createTextNode(""))
-        i.appendChild(y)
     else:
         landscape = t["orientation"] != "portrait" if "orientation" in t else True;
         img = document.createElement("img")
