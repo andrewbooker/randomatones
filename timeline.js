@@ -1,9 +1,33 @@
 [
     {
+        "when": "2022-03-02",
+        "heading": "Elementary ancient electronics",
+        "image": "https://live.staticflickr.com/65535/51924876584_59d8625509_b.jpg",
+        "text": "With a back-of-an-envelope sketch of how to set up a Darlington pair transistor arrangement, plus a couple of resistors for LEDs, I take a few minutes carelessly soldering up a motor driver board, and then get the wiring wrong.<br/><br/>Only single-direction capability here. A reversible polarity setup would require an H-bridge arrangement. For a while I had no plans to implement this, as the varying speeds of the motors was enough to suggest rotational chaos. This was empahsised for me when one day I made the red unit rotate in the opposite direction (for a shoot last month). I found with the units rotating counter to each other, the variations in their speed were unnoticeable."
+    },
+    {
+        "when": "2022-03-01",
+        "heading": "Painted shell",
+        "image": "https://live.staticflickr.com/65535/51923507152_8b840a0a62_b.jpg",
+        "text": "Several coats of paint later, via a white base, then pink, red and orange fluorescent acrylics.<br/><br/>Brush strokes are clearly visible but I think this will do, I am ready to build it now. Seen here with the 12V 5Ah battery in place. I was assumed it would need some kind of restrainer, but the battery is such I tight fit, I don't know if I'll ever get it out again. Pity, that was the idea. The current two read and blue rotating units would need to be taken to bits to get their batteries out."
+    },
+    {
+        "when": "2022-02-19",
+        "heading": "Could I be the only person in the world to find this location appealing?",
+        "image": "https://live.staticflickr.com/65535/51924541408_a10ab05bbb_b.jpg",
+        "text": "An almost perfect spot for railings-based or floating Randomatones.<br/><br/>Admittedly this location is not in a perfect state. The floodwater is muddy, which I don't like. And although I would have no problem wading in here, as it's probably only 15-20cm deep, I would create waves which would spoil the stillness if I were to use floating units. Having incorrect shoes at the time of visiting, I didn't go in to see how quiet it was, but outside, the M25 above was incredibly noisy. Nothing to stop me making a decent video with just the direct sound from the units, but it would be nice to hear how they sound in that acoustic, which given this is a concrete casing, should be very good. Also it's lit, which is a bonus. Sadly no graffiti though." 
+    },
+    {
         "when": "2022-02-11",
         "heading": "East Ham train depot bridges",
         "youtube": "mqyPdZHDas4",
         "text": "This is a location I considered some time ago, and though I knew it could not possibly compete with the Woolwich Foot Tunnel, I set up here anyway purely to tick it off the list. It turned out to be a great setting.<br/><br/>The acoustic was flattering and the colours were surprising, with the ochre brickwork almost aglow. Most appealing when I look back at the video was the reflective concrete ceiling. Just as people preoccupied with videoing a situation scarcely notice what's around them, I barely noticed it at the time.<br/><br>I had been working on the sounds and by this point had introduced occasional octave sweeps. I did wonder whether these might be a little extreme and disturbing to the many depot workers entering and exiting their site, perhaps worrying them that one of their buildings might be on fire. In the end some last minute scaling down of the effect was worthwhile. The sound on the shoot was excellent, though it comes across less well and was generally too quiet in the recording, compared to the roaring of trains passing overhead, and the depot workers unloading a massive digger off a low-loader nearby.<br/><br/>If you're wondering how that activity did not appear in my usual walk-towards and walk-away shots, it's because I did those on the previous day. I did all the setup, switched on, and found that the units did not turn. I had broken something while fiddling with the octave sweeps."
+    },
+    {
+        "when": "2022-02-07",
+        "heading": "Shells for new units",
+        "image": "https://live.staticflickr.com/65535/51925079845_6916cfffd4_b.jpg",
+        "text": "Two new carcasses under construction. These are little more than battery cases with supports for large speakers at either end. The battery will sit on its side, now that I have had the courage to do this with lead-acid gel batteries (you wouldn't do this with a traditional top-up-able car battery). This potentiall saves height, although each will feature one of the large new horns, which outsize any savings made in the vertical dimension."
     },
     {
         "when": "2022-01-21",
@@ -16,6 +40,12 @@
         "heading": "Location discovery",
         "image": "https://live.staticflickr.com/65535/51822598935_b001e710c9_b.jpg",
         "text": "Sometimes location scouting turns up a real gem of a candidate, such as this, the Spital Brook tunnel under the A10 near Hoddesdon.<br/><br/>The A10 is a dual carriageway at this point, but the banks are very wide, making this tunnel both long and surprisingly quiet. All surfaces are concrete, including the footpath, meaning the acoustic in the middle is excellent. The railings are perfect for hanging Randomatones from, and the water right now looks only a couple of inches deep, allowing paddling around with a tripod if desired. Even the walls have graffiti, though it's hard to see as there is no lighting inside. I will need to adorn each of the rotating units with another 10W or so of LED lighting.<br/><br/>I may not use this one, as it is a car journey from where I live (South Woodford) and I believe there is a similar specimen nearer to home that I aim to check out soon."
+    },
+    {
+        "when": "2022-01-12",
+        "heading": "Larger horn speaker",
+        "image": "https://live.staticflickr.com/65535/51819677277_05995b9c5b_b.jpg",
+        "text": "One of two new larger horns I will be trying, next to the current blue unit for scale. The small horns on the current units are only 15W, which is too small for the 20W amp, causing them to distort. The larger white one is 30W, and as you can see, somewhat enormous. That will be the end of pacing over to shoots with just a rucksack<br/>br/>I thought I had made a mistake here, as when the new horns arrived they were clearly 100V line devices, which would have been no use. Luckily, take the back off and you find inside there is simply a transformer to convert the ordinary low impedance magnet/coil driver to 100V line. Simply remove this transformer and the speaker is good to go. It's also at least 0.5Kg lighter."
     },
     {
         "when": "2022-01-08",
