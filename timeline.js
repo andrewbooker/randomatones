@@ -1,5 +1,11 @@
 [
     {
+        "when": "2022-03-07",
+        "heading": "Music For Commuters And Pigeons",
+        "youtube": "DqdZ30aX1iE",
+        "text": "I had been hoping for music with neither. In the event, the pigeons provided an interesting few seconds of rotating filth, as I placed a camera on the underside of the blue unit to capture a whirling view of the unit and the ground below, in which their droppings produced a kind of blurry rotating starscape (watch from 0:57 for 10 seconds to see what I mean).<br/><br/>The passers-by, who only appeared intermittently after a train had stopped, added a nice bit of social proof of the interesting quality of this ambient musical art exhibit.<br/><br/> In general this was a fine location, a handsome Victorian arch providing a pedestrian walkway next to Pudding Mill station, with the recent modern concrete Crossrail addition for contrast. Relatively quiet, but perhaps too vast for the small units. The larger horns would have made more of a sonic impact."
+    },
+    {
         "when": "2022-03-02",
         "heading": "Elementary ancient electronics",
         "image": "https://live.staticflickr.com/65535/51924876584_59d8625509_b.jpg",
