@@ -1,9 +1,15 @@
 [
     {
+        "when": "2022-04-02",
+        "heading": "The Curzon Tunnel, Birmingham",
+        "youtube": "RBprgrceOII",
+        "text": "Made on a rainy Sunday morning before I was due at a midday rehearsal near Tardebigge. I took a canal trip a couple of summers ago, part of which was a day on a section of the Birmingham network. I didn't pass through this stretch of waterway, but the trip definitely left an impression, though not entirely a good one at the time.<br/><br/>The combination of water, enclosed spaces with rich acoustics, and simple ambient music is a serene one for me, and one I intend to explore much more deeply. I live in London, which has a canal network, but nothing like Birmingham, whose centuries-old waterway architecture seems largely untouched despite modern redevelopments all around it. And unlike London, it has tunnels you can walk through.<br/><br/>Also I very much prefer ducks and geese to pigeons."
+    },
+    {
         "when": "2022-03-07",
         "heading": "Music For Commuters And Pigeons",
         "youtube": "DqdZ30aX1iE",
-        "text": "I had been hoping for music with neither. In the event, the pigeons provided an interesting few seconds of rotating filth, as I placed a camera on the underside of the blue unit to capture a whirling view of the unit and the ground below, in which their droppings produced a kind of blurry rotating starscape (watch from 0:57 for 10 seconds to see what I mean).<br/><br/>The passers-by, who only appeared intermittently after a train had stopped, added a nice bit of social proof of the interesting quality of this ambient musical art exhibit.<br/><br/> In general this was a fine location, a handsome Victorian arch providing a pedestrian walkway next to Pudding Mill Lane station, with the recent modern concrete Crossrail addition for contrast. Relatively quiet, but perhaps too vast for the small units. The larger horns would have made more of a sonic impact."
+        "text": "I had been hoping for music with neither. In the event, the pigeons provided an interesting few seconds of rotating filth, as I placed a camera on the underside of the blue unit to capture a whirling view of the unit and the ground below, in which their droppings produced a kind of blurry rotating starscape (watch from 0:57 for 10 seconds to see what I mean).<br/><br/>Passers-by came and went in step with train arrivals, and many turned their heads.<br/><br/> In general this was a fine location, a handsome Victorian arch providing a pedestrian walkway next to Pudding Mill Lane station, with the recent modern concrete Crossrail addition for contrast. Relatively quiet, but perhaps too vast for the small units. The larger horns would have made more of a sonic impact."
     },
     {
         "when": "2022-03-02",
