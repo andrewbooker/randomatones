@@ -1,5 +1,17 @@
 [
     {
+        "when": "2022-05-29",
+        "heading": "The Itchen River, Southampton",
+        "youtube": "1ncFP9L08RE",
+        "text": "Another exploration of the acoustics of enclosed waterways, though not so enclosed as the canal tunnel in the previous outing. This one made for a slightly better video as there was more light, and the silky smoothness of the water is clearly apparent here. This is the smaller of the two Itchens north of Southampton as it flows under the roaring M27.<br/><br/>Feeling that the small units were being dwarfed by these large spaces, I brought a new larger orange unit with a more powerful horn speaker that sounded very smooth at home. I had another large pink one in the works but it was not ready in time for this trip. I stopped working it completely after making this video, as I knew all I wanted to do next in locations like this was to get units floating in the water.<br/><br/>"
+    },
+    {
+        "when": "2022-04-15",
+        "heading": "A new build",
+        "image": "https://live.staticflickr.com/65535/52113855240_06e6f9471b_b.jpg",
+        "text": "Another blue unit that will eventually float (buoyancy device not shown). This uses one of two kinds of 30W horn speakers I've been trying, again with the back casing and the 100V line transformer removed. Still quite a bit of development to go on this, as it will have a steerable propellor, which needs a remote control mechanism."
+    },
+    {
         "when": "2022-04-02",
         "heading": "The Curzon Tunnel, Birmingham",
         "youtube": "RBprgrceOII",
@@ -57,7 +69,7 @@
         "when": "2022-01-12",
         "heading": "Larger horn speaker",
         "image": "https://live.staticflickr.com/65535/51819677277_05995b9c5b_b.jpg",
-        "text": "One of two new larger horns I will be trying, next to the current blue unit for scale. The small horns on the current units are only 15W, which is too small for the 20W amp, causing them to distort. The larger white one is 30W, and as you can see, somewhat enormous. That will be the end of pacing over to shoots with just a rucksack<br/>br/>I thought I had made a mistake here, as when the new horns arrived they were clearly 100V line devices, which would have been no use. Luckily, take the back off and you find inside there is simply a transformer to convert the ordinary low impedance magnet/coil driver to 100V line. Simply remove this transformer and the speaker is good to go. It's also at least 0.5Kg lighter."
+        "text": "One of two new larger horns I will be trying, next to the current blue unit for scale. The small horns on the current units are only 15W, which is too small for the 20W amp, causing them to distort. The larger white one is 30W, and as you can see, somewhat enormous. That will be the end of pacing over to shoots with just a rucksack<br/><br/>I thought I had made a mistake here, as when the new horns arrived they were clearly 100V line devices, which would have been no use. Luckily, take the back off and all you find inside is a transformer to convert the ordinary low impedance magnet/coil driver to 100V line. Simply remove this transformer and the speaker is good to go. It's also at least 0.5Kg lighter."
     },
     {
         "when": "2022-01-08",
