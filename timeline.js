@@ -1,5 +1,11 @@
 [
     {
+        "when": "2022-06-10",
+        "heading": "Commercial Road Lock, Limehouse",
+        "youtube": "Rofx6C9pX-Y",
+        "text": "First showing of the floating Randomatones after months of development, taking my exploration of the acoustics of enclosed waterways to another level - the water level. Conditions for this shoot were pretty good, the water was glassy smooth, and there seemed to be very little breeze. Then I got the units in the water, and after first nearly disappearing down the overflow, they blew off upstream under the bridge, where I wanted them, but then kept going. I had not had a chance to properly get used to the remote controls for the propellor onboard the blue unit, nor did it seem powerful enough to counter the upstream wind. I thought I was going to lose them on their first outing.<br/><br>I really like the way they looked and sounded though. The sound featured the new arpeggiation I had been working on (trivial compared with having to fit remote-controllable propellors) and was fantastic under the bridge. Visually the units were striking in their vibrant colours, and the searchlight glare of the LED spot lights on each unit played beautifully over the clean brickwork. When pointing at the camera there were a bit intense, but for now my plan is to improve and increase the rotation of the units, so that the glare is only ever fleeting.<br/><br>In all, a decent first trip out and very promising."
+    },
+    {
         "when": "2022-05-29",
         "heading": "The Itchen River, Southampton",
         "youtube": "1ncFP9L08RE",
@@ -16,6 +22,12 @@
         "heading": "The Curzon Tunnel, Birmingham",
         "youtube": "RBprgrceOII",
         "text": "Made on a rainy Sunday morning before I was due at a midday rehearsal near Tardebigge. I took a canal trip a couple of summers ago, part of which was a day on a section of the Birmingham network. I didn't pass through this stretch of waterway, but the trip definitely left an impression, though not entirely a good one at the time.<br/><br/>The combination of water, enclosed spaces with rich acoustics, and simple ambient music is a serene one for me, and one I intend to explore much more deeply. I live in London, which has a canal network, but nothing like Birmingham, whose centuries-old waterway architecture seems largely untouched despite modern redevelopments all around it. And unlike London, it has tunnels you can walk through.<br/><br/>Also I very much prefer ducks and geese to pigeons."
+    },
+    {
+        "when": "2022-03-15",
+        "heading": "Floating unit design",
+        "image": "https://live.staticflickr.com/65535/52140595595_4a891a9dcd_b.jpg",
+        "text": "Soon I will start building one of these. The two most recent video shoots (editing in progress) have been waterside, and much as I enjoy these locations, I remember the very first Randomtones video in the flooded subway near my house, and want very much to do something similar with floating units rather than only being able to suspend them from exactly the right kind of railings."
     },
     {
         "when": "2022-03-07",
