@@ -1,5 +1,11 @@
 [
     {
+        "when": "2022-06-24",
+        "heading": "The Old Birlec Factory, Birmingham",
+        "youtube": "yi5RZ9Khc4I",
+        "text": "A couple of years ago my wife, my son and I had a week-long canal holiday on the Warwickshire Ring. Most of this was countryside, but part of it went through the eastern edge of Birmingham. The environment was a bit on the gritty side, and the waterways were a shockingly polluted soup of all kinds of household waste. But in general I found the canal architecture hugely appealing, especially this fine example just south of the Tyburn Road (A38) in Erdington, where the canal passes under a derelict factory that once made electric furnaces.<br/><br/>As we drifted slowly underneath, I felt had to come back to this place for some artistic reason or other. I was so enthralled with it, I crashed the boat into the bridge at the other end.<br/><br/>Two years later, on my way back from a band rehearsal in Stoke-on-Trent with two floating Randomatones in the car, I returned to this place to record them moving about in the water at random, and playing their randomised glow-in-the-dark concert of varispeed arpeggios to the empty resonant space of this covered section of canal."
+    },
+    {
         "when": "2022-06-10",
         "heading": "Commercial Road Lock, Limehouse",
         "youtube": "Rofx6C9pX-Y",
