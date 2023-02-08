@@ -1,5 +1,10 @@
 [
-    {
+	{
+		"when": "2023-01-28",
+		"heading": "Under Stratford High St",
+		"text": "Heading back out for a Randomatones shoot after more than six months away (working on semi-related electronic drum-triggered randomness), to this superb concrete-lined waterway under Stratford High St and the Bow Flyover in East London. The acoustic is cavernous, and the curved walkway is lit at water level, and although not to everyone's taste, there is some colourful graffiti along the wall. The downside is that there tends to be a significant draft down-river, in the same direction as the current, meaning controlling two flimsy floats was bound to be precarious. In the end I didn't have the courage to let then units drift away, despite spending some time on the propellor controls, as I wasn't confident they had enough power against the wind and the current. But it was a good test of my two-camera setup on the connecting rods."
+	},
+	{
         "when": "2022-06-24",
         "heading": "The Old Birlec Factory, Birmingham",
         "youtube": "yi5RZ9Khc4I",
@@ -55,7 +60,7 @@
     },
     {
         "when": "2022-02-19",
-        "heading": "Could I be the only person in the world to find this location appealing?",
+        "heading": "Could I be the only person in the world who finds this location appealing?",
         "image": "https://live.staticflickr.com/65535/51924541408_a10ab05bbb_b.jpg",
         "text": "An almost perfect spot for railings-based or floating Randomatones.<br/><br/>Admittedly this location is not in a perfect state. The floodwater is muddy, which I don't like. And although I would have no problem wading in here, as it's probably only 15-20cm deep, I would create waves which would spoil the stillness if I were to use floating units. Having incorrect shoes at the time of visiting, I didn't go in to see how quiet it was, but outside, the M25 above was incredibly noisy. Nothing to stop me making a decent video with just the direct sound from the units, but it would be nice to hear how they sound in that acoustic, which given this is a concrete casing, should be very good. Also it's lit, which is a bonus. Sadly no graffiti though." 
     },
