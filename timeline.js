@@ -2,7 +2,8 @@
 	{
 		"when": "2023-01-28",
 		"heading": "Under Stratford High St",
-		"text": "Heading back out for a Randomatones shoot after more than six months away (working on semi-related electronic drum-triggered randomness), to this superb concrete-lined waterway under Stratford High St and the Bow Flyover in East London. The acoustic is cavernous, and the curved walkway is lit at water level, and although not to everyone's taste, there is some colourful graffiti along the wall. The downside is that there tends to be a significant draft down-river, in the same direction as the current, meaning controlling two flimsy floats was bound to be precarious. In the end I didn't have the courage to let then units drift away, despite spending some time on the propellor controls, as I wasn't confident they had enough power against the wind and the current. But it was a good test of my two-camera setup on the connecting rods."
+		"image": "https://live.staticflickr.com/65535/52677786704_bf003e917a_b.jpg",
+		"text": "Back out for a Randomatones shoot after more than six months away (working on semi-related electronic drum-triggered randomness), to a concrete-lined waterway under Stratford High St and the Bow Flyover in East London. The acoustic is cavernous, and the curved walkway is lit at water level, and although not to everyone's taste, there is some colourful graffiti along the wall. The downside is that there tends to be a significant draft down-river, in the same direction as the current, meaning controlling two flimsy floats was bound to be precarious. In the end I didn't have the courage to let then units drift away, despite having spent some development time on the propellor controls, as I wasn't confident they had enough power against the wind and the current. But it was a good test of my two-camera setup on the connecting rods."
 	},
 	{
         "when": "2022-06-24",
