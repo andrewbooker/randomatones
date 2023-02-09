@@ -6,6 +6,12 @@
 	    "text": "This is on the Regents Canal just west of Park Road, where the Marylebone railway tracks cross over the canal. The acoustic is not that special, as the bridge comprises several sections with many gaps between, so it's not really an enclosure with a nice echo, and when trains pass they are noisy. However, there is good shelter from wind, and there is practically zero current, so the water has a glassy stillness. On top of all that, the fluorescent lighting is sublime, making this a perfect spot for an early evening installation."
 	},
 	{
+	    "when": "2023-02-05",
+	    "heading": "Cookley Tunnel",
+	    "youtube": "Hl_mAx5TMhE",
+	    "text": "A summer shoot in Cookley, Warwickshire. The canal tunnel there is short and narrow, with a close acoustic. It's also unlit, giving me an excuse to put some underwater lights on the units. These create an eerie glow in the murky water. I tried an underwater camera, but visibility was zero."
+	},
+	{
 		"when": "2023-01-28",
 		"heading": "Under Stratford High St",
 		"image": "https://live.staticflickr.com/65535/52677786704_bf003e917a_b.jpg",
