@@ -73,13 +73,24 @@
                 text-align: left;
                 transform: translate(0%, -440px);
             }
+            #flickr {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+                height: 24px;
+                transform: translate(0%, -400px);
+            }
+            #flickr img {
+                margin-left: 0px;
+                padding-left: 0px;
+            }
+            #content, #author {
+                transform: translate(0%, -390px);
+            }
             #content {
                 margin: 20px;
                 color: white;
-                transform: translate(0%, -340px);
-            }
-            #author {
-                transform: translate(0%, -340px)
             }
             .when {
                 color: grey;
@@ -150,6 +161,20 @@
     </div>
     
         
+    <div id="flickr">
+      
+            
+      <div>All images stored in and accessed from</div>
+      
+            
+      <a target="_blank" href="https://flickr.com/photos/90938695@N06/albums/72157716077356826">
+        <img src="./flickr-logo.svg"/>
+      </a>
+      
+        
+    </div>
+    
+        
     <div id="content">
       
             
@@ -170,7 +195,7 @@
               </a>
             </td>
             <td>
-              <div class="post-text">This is on the Regents Canal just west of Park Road, where the Marylebone railway tracks cross over the canal. The acoustic is not that special, as the bridge comprises several sections with many gaps between, so it's not really an enclosure with a nice echo, and when trains pass they are noisy. However, there is good shelter from wind, and there is practically zero current, so the water has a glassy stillness. On top of all that, the fluorescent lighting is sublime, making this a perfect spot for an early evening installation.</div>
+              <div class="post-text">This is on the Regents Canal just west of Park Road, where the Marylebone railway tracks cross over the canal. The acoustic is not that special, as the bridge comprises several sections with many gaps between, so it's not really an enclosure with a nice echo, and when trains pass they are noisy. However, there is good shelter from wind, and there is practically zero current, so the water has a glassy stillness. On top of all that, the fluorescent lighting is stunning, making this a perfect spot for an early evening installation.</div>
             </td>
           </tr>
           <tr>
@@ -963,7 +988,9 @@ function resize() {
     if (m > 0) {
         lm += m;
     }
-    document.getElementById("recent-contents").setAttribute("style", "margin-left:" + lm + "px;");
+    ["recent-contents", "flickr"].forEach(id => {
+        document.getElementById(id).setAttribute("style", "margin-left:" + lm + "px;");
+    });
 }
 resize();
 window.onresize = resize;

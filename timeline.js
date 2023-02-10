@@ -3,7 +3,7 @@
 	    "when": "2023-02-07",
 	    "heading": "Who would not want to put their floating ambient music generators here?",
 	    "image": "https://live.staticflickr.com/65535/52677888320_98d02fb0af_b.jpg",
-	    "text": "This is on the Regents Canal just west of Park Road, where the Marylebone railway tracks cross over the canal. The acoustic is not that special, as the bridge comprises several sections with many gaps between, so it's not really an enclosure with a nice echo, and when trains pass they are noisy. However, there is good shelter from wind, and there is practically zero current, so the water has a glassy stillness. On top of all that, the fluorescent lighting is sublime, making this a perfect spot for an early evening installation."
+	    "text": "This is on the Regents Canal just west of Park Road, where the Marylebone railway tracks cross over the canal. The acoustic is not that special, as the bridge comprises several sections with many gaps between, so it's not really an enclosure with a nice echo, and when trains pass they are noisy. However, there is good shelter from wind, and there is practically zero current, so the water has a glassy stillness. On top of all that, the fluorescent lighting is stunning, making this a perfect spot for an early evening installation."
 	},
 	{
 	    "when": "2023-02-05",

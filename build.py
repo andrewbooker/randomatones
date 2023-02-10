@@ -90,7 +90,9 @@ function resize() {
     if (m > 0) {
         lm += m;
     }
-    document.getElementById("recent-contents").setAttribute("style", "margin-left:" + lm + "px;");
+    ["recent-contents", "flickr"].forEach(id => {
+        document.getElementById(id).setAttribute("style", "margin-left:" + lm + "px;");
+    });
 }
 resize();
 window.onresize = resize;
