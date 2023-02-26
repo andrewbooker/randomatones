@@ -1,5 +1,11 @@
 [
 	{
+	    "when": "2023-02-17",
+	    "heading": "Kidderminster Lock",
+	    "youtube": "4MO5ctcJl9Q",
+	    "text": "The 16th Randomatones video and the fourth to feature floating units, I made this one the day after the Cookley Tunnel video in June 2022. I got the camera on the connecting rod working, and even though it's a cheap camera, the view down the tunnel from it is superb."
+	},
+	{
 	    "when": "2023-02-07",
 	    "heading": "Who would not want to put their floating ambient music generators here?",
 	    "image": "https://live.staticflickr.com/65535/52677888320_98d02fb0af_b.jpg",
@@ -12,16 +18,34 @@
 	    "text": "A summer shoot in Cookley, Warwickshire. The canal tunnel there is short and narrow, with a close acoustic. It's also unlit, giving me an excuse to put some underwater lights on the units. These create an eerie glow in the murky water. I tried an underwater camera, but visibility was zero."
 	},
 	{
-		"when": "2023-01-28",
+		"when": "2023-02-04",
 		"heading": "Under Stratford High St",
 		"image": "https://live.staticflickr.com/65535/52677786704_bf003e917a_b.jpg",
 		"text": "Back out for a Randomatones shoot after more than six months away (working on semi-related electronic drum-triggered randomness), to a concrete-lined waterway under Stratford High St and the Bow Flyover in East London. The acoustic is cavernous, and the curved walkway is lit at water level, and although not to everyone's taste, there is some colourful graffiti along the wall. The downside is that there tends to be a significant draft down-river, in the same direction as the current, meaning controlling two flimsy floats was bound to be precarious. In the end I didn't have the courage to let then units drift away, despite having spent some development time on the propellor controls, as I wasn't confident they had enough power against the wind and the current. But it was a good test of my two-camera setup on the connecting rods."
+	},
+	{
+	    "when": "2023-02-02",
+	    "heading": "Location scouting in Stratford",
+	    "image": "https://live.staticflickr.com/65535/52713345926_2521044041_b.jpg",
+	    "text": "This tunnel carries the navigable river Lea under Statford High St and the Bow Flyover. Coming here in winter is ideal because the water is clear of duckweed. In the summer the surface can be caked in the stuff. Anything other than a light breeze down river could be a problem. But with its flat concrete ceiling and walls, the acoustic here is nice."
+	},
+	{
+	    "when": "2022-08-17",
+	    "heading": "Flooding in South Woodford",
+	    "image": "https://live.staticflickr.com/65535/52713607324_1a6ea8e1db_b.jpg",
+	    "text": "And sure enough, there was sudden flooding in the subway at South Woodford tube and I wasn't ready. In fact this drained away quickly. When I arrived I could see the water marks where it had been half a metre higher, still not enough to cover the shopping trolley. And the water was a mud soup, with all kinds of rubbish in it. Not that rubbish in the water has stopped me before." 
 	},
 	{
         "when": "2022-06-24",
         "heading": "The Old Birlec Factory, Birmingham",
         "youtube": "yi5RZ9Khc4I",
         "text": "A couple of years ago my wife, my son and I had a week-long canal holiday on the Warwickshire Ring. Most of this was countryside, but part of it went through the eastern edge of Birmingham. The environment was a bit on the gritty side, and the waterways were a shockingly polluted soup of all kinds of household waste. But in general I found the canal architecture hugely appealing, especially this fine example just south of the Tyburn Road (A38) in Erdington, where the canal passes under a derelict factory that once made electric furnaces.<br/><br/>As we drifted slowly underneath, I felt had to come back to this place for some artistic reason or other. I was so enthralled with it, I crashed the boat into the bridge at the other end.<br/><br/>Two years later, on my way back from a band rehearsal in Stoke-on-Trent with two floating Randomatones in the car, I returned to this place to record them moving about in the water at random, and playing their randomised glow-in-the-dark concert of varispeed arpeggios to the empty resonant space of this covered section of canal."
+    },
+    {
+        "when": "2022-06-15",
+        "heading": "New floating pink unit",
+        "image": "https://live.staticflickr.com/65535/52713607394_3e6a7ecd8f_b.jpg",
+        "text": "Putting together the third floating unit. A simpler construction than the other two, this one uses the other grey horn speaker and has a single motor for rotation. Note the new detachable battery unit, with a serial plug for easy connection now that it has the battery terminals, the motor connection and an underwater light, which you can see minus a covering."
     },
     {
         "when": "2022-06-10",
@@ -34,6 +58,31 @@
         "heading": "The Itchen River, Southampton",
         "youtube": "1ncFP9L08RE",
         "text": "Another exploration of the acoustics of enclosed waterways, though not so enclosed as the canal tunnel in the previous outing. This one made for a slightly better video as there was more light, and the silky smoothness of the water is clearly apparent here. This is the smaller of the two Itchens north of Southampton as it flows under the roaring M27.<br/><br/>Feeling that the small units were being dwarfed by these large spaces, I brought a new larger orange unit with a more powerful horn speaker that sounded very smooth at home. I had another large pink one in the works but it was not ready in time for this trip. I stopped working it completely after making this video, as I knew all I wanted to do next in locations like this was to get units floating in the water.<br/><br/>"
+    },
+    {
+        "when": "2022-05-24",
+        "heading": "Testing two new floating units",
+        "image": "https://live.staticflickr.com/65535/52712824302_374becee34_b.jpg",
+        "orientation": "portrait",
+        "text": "Not actually floating yet (they will sit on inflatable swimming rings in the water), but lined up and getting ready to go for the first floating shoot happening soon."
+    },
+    {
+        "when": "2022-05-10",
+        "heading": "Location scouting in St Pancras",
+        "image": "https://live.staticflickr.com/65535/52713766625_6c95b78d5f_b.jpg",
+        "text": "This massive railway bridge crosses the Regents Canal just north of St Pancras station in London. The canal is quite wide here, and there is plenty of noise from trains passing overhead, but the acoustic is good. This could work with the spinning units, but would be another good incentive to get floating units working."
+    },
+    {
+        "when": "2022-04-22",
+        "heading": "Location scouting in Worcestershire",
+        "image": "https://live.staticflickr.com/65535/52712824377_ac4ab29a3e_b.jpg",
+        "text": "Up in Kidderminster for a gig, with some time to the souncheck I went to check out this location where the Saffordshire and Worcestershire Canal passes under the A456. The concrete enclosure gives this a place a great acoustic. But in order to come here I need floating units."
+    },
+    {
+        "when": "2022-04-21",
+        "heading": "New larger spinning unit",
+        "image": "https://live.staticflickr.com/65535/52713766660_7670c18929_b.jpg",
+        "text": "The finished version (from the empty shell of <a href=\"#2022-03-01\">01 Mar 2022</a>). This one has the new white horn speaker, meaning I can play it louder in larger spaces without distorting. Also it has a camera, which I may or may not use, as video tends not to be all that usable when the camera is spinning. The main issue with this unit is that it doesn't fit in the rucksack."
     },
     {
         "when": "2022-04-15",
@@ -123,7 +172,7 @@
         "when": "2021-12-21",
         "heading": "Waterside shoot",
         "image": "https://live.staticflickr.com/65535/51785882676_975aa2ca26_b.jpg",
-                "text": "I've been meaning to make a video here for a while (see <a href=\"#2020-09-09\">09 Sep 2020</a>), though my original idea was to have units floating in the river and rotated by the current. I am still a little way off making a good floating unit, but at least these ones rotate."
+        "text": "I've been meaning to make a video here for a while (see <a href=\"#2020-09-09\">09 Sep 2020</a>), though my original idea was to have units floating in the river and rotated by the current. I am still a little way off making a good floating unit, but at least these ones rotate."
     },
     {
         "when": "2021-12-08",
