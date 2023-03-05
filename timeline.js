@@ -1,5 +1,29 @@
 [
 	{
+	    "when": "2023-03-05",
+	    "heading": "Bow Flyover",
+	    "youtube": "hvtv9qaenxo",
+	    "text": "Fifth floating Randomatones video, this one on the River Lea under Stratford High St and the Bow Flyover. First appearance of the pink unit with its white horn speaker, to replace the grey one which was distorting. The motors were not behaving themselves on this trip, so the units tended to stick to the edge of the path where the wind blew them. I am thinking a tether might be useful next time.<br/><br/>Even so this video captures some of the beauty of this huge covered area. I'm thinking of a return trip in a boat in a month or so, keen to capture the silky water again before it gets completely covered in duckweed, as it tends to in the summer."
+	},
+	{
+	    "when": "2023-03-03",
+	    "heading": "Under Marylebone trains",
+	    "image": "https://live.staticflickr.com/65535/52727842846_47a7ca2bda_b.jpg",
+	    "text": "And under a Bakerloo Line bridge, next to Park Rd on the Regents Canal just west of Regents Park in London. Those trains are faster in this spot and more frequent, so there was a lot of noise here. And I had problems with floats. Otherwise I was videoing for almost 25 mins, a record."
+	},
+	{
+	    "when": "2023-02-28",
+	    "image": "https://live.staticflickr.com/65535/52728435820_553cd564bb_b.jpg",
+	    "heading": "Motor testing kit",
+	    "text": "After a couple of troublesome trips to the waterside this year, time for some quality time with the soldering iron and some amateur woodworking, to build this little device with which I can test the floating Randomatone motors. I checked them the other way two of the three would not turn (the blue unit has two motors, the pink has one). They had seized, probably with dried river muck, and needing freeing with pliers. Good to discover that on location before they get into the water."
+	},
+	{
+	    "when": "2023-02-23",
+	    "image": "https://live.staticflickr.com/65535/52728024126_ef52b2d4d1_b.jpg",
+	    "heading": "Location scouting in Canada Water",
+	    "text": "Unlikely I will make a video here, though I quite like this bridge. The main reason not to is the wildlife on either side, that will probably not appreciate my mechanical swans. Also the reed stems, which have been cut back for the winter, would risk tearing the floats if they drifted too close. Also this seems quite an exposed spot, and had quite a breeze when I visited. The again, maybe one day I should embrace the breeze and use it somehow, rather than it be an obstacle."
+	},
+	{
 	    "when": "2023-02-17",
 	    "heading": "Kidderminster Lock",
 	    "youtube": "4MO5ctcJl9Q",
