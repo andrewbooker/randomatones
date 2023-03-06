@@ -51,7 +51,7 @@ for t in timeline:
         y.setAttribute("src", "https://www.youtube.com/embed/" + t["youtube"])
         y.appendChild(document.createTextNode(""))
         i.appendChild(y)
-    else:
+    elif "image" in t:
         landscape = t["orientation"] != "portrait" if "orientation" in t else True;
         img = document.createElement("img")
         img.setAttribute("src", t["image"])
@@ -60,7 +60,8 @@ for t in timeline:
 
         img.setAttribute("class", "post-image")
         a = document.createElement("a")
-        a.setAttribute("href", t["href"] if "href" in t else t["image"])
+        imageId = t["image"].split("/")[-1].split("_")[0]
+        a.setAttribute("href", "https://flickr.com/photos/90938695@N06/%s/in/album-72157716077356826/" % imageId)
         a.setAttribute("target", "_blank")
         a.appendChild(img)
 
