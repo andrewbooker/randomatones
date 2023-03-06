@@ -15,7 +15,7 @@
 	    "when": "2023-02-28",
 	    "image": "https://live.staticflickr.com/65535/52728435820_553cd564bb_b.jpg",
 	    "heading": "Motor testing kit",
-	    "text": "After a couple of troublesome trips to the waterside this year, time for some quality time with the soldering iron and some amateur woodworking, to build this little device with which I can test the floating Randomatone motors. I checked them the other way two of the three would not turn (the blue unit has two motors, the pink has one). They had seized, probably with dried river muck, and needing freeing with pliers. Good to discover that on location before they get into the water."
+	    "text": "After a couple of troublesome trips to the waterside this year, time for some quality time with the soldering iron and some amateur woodworking, to build the little device on the right in the picture, with which I can test the floating Randomatone motors. I checked them the other way two of the three would not turn (the blue unit has two motors, the pink has one). They had seized, probably with dried river muck, and needing freeing with pliers. Good to discover that on location before they get into the water.<br/><br/>The bundle of cable to the left off the same production line is for use at time, and lets me power two units together from the same 12V supply."
 	},
 	{
 	    "when": "2023-02-23",
@@ -104,9 +104,9 @@
     },
     {
         "when": "2022-04-21",
-        "heading": "New larger spinning unit",
-        "image": "https://live.staticflickr.com/65535/52713766660_7670c18929_b.jpg",
-        "text": "The finished version (from the empty shell of <a href=\"#2022-03-01\">01 Mar 2022</a>). This one has the new white horn speaker, meaning I can play it louder in larger spaces without distorting. Also it has a camera, which I may or may not use, as video tends not to be all that usable when the camera is spinning. The main issue with this unit is that it doesn't fit in the rucksack."
+        "heading": "Shell for new floating orange unit",
+        "image": "https://live.staticflickr.com/65535/52113857740_411b310ccd_b.jpg",
+        "text": "Another empty orange shell, this time for a second floating unit. I hope to take both of them out next month. Trying out a slightly different design to the blue one, with a panel of large holes that will accommodate four upcyled 3\" speakers."
     },
     {
         "when": "2022-04-15",
@@ -131,6 +131,12 @@
         "heading": "Music For Commuters And Pigeons",
         "youtube": "DqdZ30aX1iE",
         "text": "I had been hoping for music with neither. In the event, the pigeons provided an interesting few seconds of rotating filth, as I placed a camera on the underside of the blue unit to capture a whirling view of the unit and the ground below, in which their droppings produced a kind of blurry rotating starscape (watch from 0:57 for 10 seconds to see what I mean).<br/><br/>Passers-by came and went in step with train arrivals, and many turned their heads.<br/><br/> In general this was a fine location, a handsome Victorian arch providing a pedestrian walkway next to Pudding Mill Lane station, with the recent modern concrete Crossrail addition for contrast. Relatively quiet, but perhaps too vast for the small units. The larger horns would have made more of a sonic impact."
+    },
+    {
+        "when": "2022-03-03",
+        "heading": "New larger spinning unit",
+        "image": "https://live.staticflickr.com/65535/52713766660_7670c18929_b.jpg",
+        "text": "The finished version of what was an empty painted shell a couple of days ago. This one has the new white horn speaker, meaning I can play it louder in larger spaces without distorting. Also it has a camera, which I may or may not use, as video tends not to be all that usable when the camera is spinning. The main issue with this unit is that it doesn't fit in the rucksack."
     },
     {
         "when": "2022-03-02",
