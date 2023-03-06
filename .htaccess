@@ -1,6 +1,0 @@
-Order Deny,Allow
-Deny from all
-
-<Files "index.html">
-    Allow from all
-</Files>
