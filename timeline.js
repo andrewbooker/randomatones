@@ -27,7 +27,7 @@
 	    "when": "2023-02-28",
 	    "image": "https://live.staticflickr.com/65535/52728435820_553cd564bb_b.jpg",
 	    "heading": "Motor testing kit",
-	    "text": "After a couple of troublesome trips to the waterside this year, time for some quality time with the soldering iron and some amateur woodworking, to build the little device on the right in the picture, with which I can test the floating Randomatone motors. I checked them the other way two of the three would not turn (the blue unit has two motors, the pink has one). They had seized, probably with dried river muck, and needing freeing with pliers. Good to discover that on location before they get into the water.<br/><br/>The bundle of cable to the left off the same production line is for use at time, and lets me power two units together from the same 12V supply."
+	    "text": "After a couple of troublesome trips to the waterside this year, time for some quality time with the soldering iron and some amateur woodworking, to build the little device on the right in the picture, with which I can test the floating Randomatone motors. I checked them the other way two of the three would not turn (the blue unit has two motors, the pink has one). They had seized, probably with dried river muck, and needing freeing with pliers. Good to discover that on location before they get into the water.<br/><br/>The bundle of cable to the left off the same production line is for use at home and lets me power two units together from the same 12V supply."
 	},
 	{
 	    "when": "2023-02-23",
