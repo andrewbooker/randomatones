@@ -1,5 +1,17 @@
 [
 	{
+	    "when": "2023-03-16",
+	    "heading": "Location scouting in Camden",
+	    "image": "https://live.staticflickr.com/65535/52755545536_ebd7ede12e_b.jpg",
+	    "text": "The Regents Canal to the east of Camden Lock has several promising bridges with nice acoustics. This one under Camden St is probably the best, but there are at least six decent candidates before you get to the Islington Tunnel, leading to the tempting possibility of taking out an inflatable boat one afternoon and covering as many as the batteries will manage."
+	},
+	{
+	    "when": "2023-03-11",
+	    "heading": "Benign flooding",
+	    "image": "https://live.staticflickr.com/65535/52755846474_42f473b98f_b.jpg",
+	    "text": "Back to this location for a shoot after coming across it a year ago (<a href=\"#2022-02-19\">19 Feb 2022</a>). When I went there last February it was flooded. When I went there last week it was flooded, as I had the feeling it would be. Not for nothing is this path called Wash Lane. The first thing I discovered was that the Randomatones can float in only a few inches of water, something I could have known or at least measured, but was not that bothered about given the target location has been canals. The second revelation was that people use this passageway, and I saw two people where I expected to encounter none. Certain aspects did not surprise me, such as how cold the water was.<br/><br/>Normally I like graffiti in a concrete tunnel like this, but on the riverside section of wall there was nothing, and little on the path side either, leaving the starkly lit bare concrete, which was appealing in its own way."
+	},
+	{
 	    "when": "2023-03-05",
 	    "heading": "Bow Flyover",
 	    "youtube": "hvtv9qaenxo",
