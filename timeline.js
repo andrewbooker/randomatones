@@ -1,4 +1,10 @@
 [
+    {
+	    "when": "2023-03-26",
+	    "heading": "Mimmshall Brook",
+	    "youtube": "Ijo-B0MvH2w",
+	    "text": "Where the Mimmshall brook crosses under the M25 in Hertfordshire, alongside a footpath connecting Wash Lane on the north side with Dancers Lane on the south, is this tunnel, a basic concrete building block construction that has little going for it even by way of graffiti, except that it is brightly lit, seemingly for the benefit of almost nobody. It also seems to be routinely flooded, which is my main interest comes in.<br/><br/>For this episode, I waded into the freezing water and swished the orange and pink units around in quite a current, hence the use of the tether (something I wish had used in the last video). Depending on the camera, there are some spectacular scenes in this video, especially the long geometry of the concrete segments and their joins."
+	},
 	{
 	    "when": "2023-03-16",
 	    "heading": "Location scouting in Camden",
