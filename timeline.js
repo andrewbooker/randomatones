@@ -6,6 +6,12 @@
         "text": "An early winter evening outing on the Regents Canal just west of Regents Park, under the Bakerloo Line and Marylebone railway bridges. This was the first time I used a tether, having wished I had one for the <a href=\"#2023-03-05\">Bow Flyover</a> shoot, and had not got the hang of it, spoiling many shots by flapping the string up and down. One day I will trust the piloting abilities of the blue unit, which has two propellors for forward/reverse and rotational movement (the pink unit has one propellor, for rotation only). However, on the evening, the blue unit motors where playing up, or possibly not running fast enough.<br/><br/>Also on this one I had problems with floats, and had to blow up three before I had a couple that I thought I could trust. I was mistaken, as the air nozzle cover of the blue unit float popped out early on, causing it to slowly deflate through the video."
     },
     {
+        "when": "2023-03-28",
+        "heading": "Location scouting in Hackney",
+        "image": "https://live.staticflickr.com/65535/52812136703_54cbbab571_b.jpg",
+        "text": "The Regents Canal doesn't have many good bridges in the Hackney area, when your definition of good is wide with a noticeably long natural reverb. This one is on the Hertford Union Canal, which runs along the south of Victoria Park and connects the Regents Canal with the navigable River Lea. This isn't great either, being short, but the acoustic is noticeably good, possibly a result of its square-ish concrete construction, with a kind of enclosure provided by the upstream lock gate. An evening shoot might work here."
+    },
+    {
 	    "when": "2023-03-26",
 	    "heading": "Mimmshall Brook",
 	    "youtube": "Ijo-B0MvH2w",
@@ -22,6 +28,12 @@
 	    "heading": "Benign flooding",
 	    "image": "https://live.staticflickr.com/65535/52755846474_42f473b98f_b.jpg",
 	    "text": "Back to this location for a shoot after coming across it a year ago (<a href=\"#2022-02-19\">19 Feb 2022</a>). When I went there last February it was flooded. When I went there last week it was flooded, as I had the feeling it would be. Not for nothing is this path called Wash Lane. The first thing I discovered was that the Randomatones can float in only a few inches of water, something I could have known or at least measured, but was not that bothered about given the target location has been canals. The second revelation was that people use this passageway, and I saw two people where I expected to encounter none. Certain aspects did not surprise me, such as how cold the water was.<br/><br/>Normally I like graffiti in a concrete tunnel like this, but on the riverside section of wall there was nothing, and little on the path side either, leaving the starkly lit bare concrete, which was appealing in its own way."
+	},
+	{
+	    "when": "2023-03-10",
+	    "heading": "Home maintenance",
+	    "image": "https://live.staticflickr.com/65535/52811684206_06893e9e17_b.jpg",
+	    "text": "At the end of an evening getting the pink and blue devices ready for a trip out tommorrow, to two locations if I have time, and the ailing car manages it."
 	},
 	{
 	    "when": "2023-03-05",
