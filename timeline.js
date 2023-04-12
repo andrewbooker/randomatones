@@ -1,5 +1,11 @@
 [
     {
+        "when": "2023-04-06",
+        "heading": "Regents Canal Park Road",
+        "youtube": "mf2spoe76Yw",
+        "text": "An early winter evening outing on the Regents Canal just west of Regents Park, under the Bakerloo Line and Marylebone railway bridges. This was the first time I used a tether, having wished I had one for the <a href=\"#2023-03-05\">Bow Flyover</a> shoot, and had not got the hang of it, spoiling many shots by flapping the string up and down. One day I will trust the piloting abilities of the blue unit, which has two propellors for forward/reverse and rotational movement (the pink unit has one propellor, for rotation only). However, on the evening, the blue unit motors where playing up, or possibly not running fast enough.<br/><br/>Also on this one I had problems with floats, and had to blow up three before I had a couple that I thought I could trust. I was mistaken, as the air nozzle cover of the blue unit float popped out early on, causing it to slowly deflate through the video."
+    },
+    {
 	    "when": "2023-03-26",
 	    "heading": "Mimmshall Brook",
 	    "youtube": "Ijo-B0MvH2w",
