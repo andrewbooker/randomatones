@@ -1,5 +1,11 @@
 [
     {
+        "when": "2023-04-21",
+        "youtube": "gvv5GiVUenA",
+        "heading": "Regents Canal Lisson Grove tunnel",
+        "text": "A couple of hundred metres west of the previous Park Rd location is this beautiful tunnel under Lisson Grove. Leaving the bustle of the main road, down a winding path, you descend to a different world. This tunnel is one of a kind in London. London has two other longer tunnels, on this same canal, but you cannot walk through them, while this one is relatively short (48m) and has a towpath with railings. It can only be accessed during the day, as its section of the towpath lies within a private mooring that is closed off to the public overnight.<br/><br/>By day, the Regents Canal path is a well-trodden walking route, so there were a few spectators on this shoot. I did a not very good job of keeping out of their way, and stayed as long as I could, until the tether got caught up in one of the propellors (that’s happened twice now). By chance that was all the time I had anyway, between the to-and-fro of a sightseeing narrowboat. You can see it passing downstream as I blow up one of the floats, and just as I got the devices out of the water, it returned."
+    },
+    {
         "when": "2023-04-06",
         "heading": "Regents Canal Park Road",
         "youtube": "mf2spoe76Yw",
@@ -109,7 +115,7 @@
     },
     {
         "when": "2022-06-10",
-        "heading": "Commercial Road Lock, Limehouse",
+        "heading": "Regents Canal Limehouse Commercial Road Lock",
         "youtube": "Rofx6C9pX-Y",
         "text": "First showing of the floating Randomatones after months of development, taking my exploration of the acoustics of enclosed waterways to another level - the water level. Conditions for this shoot were pretty good, the water was glassy smooth, and there seemed to be very little breeze. Then I got the units in the water, and after first nearly disappearing down the overflow, they blew off upstream under the bridge, where I wanted them, but then kept going. I had not had a chance to properly get used to the remote controls for the propellor onboard the blue unit, nor did it seem powerful enough to counter the upstream wind. I thought I was going to lose them on their first outing.<br/><br>I really like the way they looked and sounded though. The sound featured the new arpeggiation I had been working on (trivial compared with having to fit remote-controllable propellors) and was fantastic under the bridge. Visually the units were striking in their vibrant colours, and the searchlight glare of the LED spot lights on each unit played beautifully over the clean brickwork. When pointing at the camera they were a bit intense, but for now my plan is to improve and increase the rotation of the units, so that the glare is only ever fleeting.<br/><br>In all, a decent first trip out and very promising."
     },
