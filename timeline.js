@@ -18,90 +18,90 @@
         "text": "The Regents Canal doesn't have many good bridges in the Hackney area, when your definition of good is wide with a noticeably long natural reverb. This one is on the Hertford Union Canal, which runs along the south of Victoria Park and connects the Regents Canal with the navigable River Lea. This isn't great either, being short, but the acoustic is noticeably good, possibly a result of its square-ish concrete construction, with a kind of enclosure provided by the upstream lock gate. An evening shoot might work here."
     },
     {
-	    "when": "2023-03-26",
-	    "heading": "Mimmshall Brook",
-	    "youtube": "Ijo-B0MvH2w",
-	    "text": "Where the Mimmshall brook crosses under the M25 in Hertfordshire, alongside a footpath connecting Wash Lane on the north side with Dancers Lane on the south, is this tunnel, a basic concrete building block construction that has little going for it even by way of graffiti, except that it is brightly lit, seemingly for the benefit of almost nobody. It also seems to be routinely flooded, which is my main interest comes in.<br/><br/>For this episode, I waded into the freezing water and swished the orange and pink units around in quite a current, hence the use of the tether (something I wish had used in the last video). Depending on the camera, there are some spectacular scenes in this video, especially the long geometry of the concrete segments and their joins."
-	},
-	{
-	    "when": "2023-03-16",
-	    "heading": "Location scouting in Camden",
-	    "image": "https://live.staticflickr.com/65535/52755545536_ebd7ede12e_b.jpg",
-	    "text": "The Regents Canal to the east of Camden Lock has several promising bridges with nice acoustics. This one under Camden St is probably the best, but there are at least six decent candidates before you get to the Islington Tunnel, leading to the tempting possibility of taking out an inflatable boat one afternoon and covering as many as the batteries will manage."
-	},
-	{
-	    "when": "2023-03-11",
-	    "heading": "Benign flooding",
-	    "image": "https://live.staticflickr.com/65535/52755846474_42f473b98f_b.jpg",
-	    "text": "Back to this location for a shoot after coming across it a year ago (<a href=\"#2022-02-19\">19 Feb 2022</a>). When I went there last February it was flooded. When I went there last week it was flooded, as I had the feeling it would be. Not for nothing is this path called Wash Lane. The first thing I discovered was that the Randomatones can float in only a few inches of water, something I could have known or at least measured, but was not that bothered about given the target location has been canals. The second revelation was that people use this passageway, and I saw two people where I expected to encounter none. Certain aspects did not surprise me, such as how cold the water was.<br/><br/>Normally I like graffiti in a concrete tunnel like this, but on the riverside section of wall there was nothing, and little on the path side either, leaving the starkly lit bare concrete, which was appealing in its own way."
-	},
-	{
-	    "when": "2023-03-10",
-	    "heading": "Home maintenance",
-	    "image": "https://live.staticflickr.com/65535/52811684206_06893e9e17_b.jpg",
-	    "text": "At the end of an evening getting the pink and blue devices ready for a trip out tommorrow, to two locations if I have time, and the ailing car manages it."
-	},
-	{
-	    "when": "2023-03-05",
-	    "heading": "Bow Flyover",
-	    "youtube": "hvtv9qaenxo",
-	    "text": "Fifth floating Randomatones video, this one on the River Lea under Stratford High St and the Bow Flyover. First appearance of the pink unit with its white horn speaker, to replace the grey one which was distorting. The motors were not behaving themselves on this trip, so the units tended to stick to the edge of the path where the wind blew them. I am thinking a tether might be useful next time.<br/><br/>Even so this video captures some of the beauty of this huge covered area. I'm thinking of a return trip in a boat in a month or so, keen to capture the silky water again before it gets completely covered in duckweed, as it tends to in the summer."
-	},
-	{
-	    "when": "2023-03-03",
-	    "heading": "Under Marylebone trains",
-	    "image": "https://live.staticflickr.com/65535/52727842846_47a7ca2bda_b.jpg",
-	    "text": "And under a Bakerloo Line bridge, next to Park Rd on the Regents Canal just west of Regents Park in London. Those trains are faster in this spot and more frequent, so there was a lot of noise here. And I had problems with floats. Otherwise I was videoing for almost 25 mins, a record."
-	},
-	{
-	    "when": "2023-02-28",
-	    "image": "https://live.staticflickr.com/65535/52728435820_553cd564bb_b.jpg",
-	    "heading": "Motor testing kit",
-	    "text": "After a couple of troublesome trips to the waterside this year, time for some quality time with the soldering iron and some amateur woodworking, to build the little device on the right in the picture, with which I can test the floating Randomatone motors. I checked them the other way two of the three would not turn (the blue unit has two motors, the pink has one). They had seized, probably with dried river muck, and needing freeing with pliers. Good to discover that on location before they get into the water.<br/><br/>The bundle of cable to the left off the same production line is for use at home and lets me power two units together from the same 12V supply."
-	},
-	{
-	    "when": "2023-02-23",
-	    "image": "https://live.staticflickr.com/65535/52728024126_ef52b2d4d1_b.jpg",
-	    "heading": "Location scouting in Canada Water",
-	    "text": "Unlikely I will make a video here, though I quite like this bridge. The main reason not to is the wildlife on either side, that will probably not appreciate my mechanical swans. Also the reed stems, which have been cut back for the winter, would risk tearing the floats if they drifted too close. Also this seems quite an exposed spot, and had quite a breeze when I visited. The again, maybe one day I should embrace the breeze and use it somehow, rather than it be an obstacle."
-	},
-	{
-	    "when": "2023-02-17",
-	    "heading": "Kidderminster Lock",
-	    "youtube": "4MO5ctcJl9Q",
-	    "text": "The 16th Randomatones video and the fourth to feature floating units, I made this one the day after the Cookley Tunnel video in June 2022. I got the camera on the connecting rod working, and even though it's a cheap camera, the view down the tunnel from it is superb."
-	},
-	{
-	    "when": "2023-02-07",
-	    "heading": "Who would not want to put their floating ambient music generators here?",
-	    "image": "https://live.staticflickr.com/65535/52677888320_98d02fb0af_b.jpg",
-	    "text": "This is on the Regents Canal just west of Park Road, where the Marylebone railway tracks cross over the canal. The acoustic is not that special, as the bridge comprises several sections with many gaps between, so it's not really an enclosure with a nice echo, and when trains pass they are noisy. However, there is good shelter from wind, and there is practically zero current, so the water has a glassy stillness. On top of all that, the fluorescent lighting is stunning, making this a perfect spot for an early evening installation."
-	},
-	{
-	    "when": "2023-02-05",
-	    "heading": "Cookley Tunnel",
-	    "youtube": "Hl_mAx5TMhE",
-	    "text": "A summer shoot in Cookley, Warwickshire. The canal tunnel there is short and narrow, with a close acoustic. It's also unlit, giving me an excuse to put some underwater lights on the units. These create an eerie glow in the murky water. I tried an underwater camera, but visibility was zero."
-	},
-	{
-		"when": "2023-02-04",
-		"heading": "Under Stratford High St",
-		"image": "https://live.staticflickr.com/65535/52677786704_bf003e917a_b.jpg",
-		"text": "Back out for a Randomatones shoot after more than six months away (working on semi-related electronic drum-triggered randomness), to a concrete-lined waterway under Stratford High St and the Bow Flyover in East London. The acoustic is cavernous, and the curved walkway is lit at water level, and although not to everyone's taste, there is some colourful graffiti along the wall. The downside is that there tends to be a significant draft down-river, in the same direction as the current, meaning controlling two flimsy floats was bound to be precarious. In the end I didn't have the courage to let then units drift away, despite having spent some development time on the propellor controls, as I wasn't confident they had enough power against the wind and the current. But it was a good test of my two-camera setup on the connecting rods."
-	},
-	{
-	    "when": "2023-02-02",
-	    "heading": "Location scouting in Stratford",
-	    "image": "https://live.staticflickr.com/65535/52713345926_2521044041_b.jpg",
-	    "text": "This tunnel carries the navigable river Lea under Statford High St and the Bow Flyover. Coming here in winter is ideal because the water is clear of duckweed. In the summer the surface can be caked in the stuff. Anything other than a light breeze down river could be a problem. But with its flat concrete ceiling and walls, the acoustic here is nice."
-	},
-	{
-	    "when": "2022-08-17",
-	    "heading": "Flooding in South Woodford",
-	    "image": "https://live.staticflickr.com/65535/52713607324_1a6ea8e1db_b.jpg",
-	    "text": "And sure enough, there was sudden flooding in the subway at South Woodford tube and I wasn't ready. In fact this drained away quickly. When I arrived I could see the water marks where it had been half a metre higher, still not enough to cover the shopping trolley. And the water was a mud soup, with all kinds of rubbish in it. Not that rubbish in the water has stopped me before." 
-	},
-	{
+        "when": "2023-03-26",
+        "heading": "Mimmshall Brook",
+        "youtube": "Ijo-B0MvH2w",
+        "text": "Where the Mimmshall brook crosses under the M25 in Hertfordshire, alongside a footpath connecting Wash Lane on the north side with Dancers Lane on the south, is this tunnel, a basic concrete building block construction that has little going for it even by way of graffiti, except that it is brightly lit, seemingly for the benefit of almost nobody. It also seems to be routinely flooded, which is my main interest comes in.<br/><br/>For this episode, I waded into the freezing water and swished the orange and pink units around in quite a current, hence the use of the tether (something I wish had used in the last video). Depending on the camera, there are some spectacular scenes in this video, especially the long geometry of the concrete segments and their joins."
+    },
+    {
+        "when": "2023-03-16",
+        "heading": "Location scouting in Camden",
+        "image": "https://live.staticflickr.com/65535/52755545536_ebd7ede12e_b.jpg",
+        "text": "The Regents Canal to the east of Camden Lock has several promising bridges with nice acoustics. This one under Camden St is probably the best, but there are at least six decent candidates before you get to the Islington Tunnel, leading to the tempting possibility of taking out an inflatable boat one afternoon and covering as many as the batteries will manage."
+    },
+    {
+        "when": "2023-03-11",
+        "heading": "Benign flooding",
+        "image": "https://live.staticflickr.com/65535/52755846474_42f473b98f_b.jpg",
+        "text": "Back to this location for a shoot after coming across it a year ago (<a href=\"#2022-02-19\">19 Feb 2022</a>). When I went there last February it was flooded. When I went there last week it was flooded, as I had the feeling it would be. Not for nothing is this path called Wash Lane. The first thing I discovered was that the Randomatones can float in only a few inches of water, something I could have known or at least measured, but was not that bothered about given the target location has been canals. The second revelation was that people use this passageway, and I saw two people where I expected to encounter none. Certain aspects did not surprise me, such as how cold the water was.<br/><br/>Normally I like graffiti in a concrete tunnel like this, but on the riverside section of wall there was nothing, and little on the path side either, leaving the starkly lit bare concrete, which was appealing in its own way."
+    },
+    {
+        "when": "2023-03-10",
+        "heading": "Home maintenance",
+        "image": "https://live.staticflickr.com/65535/52811684206_06893e9e17_b.jpg",
+        "text": "At the end of an evening getting the pink and blue devices ready for a trip out tommorrow, to two locations if I have time, and the ailing car manages it."
+    },
+    {
+        "when": "2023-03-05",
+        "heading": "Bow Flyover",
+        "youtube": "hvtv9qaenxo",
+        "text": "Fifth floating Randomatones video, this one on the River Lea under Stratford High St and the Bow Flyover. First appearance of the pink unit with its white horn speaker, to replace the grey one which was distorting. The motors were not behaving themselves on this trip, so the units tended to stick to the edge of the path where the wind blew them. I am thinking a tether might be useful next time.<br/><br/>Even so this video captures some of the beauty of this huge covered area. I'm thinking of a return trip in a boat in a month or so, keen to capture the silky water again before it gets completely covered in duckweed, as it tends to in the summer."
+    },
+    {
+        "when": "2023-03-03",
+        "heading": "Under Marylebone trains",
+        "image": "https://live.staticflickr.com/65535/52727842846_47a7ca2bda_b.jpg",
+        "text": "And under a Bakerloo Line bridge, next to Park Rd on the Regents Canal just west of Regents Park in London. Those trains are faster in this spot and more frequent, so there was a lot of noise here. And I had problems with floats. Otherwise I was videoing for almost 25 mins, a record."
+    },
+    {
+        "when": "2023-02-28",
+        "image": "https://live.staticflickr.com/65535/52728435820_553cd564bb_b.jpg",
+        "heading": "Motor testing kit",
+        "text": "After a couple of troublesome trips to the waterside this year, time for some quality time with the soldering iron and some amateur woodworking, to build the little device on the right in the picture, with which I can test the floating Randomatone motors. I checked them the other way two of the three would not turn (the blue unit has two motors, the pink has one). They had seized, probably with dried river muck, and needing freeing with pliers. Good to discover that on location before they get into the water.<br/><br/>The bundle of cable to the left off the same production line is for use at home and lets me power two units together from the same 12V supply."
+    },
+    {
+        "when": "2023-02-23",
+        "image": "https://live.staticflickr.com/65535/52728024126_ef52b2d4d1_b.jpg",
+        "heading": "Location scouting in Canada Water",
+        "text": "Unlikely I will make a video here, though I quite like this bridge. The main reason not to is the wildlife on either side, that will probably not appreciate my mechanical swans. Also the reed stems, which have been cut back for the winter, would risk tearing the floats if they drifted too close. Also this seems quite an exposed spot, and had quite a breeze when I visited. The again, maybe one day I should embrace the breeze and use it somehow, rather than it be an obstacle."
+    },
+    {
+        "when": "2023-02-17",
+        "heading": "Kidderminster Lock",
+        "youtube": "4MO5ctcJl9Q",
+        "text": "The 16th Randomatones video and the fourth to feature floating units, I made this one the day after the Cookley Tunnel video in June 2022. I got the camera on the connecting rod working, and even though it's a cheap camera, the view down the tunnel from it is superb."
+    },
+    {
+        "when": "2023-02-07",
+        "heading": "Who would not want to put their floating ambient music generators here?",
+        "image": "https://live.staticflickr.com/65535/52677888320_98d02fb0af_b.jpg",
+        "text": "This is on the Regents Canal just west of Park Road, where the Marylebone railway tracks cross over the canal. The acoustic is not that special, as the bridge comprises several sections with many gaps between, so it's not really an enclosure with a nice echo, and when trains pass they are noisy. However, there is good shelter from wind, and there is practically zero current, so the water has a glassy stillness. On top of all that, the fluorescent lighting is stunning, making this a perfect spot for an early evening installation."
+    },
+    {
+        "when": "2023-02-05",
+        "heading": "Cookley Tunnel",
+        "youtube": "Hl_mAx5TMhE",
+        "text": "A summer shoot in Cookley, Warwickshire. The canal tunnel there is short and narrow, with a close acoustic. It's also unlit, giving me an excuse to put some underwater lights on the units. These create an eerie glow in the murky water. I tried an underwater camera, but visibility was zero."
+    },
+    {
+        "when": "2023-02-04",
+        "heading": "Under Stratford High St",
+        "image": "https://live.staticflickr.com/65535/52677786704_bf003e917a_b.jpg",
+        "text": "Back out for a Randomatones shoot after more than six months away (working on semi-related electronic drum-triggered randomness), to a concrete-lined waterway under Stratford High St and the Bow Flyover in East London. The acoustic is cavernous, and the curved walkway is lit at water level, and although not to everyone's taste, there is some colourful graffiti along the wall. The downside is that there tends to be a significant draft down-river, in the same direction as the current, meaning controlling two flimsy floats was bound to be precarious. In the end I didn't have the courage to let then units drift away, despite having spent some development time on the propellor controls, as I wasn't confident they had enough power against the wind and the current. But it was a good test of my two-camera setup on the connecting rods."
+    },
+    {
+        "when": "2023-02-02",
+        "heading": "Location scouting in Stratford",
+        "image": "https://live.staticflickr.com/65535/52713345926_2521044041_b.jpg",
+        "text": "This tunnel carries the navigable river Lea under Statford High St and the Bow Flyover. Coming here in winter is ideal because the water is clear of duckweed. In the summer the surface can be caked in the stuff. Anything other than a light breeze down river could be a problem. But with its flat concrete ceiling and walls, the acoustic here is nice."
+    },
+    {
+        "when": "2022-08-17",
+        "heading": "Flooding in South Woodford",
+        "image": "https://live.staticflickr.com/65535/52713607324_1a6ea8e1db_b.jpg",
+        "text": "And sure enough, there was sudden flooding in the subway at South Woodford tube and I wasn't ready. In fact this drained away quickly. When I arrived I could see the water marks where it had been half a metre higher, still not enough to cover the shopping trolley. And the water was a mud soup, with all kinds of rubbish in it. Not that rubbish in the water has stopped me before." 
+    },
+    {
         "when": "2022-06-24",
         "heading": "The Old Birlec Factory, Birmingham",
         "youtube": "yi5RZ9Khc4I",
