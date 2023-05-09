@@ -1,5 +1,17 @@
 [
     {
+        "when": "2023-05-07",
+        "heading": "Sound and light in the Newbold Tunnel",
+        "youtube": "4ud034ugVN4",
+        "text": "I'd been through here on a canal boat trip a couple of summers ago. As the family in front of us went through on their boat, the younger ones started whooping and singing, making the most of the massive reverb in the tunnel. Perfect Randomatones territory.<br/><br/>When I returned one Sunday morning a couple of weeks ago, the tunnel was every bit as special as I remembered it. There was almost no wind, and the most of the time no boats, so the water was like a mirror. One technical issue got in the way. The forward/reverse propellor motor on the blue unit had siezed. I was prepared for this, with pliers and oil, and I managed to make it go, but only with it emitting a loud screech as it turned. I thought the din might not be so bad underwater, but the muffled squegging was still audible. I left it in most of the video soundtrack, for honesty.<br/><br/>After a while I got fed up with the noise and turned all the motors off, whereupon I was treated to a sublime and mesmerising sound and light show as they drifted very slowly downstream in the slight current. I left mostly elated, except for the small part of me that wished I had shot the whole thing that way."
+    },
+    {
+        "when": "2023-04-23",
+        "image": "https://live.staticflickr.com/65535/52884494364_3561d3286b_b.jpg",
+        "heading": "Birdsong with tunnel reverb",
+        "text": "Having a journey to the West Midlands to make, I set off a couple of hours early on this Sunday morning and stopped on the way at Newbold-on-Avon, to spend as long as I could videoing in the Newbold Tunnel between passing boat and swan traffic. This is me approaching the eastern portal through the mud, through Spring has definitely arrived at this point, and the peace and quiet of the canal is decorated with an abundance of birdsong.<br/><br/>It struck me as I was videoing in the tunnel that I had possibly never heard birdsong with a huge reverb applied to it. We almost always here it in the open air with no reverberation, likewise when used as a sound effect, or featuring in a field (literally) recording. However, stand a little way into a 189m brick-lined tunnel sunk into a wooded hill, and you witness plenty of this semi-natural phenomenon."
+    },
+    {
         "when": "2023-04-21",
         "youtube": "gvv5GiVUenA",
         "heading": "Regents Canal Lisson Grove tunnel",
