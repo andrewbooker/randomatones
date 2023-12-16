@@ -1,5 +1,11 @@
 [
     {
+        "when": "2023-11-27",
+        "image": "https://live.staticflickr.com/65535/53401956466_fd63ec9c57_b.jpg",
+        "heading": "Wading into darkness",
+        "text": "After a summer and autumn off (unusually spent playing actual music with real people, or perhaps real music with actual people), and with a winter-time trip to Wales to come back from, I stopped at this fabulous and faintly scary location in the Cotswolds, the <a href=\"https://en.wikipedia.org/wiki/Sapperton_Canal_Tunnel\">Sapperton Tunnel</a>. I had avoided this kind of location in the past partly out of fear, and partly because I was not yet satisfied I could make a video in complete darkness. That is still somewhat true, but with some additional lights on the connecting rod, powered by a nice new small but powerful 9V rechargable battery, I felt I was just about ready to try this location, given that I would be passing by.<br/><br/>From pictures online, I surmised the water in the tunnel would be several inches deep, and I might need a new pair of Wellington boots, so I went to buy some before setting out. The one size the shop had none of was mine. No matter, when I waded into the tunnel, the water came up to the top of my thighs."
+    },
+    {
         "when": "2023-05-07",
         "heading": "Sound and light in the Newbold Tunnel",
         "youtube": "4ud034ugVN4",
