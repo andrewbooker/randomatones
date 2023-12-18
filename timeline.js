@@ -1,5 +1,11 @@
 [
     {
+        "when": "2023-12-17",
+        "youtube": "jL1AqcHteug",
+        "heading": "Into the north portal of the Sapperton Tunnel",
+        "text": "The Randomatones in their creepiest location yet. I'm thinking that for the next several outings I'll be sticking to canals that are still in use, whose tunnels you can actually walk through on a path, before I wade into many more locations like this. But the Randomatones looked and sounded stunning in here. Stupidly, my failure to ensure a certain battery was properly charged meant that I lost wifi connection to the units fairly early on, which meant I had to wade in to get them, which meant I disturbed the water. On the plus side, it meant I got some good video looking out into the daylight, wishing I was standing there. Apart from that, from the gothic entrance, into the undisturbed brick time-capsule of this abandoned water conduit, this could have been their finest setting.<br/><br/>The tunnel's wikipedia page suggests the Cotswolds Canal Trust at one time conducted boat tours into this tunnel, presumably from the other end near Coates where the tunnel casing is considered safe (I entered though the northern Daneway portal, which the CCT consider not safe). They don't advertise them, and perhaps never did any, and have instead only carried out private surveys. But supposing they did, maybe a little sonic art installation like this would enhance the trip."
+    },
+    {
         "when": "2023-11-27",
         "image": "https://live.staticflickr.com/65535/53401956466_fd63ec9c57_b.jpg",
         "heading": "Wading into darkness",
