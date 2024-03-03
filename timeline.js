@@ -233,7 +233,7 @@
         "when": "2022-03-01",
         "heading": "Painted shell",
         "image": "https://live.staticflickr.com/65535/51923507152_8b840a0a62_b.jpg",
-        "text": "Several coats of paint later, via a white base, then pink, red and orange fluorescent acrylics.<br/><br/>Brush strokes are clearly visible but I think this will do, I am ready to build it now. Seen here with the 12V 5Ah battery in place. I was assumed it would need some kind of restrainer, but the battery is such I tight fit, I don't know if I'll ever get it out again. Pity, that was the idea. The current two read and blue rotating units would need to be taken to bits to get their batteries out."
+        "text": "Several coats of paint later, via a white base, then pink, red and orange fluorescent acrylics.<br/><br/>Brush strokes are clearly visible but I think this will do, I am ready to build it now. Seen here with the 12V 5Ah battery in place. I was assumed it would need some kind of restrainer, but the battery is such a tight fit, I don't know if I'll ever get it out again. Pity, that was the idea. The current two read and blue rotating units would need to be taken to bits to get their batteries out."
     },
     {
         "when": "2022-02-19",
