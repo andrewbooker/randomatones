@@ -1,5 +1,11 @@
 [
     {
+        "when": "2024-01-21",
+        "heading": "First new build",
+        "image": "https://live.staticflickr.com/65535/53564850608_657e90302f_b.jpg",
+        "text": "Slowly getting on with the first new build, on my tidier-than usual work table. The Raspberry 3 model A+ and the HifiBerry are going inside a water-resistant plastic enclosure, for when the unit accidentally drifts under a cascade of water pouring down from a canal tunnel roof. Doubling up horn and waterproof speakers to try and get the most out of amp. Earlier spinning Randomatone versions had only one small horn and one small cone speaker and they were too quiet. The wooden \"deck\" will sit on top of the normal 24\" silver float, with a short mast for coupling to another unit (I would not let these loose by themselves)."
+    },
+    {
         "when": "2023-12-22",
         "heading": "Parts for a new build",
         "image": "https://live.staticflickr.com/65535/53414194838_49b30e72db_b.jpg",
