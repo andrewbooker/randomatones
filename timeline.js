@@ -1,9 +1,15 @@
 [
     {
+        "when": "2024-02-22",
+        "heading": "Trying out the third audio and video recording unit",
+        "image": "https://live.staticflickr.com/65535/53564978789_6fa894d896_b.jpg",
+        "text": "Despite noisy waterfalls the other side of this lock and the one immediately upstream, on the Rochdale Canal under Manchester Piccadilly, I thought the water was just about calm enough for a Randomatones video, and even if the sound turned out to be unusable, here at least was an opportunity to test the recording. Fearful of the currents, I tethered the recording unit to the side, while it joined up with the sound-making units via a new V-shaped connecting rod setup made from thin, lightweight and very expensive aluminium L-beams. Feeling after 10 mins or so that I got quite a nice shoot out of it, I decided to stop videoing, take a couple of stills, and just enjoy the sight and sound for a few minutes, something I almost never (get to) do on a shoot, and yet which is the whole idea of this sonic art project. I managed a couple of minutes, before I realised the tether had come undone, and my fragile devices where about to get swept into the lock."
+    },
+    {
         "when": "2024-02-21",
         "heading": "Location scouting in Manchester",
         "image": "https://live.staticflickr.com/65535/53565098075_7d09078afc_b.jpg",
-        "text": "The Deansgate tunnel on the Rochdale Canal in Manchester on a wet February evening. Part of a generally wet February, with a lot of rain up and down the country, and a lot of that rain draining into the canal. You can see it pouring over the lock gate at the end of the tunnel. That ruled out videoing in this location, partly because of the roar of the temporary lock-gate waterfall, but mainly because of the turbulence. For a Randomatone video, I want stillness."
+        "text": "The Deansgate tunnel on the Rochdale Canal in Manchester on a wet February evening, where I had gone for a gig the following day). Part of a generally wet February, with a lot of rain up and down the country, and a lot of that rain draining into the canal. You can see it pouring over the lock gate at the end of the tunnel. That ruled out videoing in this location, partly because of the roar of the temporary lock-gate waterfall, but mainly because of the turbulence. For a Randomatone video, I want stillness."
     },
     {
         "when": "2024-02-13",
