@@ -1,5 +1,11 @@
 [
     {
+        "when": "2024-02-21",
+        "heading": "Location scouting in Manchester",
+        "image": "https://live.staticflickr.com/65535/53565098075_7d09078afc_b.jpg",
+        "text": "The Deansgate tunnel on the Rochdale Canal in Manchester on a wet February evening. Part of a generally wet February, with a lot of rain up and down the country, and a lot of that rain draining into the canal. You can see it pouring over the lock gate at the end of the tunnel. That ruled out videoing in this location, partly because of the roar of the temporary lock-gate waterfall, but mainly because of the turbulence. For a Randomatone video, I want stillness."
+    },
+    {
         "when": "2024-02-13",
         "heading": "Separate audio and video recorder",
         "image": "https://live.staticflickr.com/65535/53563803432_f976a59d1f_b.jpg",
