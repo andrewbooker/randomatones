@@ -27,18 +27,19 @@ for t in timeline:
     body = document.createElement("tr")
     body.setAttribute("style", "vertical-align: top;")
 
+    w = datetime.datetime.strptime(t["when"], "%Y-%m-%d").strftime('%d %b %Y')
     whenAnchor = document.createElement("a")
     when = document.createElement("td")
-    w = datetime.datetime.strptime(t["when"], "%Y-%m-%d").strftime('%d %b %Y')
-    when.appendChild(document.createTextNode(w))
+
+    whenAnchor.appendChild(document.createTextNode(w))
     when.setAttribute("class", "when")
     whenAnchor.setAttribute("id", t["when"])
-    whenAnchor.appendChild(when)
+    when.appendChild(whenAnchor)
 
     h = document.createElement("td")
     h.setAttribute("class", "post-heading")
     h.appendChild(document.createTextNode(t["heading"]))
-    head.appendChild(whenAnchor)
+    head.appendChild(when)
     head.appendChild(h)
 
     i = document.createElement("td")
