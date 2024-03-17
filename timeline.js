@@ -1,5 +1,11 @@
 [
     {
+        "when": "2024-03-15",
+        "heading": "Randomatones in the Shrewley Tunnel",
+        "youtube": "h73q2UP5Qqw",
+        "text": "On the way up to a gig in Manchester a few weeks ago, I stopped at this tunnel on the Grand Union Canal in Warwickshire. I had been through it on a canal boat trip in 2020, but remembered only the imposing western entrance (seen here at the beginning of the video) and nothing else about it. I didn’t remember that it had water pouring in through the roof everywhere, as was the case on the day I turned up. It had been raining up and down the country, so I assumed this was the reason. In fact the tunnel always leaks, giving rise to many flowstone formations inside. I didn’t see much of that on the day, as I did not venture in past an enormous cascade maybe 20m in from the entrance, which would have wrecked my non-waterproof devices."
+    },
+    {
         "when": "2024-02-22",
         "heading": "Trying out the third audio and video recording unit",
         "image": "https://live.staticflickr.com/65535/53564978789_6fa894d896_b.jpg",
