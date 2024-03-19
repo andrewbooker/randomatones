@@ -1,5 +1,11 @@
 [
     {
+        "when": "2024-03-16",
+        "heading": "Possibly finest tunnel location yet",
+        "image": "https://live.staticflickr.com/65535/53598854835_49a679468e_b.jpg",
+        "text": "This is the Snarestone Tunnel on the Ashby Canal in Leicestershire, where I stopped on the way up from London to a gig in Stoke-on-Trent this evening. Great location, no wind, no rain (until I emerged), no leaks, no boats, with somewhere I could park my car nearby. Minor technical issues on this one, for some reason the pink unit wouldn't start its audio processing automatically, and needed me to press the manual override button I had very cleverly added to the units a few weeks before, having wished I had one on several shoots in the past.<br/><br>I was in slightly better control of my boat this time. As I sat in it, drifting on the slight current into the middle of the tunnel, I savoured this stunning sight and sound of the two units against the backdrop of the south portal, spoilt only by something pokey in my rucksack digging into my back as I sat against it."
+    },
+    {
         "when": "2024-03-15",
         "heading": "Randomatones in the Shrewley Tunnel",
         "youtube": "h73q2UP5Qqw",
