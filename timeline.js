@@ -1,5 +1,11 @@
 [
     {
+        "when": "2024-04-13",
+        "heading": "Into the Cwmbran tunnel",
+        "image": "https://live.staticflickr.com/65535/53656446151_de8cb2f22d_b.jpg",
+        "text": "With a gig to do in Chepstow, and having to travel there from London, I had a few options for canal tunnel locations that I could plausibly visit within more-or-less the same journey. This was a good choice. Not too long, meaning there was a modest glow of useful light from either end, but long enough and wide enough for a good natural reverb. The first problem was getting everything into the water. There were some steps from the towpath down to the tunnel portal, but then a good 2\" between drop from the ledge to the water. I narrowly succeed in lowering the Randomatones into the water without losing the floats. Next problem was to get into the boat without capsizing it. As you can see from the pciture that I'm still dry, I managed.<br/><br/>Being mid April on a not particularly busy stretch of canal, I wasn't massively surprised not to have been disturbed by any boat traffic, but felt lucky all the same to have been left to savour this fantastic shoot. Every shoot has at least one technical problem or another. On this one, despite having tested it carefully the day before, the orange (brought out of retirement for one last shoot) wouldn't connect to my WiFi, even after a reboot. Didn't matter much, I built in a workaround for that.<br/><br/>My one slight regret is that I had been considering setting up an underwater camera, but hadnt't brought it. Typically canal water in the UK is not worth the bother, visibility is centimetres at best. (Oddly, the water in the Limehouse Cut in London is surprisingly clear.) I tried it for the <a href=\"#2023-02-05\">Cookley</a> shoot, but used only footage from before I submerged the camera. On this canal the water was very clear, further evidence that the waterway is little used. So this is the second time an underwater camera might have been stunning, the first being <a href=\"#2023-11-27\">Sapperton</a> last November, whose water is normally completely undisturbed by boats, people, or anything."
+    },
+    {
         "when": "2024-02-22",
         "heading": "Manchester Piccadilly Part One",
         "youtube": "7F-Sw6fVl0I",
