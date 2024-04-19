@@ -4,6 +4,7 @@ from xml.dom import minidom
 import json
 import datetime
 import sys
+from random import randint
 
 tl = open("timeline.js", "r")
 timeline = json.load(tl)
@@ -45,6 +46,7 @@ for t in timeline:
     i = document.createElement("td")
     if "youtube" in t:
         y = document.createElement("iframe")
+        y.setAttribute("id", str(randint(100000, 999999)))
         y.setAttribute("width", str(302))
         y.setAttribute("height", str(198))
         y.setAttribute("allowfullscreen", "true")
