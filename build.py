@@ -45,13 +45,13 @@ for t in timeline:
 
     i = document.createElement("td")
     if "youtube" in t:
+        yt_id = t["youtube"]
         y = document.createElement("iframe")
-        y.setAttribute("id", str(randint(100000, 999999)))
         y.setAttribute("width", str(302))
         y.setAttribute("height", str(198))
         y.setAttribute("allowfullscreen", "true")
         y.setAttribute("class", "post-yt")
-        y.setAttribute("src", "https://www.youtube.com/embed/" + t["youtube"])
+        y.setAttribute("src", f"https://www.youtube.com/embed/{yt_id}?{randint(100000, 999999)}")
         y.appendChild(document.createTextNode(""))
         i.appendChild(y)
     elif "image" in t:
