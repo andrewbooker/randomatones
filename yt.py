@@ -3,7 +3,7 @@
 import json
 
 def yt_ref(i, h):
-    return f"https://www.youtube.com/watch?v={i} ({h})"
+    return f"Randomatones video ({h}): https://www.youtube.com/watch?v={i}"
 
 tl = open("timeline.js", "r")
 timeline = json.load(tl)
@@ -20,7 +20,7 @@ for i in range(len(tubes)):
     print("")
     print(heading)
     if i > 0:
-        print("Next Randomatones video:", yt_ref(*tubes[i - 1]))
+        print("Next", yt_ref(*tubes[i - 1]))
     if i < len(tubes) - 1:
-        print("Previous Randomatones video:", yt_ref(*tubes[i + 1]))
+        print("Previous", yt_ref(*tubes[i + 1]))
 
