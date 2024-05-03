@@ -1,5 +1,11 @@
 [
     {
+        "when": "2024-05-03",
+        "heading": "The Hidden Beauty of the Snarestone Tunnel",
+        "youtube": "eFSr7WwJh9I",
+        "text": "Probably the best example yet of why I like making videos in canal tunnels. I managed a few long shots here, each of well over a minute. The trick to those, unsurprisingly, is to sit in the boat and do nothing for as long as possible, letting the devices do their thing. And even better, at some point, turn off the rotation."
+    },
+    {
         "when": "2024-04-19",
         "heading": "Scout Tunnel",
         "youtube": "hvOxCjLpTY4",
