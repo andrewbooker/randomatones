@@ -1,5 +1,12 @@
 [
     {
+        "when": "2024-05-06",
+        "heading": "Thinking about a standing unit again",
+        "image": "https://live.staticflickr.com/65535/53703679726_7fa9d18a1a_b.jpg",
+        "orientation": "portrait",
+        "text": "The first Randomatones were standing devices. I thought about making them rotate, but decided that the best way to do that would be to make some floating ones. Then, on a bike ride one day, I saw a location that I might be able use for a video if I had some hanging versions that spun. I used those for a while, before going ahead and building some floating versions.<br/><br>I've now used those in many videos. I had started to build some newer, lighter floating versions, but spent the first few months of this year continuing to make videos with the older ones. I now have a couple of possible engagements coming up where I could use some standing ones again. I definitely want rotation this time. So I've been trying out a couple of ideas. Almost definitely, the finished version will look nothing like this. It will likely use the same components though - waterproof plastic cone speakers, two small plastic horn speakers, and the electronics in a waterproof box. Waterproofing will usually be unnecessary, except perhaps in one place I have in mind."
+    },
+    {
         "when": "2024-05-03",
         "heading": "The hidden beauty of the Snarestone Tunnel",
         "youtube": "eFSr7WwJh9I",
