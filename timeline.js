@@ -1,5 +1,11 @@
 [
     {
+        "when": "2024-05-12",
+        "heading": "New standing unit bits",
+        "image": "https://live.staticflickr.com/65535/53716914538_93400fff9c_b.jpg",
+        "text": "The results of my extremely amateur carpentry grabbing a few hours here and there over the last few days. My workshop is outside, and any power tooling I use is solar powered, so the (temporary) dry warmth of our early British summer is good building time. Next up, some painting. Some bits are white already, either because I've started painting them already, or because I salvaged them from previous construction attempts, successful or otherwise. After the painting, the remembering of how everything was supposed to fit together."
+    },
+    {
         "when": "2024-05-06",
         "heading": "Thinking about a standing unit again",
         "image": "https://live.staticflickr.com/65535/53703679726_7fa9d18a1a_b.jpg",
