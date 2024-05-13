@@ -1,5 +1,11 @@
 [
     {
+        "when": "2024-05-13",
+        "heading": "Painting frames for new standing units",
+        "image": "https://live.staticflickr.com/65535/53719450593_6a29ce0169_b.jpg",
+        "text": "Yesterday was building, today painting. Whereas I painted the floating ones different colours, I have a mind to leave these white, as each will have at least three bright coloured LEDs positioned in ways that should make everything glow. The first standing units were white. I never did anything with them, as they weren't portable."
+    },
+    {
         "when": "2024-05-12",
         "heading": "New standing unit bits",
         "image": "https://live.staticflickr.com/65535/53716914538_93400fff9c_b.jpg",
