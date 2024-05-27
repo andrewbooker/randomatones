@@ -1,5 +1,24 @@
 [
     {
+        "when": "2024-05-27",
+        "heading": "Highams Park Live",
+        "youtube": "3FMnYXOUaEg",
+        "text": "A short video documenting a few pre-show minutes of a special Highams Park Live event on Friday 24 May 2024 for which the Randomaones generated ambient music in front of a live audience. I was still trying to put them together two hours before the show, so some of the usual features were missing. But the sound was just right and suited the show perfectly.<br/><br/>I had assumed they would be too quiet for a room full of chattering audience, and took microphones and a small desk to give them, a boost through the PA. In fact the volume was fine, as I discovered at the end of the show, when I left them running while taking the mics down, and didn't really hear the difference."
+    },
+    {
+        "when": "2024-05-24",
+        "heading": "Randomatones make their first scheduled live appearance",
+        "image": "https://live.staticflickr.com/65535/53750857034_9277dc8ebb_b.jpg",
+        "text": "Almost showtime at Highams Park Live, where the Randomatones, positioned on the right (stage left, up to no good obviously), are providing pre-show/interval/closing ambient music for the first ever complete performance of \"The Dance of the First and the Last\", a musical and spoken word epic conceived as a wake-up call to humanity. Organiser,  composer and guitarist Nigel Mear (seated left) invited me to contribute after I described the Randomatones to him in the pub one evening."
+    },
+    {
+        "when": "2024-05-22",
+        "heading": "Testing the new devices at home",
+        "image": "https://live.staticflickr.com/65535/53750704348_b5e9a37fdf_b.jpg",
+        "orientation": "portrait",
+        "text": "Two more days to get these ready before they are due to appear in front of a live audience. I'm happy with the rotation in the lower one, the upper one has been a lot more difficult to get right, and is not quite there. I may just leave it static.<br/><br/>I definitely want to get lights on, having kept them white in order to show up some bright coloured LEDs I have ready and waiting. Also I want some directional assists on the mylar speakers, which will be simple white cylinders for now. The attachments to the speakers are in place already."
+    },
+    {
         "when": "2024-05-13",
         "heading": "Painting frames for new standing units",
         "image": "https://live.staticflickr.com/65535/53719450593_6a29ce0169_b.jpg",
