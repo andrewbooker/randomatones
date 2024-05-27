@@ -19,6 +19,13 @@
         "text": "Two more days to get these ready before they are due to appear in front of a live audience. I'm happy with the rotation in the lower one, the upper one has been a lot more difficult to get right, and is not quite there. I may just leave it static.<br/><br/>I definitely want to get lights on, having kept them white in order to show up some bright coloured LEDs I have ready and waiting. Also I want some directional assists on the mylar speakers, which will be simple white cylinders for now. The attachments to the speakers are in place already."
     },
     {
+        "when": "2024-05-18",
+        "heading": "First new unit assembed",
+        "orientation": "portrait",  
+        "image": "https://live.staticflickr.com/65535/53750160547_6cc4120106_b.jpg",
+        "text": "Essentially assembled. Meaning, if I had to go out and do a shoot with it later today, I could. It makes noise, and it rotates. I want to put some lights on it, mainly to make it look better, but also I have a procedure of referring to the devices by colour, and because these new ones are white, they need some coloured LEDs on them so I know which is which.<br/><br/>Also some cable ties wouldn't do any harm.<br/><br/>It's mounted on a drum stand, which I have several of, being a drummer. The one in use here usually belongs with my home electronic kit, which I haven't had set up for a while, and which has exactly the right sized hole for the base of the randomtone mount, which is also a spare from my electronic kit setup. Or it is at the moment. I may have an opportunity/excuse to present both my electronic drums and the Randomatones at a gig in a couple of months, so I might need to rethink the hardware."
+    },
+    {
         "when": "2024-05-13",
         "heading": "Painting frames for new standing units",
         "image": "https://live.staticflickr.com/65535/53719450593_6a29ce0169_b.jpg",
