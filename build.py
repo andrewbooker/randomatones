@@ -11,7 +11,8 @@ timeline = json.load(tl)
 tl.close()
 
 document = minidom.parse("template.xhtml")
-recent = document.getElementsByTagName("div")[2]
+recent = document.getElementsByTagName("div")[3]
+
 for t in timeline[:5]:
     d = document.createElement("div")
     a = document.createElement("a")
@@ -97,6 +98,7 @@ function resize() {
     ["recent-contents", "flickr"].forEach(id => {
         document.getElementById(id).setAttribute("style", "margin-left:" + lm + "px;");
     });
+    document.getElementById("links").setAttribute("style", "margin-left:" + min(lm, 600) + "px;");
 }
 resize();
 window.onresize = resize;
