@@ -15,6 +15,9 @@ class TemplateDoc:
         self.document = minidom.parse(template_fn)
         self.out_fn = out_fn
 
+    def add_resize_script(self):
+        pass
+
     def dump(self):
         page = self.document.documentElement.toprettyxml(indent="  ", encoding=None)
         page = page.replace("&quot;","\"")
@@ -30,6 +33,32 @@ class MainPage(TemplateDoc):
     def __init__(self):
         TemplateDoc.__init__(self, "template.xhtml", "index.html")
         self.recent = self.document.getElementsByTagName("div")[3]
+
+    def add_resize_script(self):
+        scr = """
+function resize() {
+    const fh = Math.min(1000, 0.8 * window.innerWidth);
+    const ft = Math.min(180, 0.3 * window.innerWidth);
+    document.getElementById("heading").setAttribute("style", "font-size: " + fh + "%");
+    document.getElementById("tagline").setAttribute("style", "font-size: " + ft + "%");
+
+    let lm =  Math.min(62, window.innerWidth / 24.0);
+    const m = (window.innerWidth / 2) - 640;
+    if (m > 0) {
+        lm += m;
+    }
+    ["recent-contents", "flickr"].forEach(id => {
+        document.getElementById(id).setAttribute("style", "margin-left:" + lm + "px;");
+    });
+    document.getElementById("links").setAttribute("style", "margin-left:" + min(lm, 600) + "px;");
+}
+resize();
+window.onresize = resize;
+"""
+
+        script = self.document.getElementsByTagName("script")[0]
+        script.appendChild(self.document.createTextNode(scr))
+
 
 main_page = MainPage()
 document = main_page.document
@@ -105,29 +134,6 @@ for t in timeline:
     container.appendChild(head)
     container.appendChild(body)
 
-scr = """
-function resize() {
-    const fh = Math.min(1000, 0.8 * window.innerWidth);
-    const ft = Math.min(180, 0.3 * window.innerWidth);
-    document.getElementById("heading").setAttribute("style", "font-size: " + fh + "%");
-    document.getElementById("tagline").setAttribute("style", "font-size: " + ft + "%");
-
-    let lm =  Math.min(62, window.innerWidth / 24.0);
-    const m = (window.innerWidth / 2) - 640;
-    if (m > 0) {
-        lm += m;
-    }
-    ["recent-contents", "flickr"].forEach(id => {
-        document.getElementById(id).setAttribute("style", "margin-left:" + lm + "px;");
-    });
-    document.getElementById("links").setAttribute("style", "margin-left:" + min(lm, 600) + "px;");
-}
-resize();
-window.onresize = resize;
-"""
-
-script = document.getElementsByTagName("script")[0]
-script.appendChild(document.createTextNode(scr))
-
+main_page.add_resize_script()
 main_page.dump()
 
