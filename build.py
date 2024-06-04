@@ -10,8 +10,24 @@ tl = open("timeline.js", "r")
 timeline = json.load(tl)
 tl.close()
 
-document = minidom.parse("template.xhtml")
-recent = document.getElementsByTagName("div")[3]
+class TemplateDoc:
+    def __init__(self, template_fn):
+        self.document = minidom.parse(template_fn)
+
+    def add_image_post(self, image_id, text, is_portrait):
+        pass
+
+    def add_yt_post(self, yt_id, text):
+        pass
+
+class MainPage(TemplateDoc):
+    def __init__(self):
+        TemplateDoc.__init__(self, "template.xhtml")
+        self.recent = self.document.getElementsByTagName("div")[3]
+
+main_page = MainPage()
+document = main_page.document
+recent = main_page.recent
 
 for t in timeline[:5]:
     d = document.createElement("div")
