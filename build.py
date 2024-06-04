@@ -11,18 +11,24 @@ timeline = json.load(tl)
 tl.close()
 
 class TemplateDoc:
-    def __init__(self, template_fn):
+    def __init__(self, template_fn, out_fn):
         self.document = minidom.parse(template_fn)
+        self.out_fn = out_fn
 
-    def add_image_post(self, image_id, text, is_portrait):
-        pass
+    def dump(self):
+        page = self.document.documentElement.toprettyxml(indent="  ", encoding=None)
+        page = page.replace("&quot;","\"")
+        page = page.replace("&lt;", "<")
+        page = page.replace("&gt;", ">")
 
-    def add_yt_post(self, yt_id, text):
-        pass
+        with open(self.out_fn, "w") as out:
+            out.write("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n")
+            out.write(page)
+
 
 class MainPage(TemplateDoc):
     def __init__(self):
-        TemplateDoc.__init__(self, "template.xhtml")
+        TemplateDoc.__init__(self, "template.xhtml", "index.html")
         self.recent = self.document.getElementsByTagName("div")[3]
 
 main_page = MainPage()
@@ -123,12 +129,5 @@ window.onresize = resize;
 script = document.getElementsByTagName("script")[0]
 script.appendChild(document.createTextNode(scr))
 
-page = document.documentElement.toprettyxml(indent="  ", encoding=None)
-page = page.replace("&quot;","\"")
-page = page.replace("&lt;", "<")
-page = page.replace("&gt;", ">")
-
-with open("index.html", "w") as out:
-    out.write("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n")
-    out.write(page)
+main_page.dump()
 
