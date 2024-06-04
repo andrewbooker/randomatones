@@ -135,11 +135,27 @@ window.onresize = resize;
         self.container.appendChild(body)
 
 
-main_page = MainPage()
+class PortfolioPage(TemplateDoc):
+    def __init__(self):
+        TemplateDoc.__init__(self, "template-portfolio.xhtml", "portfolio.html")
+
+    def add_timeline(self, t):
+        row = self.document.createElement("tr")
+        i = self.document.createElement("td")
+        if "youtube" in t:
+            self._add_yt_to(i, t)
+
+        row.appendChild(i)
+        self.container.appendChild(row)
+
+
+pages = [MainPage(), PortfolioPage()]
 
 for t in timeline:
-    main_page.add_timeline(t)
+    for p in pages:
+        p.add_timeline(t)
 
-main_page.add_resize_script()
-main_page.dump()
+pages[0].add_resize_script()
+for p in pages:
+    p.dump()
 
