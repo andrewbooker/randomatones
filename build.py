@@ -64,18 +64,18 @@ main_page = MainPage()
 document = main_page.document
 recent = main_page.recent
 
-for t in timeline[:5]:
-    d = document.createElement("div")
-    a = document.createElement("a")
-    a.setAttribute("href", "#%s" % t["when"])
-    a.appendChild(document.createTextNode(t["heading"]))
-
-    d.appendChild(a)
-    recent.appendChild(d)
-
 container = document.getElementsByTagName("tbody")[0]
 
 for t in timeline:
+    if len(recent.childNodes) < 5:
+        d = document.createElement("div")
+        a = document.createElement("a")
+        a.setAttribute("href", "#%s" % t["when"])
+        a.appendChild(document.createTextNode(t["heading"]))
+
+        d.appendChild(a)
+        recent.appendChild(d)
+
     head = document.createElement("tr")
     body = document.createElement("tr")
     body.setAttribute("style", "vertical-align: top;")
