@@ -16,6 +16,17 @@ class TemplateDoc:
         self.out_fn = out_fn
         self.container = self.document.getElementsByTagName("tbody")[0]
 
+    def _add_yt_to(self, add_to, t):
+        yt_id = t["youtube"]
+        y = self.document.createElement("iframe")
+        y.setAttribute("width", str(302))
+        y.setAttribute("height", str(198))
+        y.setAttribute("allowfullscreen", "true")
+        y.setAttribute("class", "post-yt")
+        y.setAttribute("src", f"https://www.youtube.com/embed/{yt_id}?{randint(100000, 999999)}")
+        y.appendChild(self.document.createTextNode(""))
+        add_to.appendChild(y)
+
     def add_resize_script(self):
         pass
 
@@ -94,15 +105,7 @@ window.onresize = resize;
 
         i = self.document.createElement("td")
         if "youtube" in t:
-            yt_id = t["youtube"]
-            y = self.document.createElement("iframe")
-            y.setAttribute("width", str(302))
-            y.setAttribute("height", str(198))
-            y.setAttribute("allowfullscreen", "true")
-            y.setAttribute("class", "post-yt")
-            y.setAttribute("src", f"https://www.youtube.com/embed/{yt_id}?{randint(100000, 999999)}")
-            y.appendChild(self.document.createTextNode(""))
-            i.appendChild(y)
+            self._add_yt_to(i, t)
         elif "image" in t:
             landscape = t["orientation"] != "portrait" if "orientation" in t else True;
             img = self.document.createElement("img")
