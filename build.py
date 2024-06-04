@@ -14,8 +14,12 @@ class TemplateDoc:
     def __init__(self, template_fn, out_fn):
         self.document = minidom.parse(template_fn)
         self.out_fn = out_fn
+        self.container = self.document.getElementsByTagName("tbody")[0]
 
     def add_resize_script(self):
+        pass
+
+    def add_timeline(self, t):
         pass
 
     def dump(self):
@@ -59,80 +63,79 @@ window.onresize = resize;
         script = self.document.getElementsByTagName("script")[0]
         script.appendChild(self.document.createTextNode(scr))
 
+    def add_timeline(self, t):
+        if len(self.recent.childNodes) < 5:
+            d = self.document.createElement("div")
+            a = self.document.createElement("a")
+            a.setAttribute("href", "#%s" % t["when"])
+            a.appendChild(self.document.createTextNode(t["heading"]))
+
+            d.appendChild(a)
+            self.recent.appendChild(d)
+
+        head = self.document.createElement("tr")
+        body = self.document.createElement("tr")
+        body.setAttribute("style", "vertical-align: top;")
+
+        w = datetime.datetime.strptime(t["when"], "%Y-%m-%d").strftime('%d %b %Y')
+        whenAnchor = self.document.createElement("a")
+        when = self.document.createElement("td")
+
+        whenAnchor.appendChild(self.document.createTextNode(w))
+        when.setAttribute("class", "when")
+        whenAnchor.setAttribute("id", t["when"])
+        when.appendChild(whenAnchor)
+
+        h = self.document.createElement("td")
+        h.setAttribute("class", "post-heading")
+        h.appendChild(self.document.createTextNode(t["heading"]))
+        head.appendChild(when)
+        head.appendChild(h)
+
+        i = self.document.createElement("td")
+        if "youtube" in t:
+            yt_id = t["youtube"]
+            y = self.document.createElement("iframe")
+            y.setAttribute("width", str(302))
+            y.setAttribute("height", str(198))
+            y.setAttribute("allowfullscreen", "true")
+            y.setAttribute("class", "post-yt")
+            y.setAttribute("src", f"https://www.youtube.com/embed/{yt_id}?{randint(100000, 999999)}")
+            y.appendChild(self.document.createTextNode(""))
+            i.appendChild(y)
+        elif "image" in t:
+            landscape = t["orientation"] != "portrait" if "orientation" in t else True;
+            img = self.document.createElement("img")
+            img.setAttribute("src", t["image"])
+            img.setAttribute("width", str(320 if landscape else 180))
+            img.setAttribute("height", str(320 if not landscape else 180))
+
+            img.setAttribute("class", "post-image")
+            a = self.document.createElement("a")
+            imageId = t["image"].split("/")[-1].split("_")[0]
+            a.setAttribute("href", "https://flickr.com/photos/90938695@N06/%s/in/album-72157716077356826/" % imageId)
+            a.setAttribute("target", "_blank")
+            a.appendChild(img)
+
+            i.appendChild(a)
+
+        body.appendChild(i)
+
+        txt = self.document.createElement("div")
+        txt.appendChild(self.document.createTextNode(t["text"]))
+        txt.setAttribute("class", "post-text")
+        td = self.document.createElement("td")
+        td.appendChild(txt)
+        body.appendChild(td)
+
+        self.container.appendChild(head)
+        self.container.appendChild(body)
+
 
 main_page = MainPage()
-document = main_page.document
-recent = main_page.recent
-
-container = document.getElementsByTagName("tbody")[0]
 
 for t in timeline:
-    if len(recent.childNodes) < 5:
-        d = document.createElement("div")
-        a = document.createElement("a")
-        a.setAttribute("href", "#%s" % t["when"])
-        a.appendChild(document.createTextNode(t["heading"]))
-
-        d.appendChild(a)
-        recent.appendChild(d)
-
-    head = document.createElement("tr")
-    body = document.createElement("tr")
-    body.setAttribute("style", "vertical-align: top;")
-
-    w = datetime.datetime.strptime(t["when"], "%Y-%m-%d").strftime('%d %b %Y')
-    whenAnchor = document.createElement("a")
-    when = document.createElement("td")
-
-    whenAnchor.appendChild(document.createTextNode(w))
-    when.setAttribute("class", "when")
-    whenAnchor.setAttribute("id", t["when"])
-    when.appendChild(whenAnchor)
-
-    h = document.createElement("td")
-    h.setAttribute("class", "post-heading")
-    h.appendChild(document.createTextNode(t["heading"]))
-    head.appendChild(when)
-    head.appendChild(h)
-
-    i = document.createElement("td")
-    if "youtube" in t:
-        yt_id = t["youtube"]
-        y = document.createElement("iframe")
-        y.setAttribute("width", str(302))
-        y.setAttribute("height", str(198))
-        y.setAttribute("allowfullscreen", "true")
-        y.setAttribute("class", "post-yt")
-        y.setAttribute("src", f"https://www.youtube.com/embed/{yt_id}?{randint(100000, 999999)}")
-        y.appendChild(document.createTextNode(""))
-        i.appendChild(y)
-    elif "image" in t:
-        landscape = t["orientation"] != "portrait" if "orientation" in t else True;
-        img = document.createElement("img")
-        img.setAttribute("src", t["image"])
-        img.setAttribute("width", str(320 if landscape else 180))
-        img.setAttribute("height", str(320 if not landscape else 180))
-
-        img.setAttribute("class", "post-image")
-        a = document.createElement("a")
-        imageId = t["image"].split("/")[-1].split("_")[0]
-        a.setAttribute("href", "https://flickr.com/photos/90938695@N06/%s/in/album-72157716077356826/" % imageId)
-        a.setAttribute("target", "_blank")
-        a.appendChild(img)
-
-        i.appendChild(a)
-
-    body.appendChild(i)
-
-    txt = document.createElement("div")
-    txt.appendChild(document.createTextNode(t["text"]))
-    txt.setAttribute("class", "post-text")
-    td = document.createElement("td")
-    td.appendChild(txt)
-    body.appendChild(td)
-
-    container.appendChild(head)
-    container.appendChild(body)
+    main_page.add_timeline(t)
 
 main_page.add_resize_script()
 main_page.dump()
