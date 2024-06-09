@@ -47,7 +47,7 @@ class TemplateDoc:
 class MainPage(TemplateDoc):
     def __init__(self):
         TemplateDoc.__init__(self, "template.xhtml", "index.html")
-        self.recent = self.document.getElementsByTagName("div")[3]
+        self.recent = self.document.getElementsByTagName("div")[5]
 
     def add_resize_script(self):
         scr = """
@@ -58,14 +58,16 @@ function resize() {
     document.getElementById("tagline").setAttribute("style", "font-size: " + ft + "%");
 
     let lm =  Math.min(62, window.innerWidth / 24.0);
+    let rm = window.innerWidth / 24.0
     const m = (window.innerWidth / 2) - 640;
     if (m > 0) {
         lm += m;
+        rm += m;
     }
     ["recent-contents", "flickr"].forEach(id => {
         document.getElementById(id).setAttribute("style", "margin-left:" + lm + "px;");
     });
-    document.getElementById("links").setAttribute("style", "margin-left:" + min(lm, 600) + "px;");
+    document.getElementById("links").setAttribute("style", "margin-right:" + rm + "px;");
 }
 resize();
 window.onresize = resize;
