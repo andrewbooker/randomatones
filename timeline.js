@@ -1,9 +1,15 @@
 [
     {
+        "when": "2024-06-09",
+        "heading": "Music for rocks",
+        "youtube": "6W2pAlF3pl8",
+        "text": "An edit-together of the <a href=\"#2024-03-17\">Armitage</a> video I shot in the spring. At video number 29, I'm happy that I've managed to come fairly close to getting a good audio recording of the experience, even if visually this one is not always that interesting. With a close-up camera and microphones more-or-less at water level making up the bulk of this feature, I'm quite pleased with the general unpolished honesty of this piece. Water falling from the roof onto the floats sounds more gunshot that drip, and you really get to see just how must time they spend bashing into the sides."
+    },
+    {
         "when": "2024-05-27",
         "heading": "Highams Park Live",
         "youtube": "3FMnYXOUaEg",
-        "text": "A short video documenting a few pre-show minutes of a special Highams Park Live event on Friday 24 May 2024 for which the Randomaones generated ambient music in front of a live audience. I was still trying to put them together two hours before the show, so some of the usual features were missing. But the sound was just right and suited the show perfectly.<br/><br/>I had assumed they would be too quiet for a room full of chattering audience, and took microphones and a small desk to give them, a boost through the PA. In fact the volume was fine, as I discovered at the end of the show, when I left them running while taking the mics down, and didn't really hear the difference."
+        "text": "A short video documenting a few pre-show minutes of a special Highams Park Live event on Friday 24 May 2024 for which the Randomaones generated ambient music in front of a live audience. I was still trying to put them together two hours before the show, so some of the usual features were missing. But the sound was just right and suited the show perfectly.<br/><br/>I had assumed they would be too quiet for a room full of chattering audience, and took microphones and a small desk to give them a boost through the PA. In fact the volume was fine, as I discovered at the end of the show, when I left them running while taking the mics down, and didn't really hear the difference."
     },
     {
         "when": "2024-05-24",
