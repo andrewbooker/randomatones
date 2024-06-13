@@ -14,7 +14,9 @@ class TemplateDoc:
     def __init__(self, template_fn, out_fn):
         self.document = minidom.parse(template_fn)
         self.out_fn = out_fn
-        self.container = self.document.getElementsByTagName("tbody")[0]
+        for n in self.document.getElementsByTagName("*"):
+            if n.hasAttribute("id"):
+                n.setIdAttribute("id")
 
     def _add_yt_to(self, add_to, t):
         yt_id = t["youtube"]
@@ -47,7 +49,8 @@ class TemplateDoc:
 class MainPage(TemplateDoc):
     def __init__(self):
         TemplateDoc.__init__(self, "template.xhtml", "index.html")
-        self.recent = self.document.getElementsByTagName("div")[5]
+        self.container = self.document.getElementsByTagName("tbody")[0]
+        self.recent = self.document.getElementById("recent-contents")
 
     def add_resize_script(self):
         scr = """
@@ -140,15 +143,13 @@ window.onresize = resize;
 class PortfolioPage(TemplateDoc):
     def __init__(self):
         TemplateDoc.__init__(self, "template-portfolio.xhtml", "portfolio.html")
+        self.container = self.document.getElementById("timeline")
 
     def add_timeline(self, t):
-        row = self.document.createElement("tr")
-        i = self.document.createElement("td")
         if "youtube" in t:
-            self._add_yt_to(i, t)
-
-        row.appendChild(i)
-        self.container.appendChild(row)
+            item = self.document.createElement("div")
+            self._add_yt_to(item, t)
+            self.container.appendChild(item)
 
 
 pages = [MainPage(), PortfolioPage()]
