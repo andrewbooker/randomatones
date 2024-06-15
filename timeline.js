@@ -1,5 +1,11 @@
 [
     {
+        "when": "2024-06-15",
+        "heading": "Home video",
+        "image": "https://live.staticflickr.com/65535/53793997999_6d267c2368_b.jpg",
+        "text": "The new standing Randomatones had a gig last month, but without the lighting that has adorned recent Randomatones versions. In fact the LEDs were all there (if you look very carefully in the video you might see them), but I had wired them up incorrectly and they blew instantly. That is to say, one of them did on each machine, but because they were wired in series, nothing worked.<br/><br/> So the first thing I did after getting them home again was to repair the lighting. Today I made a video with both units lit, in the usual red and blue (I should see if other colours are available), and this time with both spinning. As well as replacing the lights, I spent absolutely ages getting to the red unit spin function working very slightly better."
+    },
+    {
         "when": "2024-06-09",
         "heading": "Music for rocks",
         "youtube": "6W2pAlF3pl8",
