@@ -18,11 +18,11 @@ class TemplateDoc:
             if n.hasAttribute("id"):
                 n.setIdAttribute("id")
 
-    def _add_yt_to(self, add_to, t):
+    def _add_yt_to(self, add_to, t, scale):
         yt_id = t["youtube"]
         y = self.document.createElement("iframe")
-        y.setAttribute("width", str(302))
-        y.setAttribute("height", str(198))
+        y.setAttribute("width", str(int(302 * scale)))
+        y.setAttribute("height", str(int(198 * scale)))
         y.setAttribute("allowfullscreen", "true")
         y.setAttribute("class", "post-yt")
         y.setAttribute("src", f"https://www.youtube.com/embed/{yt_id}?{randint(100000, 999999)}")
@@ -110,7 +110,7 @@ window.onresize = resize;
 
         i = self.document.createElement("td")
         if "youtube" in t:
-            self._add_yt_to(i, t)
+            self._add_yt_to(i, t, 1.0)
         elif "image" in t:
             landscape = t["orientation"] != "portrait" if "orientation" in t else True;
             img = self.document.createElement("img")
@@ -148,7 +148,7 @@ class PortfolioPage(TemplateDoc):
     def add_timeline(self, t):
         if "youtube" in t:
             item = self.document.createElement("div")
-            self._add_yt_to(item, t)
+            self._add_yt_to(item, t, 1.3)
             self.container.appendChild(item)
 
 
