@@ -24,7 +24,7 @@ class TemplateDoc:
         y.setAttribute("width", str(int(302 * scale)))
         y.setAttribute("height", str(int(198 * scale)))
         y.setAttribute("allowfullscreen", "true")
-        y.setAttribute("class", "post-yt")
+        y.setAttribute("class", "iframe-yt")
         y.setAttribute("src", f"https://www.youtube.com/embed/{yt_id}?{randint(100000, 999999)}")
         y.appendChild(self.document.createTextNode(""))
         add_to.appendChild(y)
@@ -49,7 +49,7 @@ class TemplateDoc:
 class MainPage(TemplateDoc):
     def __init__(self):
         TemplateDoc.__init__(self, "template.xhtml", "index.html")
-        self.container = self.document.getElementsByTagName("tbody")[0]
+        self.container = self.document.getElementById("content")
         self.recent = self.document.getElementById("recent-contents")
 
     def add_resize_script(self):
@@ -71,6 +71,17 @@ function resize() {
         document.getElementById(id).setAttribute("style", "margin-left:" + lm + "px;");
     });
     document.getElementById("links").setAttribute("style", "margin-right:" + rm + "px;");
+    const pxRatio = Math.max(1.0, window.devicePixelRatio * 0.7);
+    console.log(pxRatio + " " + window.innerWidth);
+    Array.from(document.getElementsByClassName("when")).forEach(t => {
+        t.setAttribute("style", "font-size: " + (150 * pxRatio) + "%");
+    });
+    Array.from(document.getElementsByClassName("post-heading")).forEach(t => {
+        t.setAttribute("style", "font-size: " + (150 * pxRatio) + "%");
+    });
+    Array.from(document.getElementsByClassName("post-text")).forEach(t => {
+        t.setAttribute("style", "font-size: " + (100 * pxRatio) + "%");
+    });
 }
 resize();
 window.onresize = resize;
@@ -89,28 +100,34 @@ window.onresize = resize;
             d.appendChild(a)
             self.recent.appendChild(d)
 
-        head = self.document.createElement("tr")
-        body = self.document.createElement("tr")
-        body.setAttribute("style", "vertical-align: top;")
+        row = self.document.createElement("div")
+        row.setAttribute("class", "content-item")
+        head = self.document.createElement("div")
+        head.setAttribute("class", "content-header")
+        body = self.document.createElement("div")
+        body.setAttribute("class", "content-main")
 
         w = datetime.datetime.strptime(t["when"], "%Y-%m-%d").strftime('%d %b %Y')
         whenAnchor = self.document.createElement("a")
-        when = self.document.createElement("td")
-
         whenAnchor.appendChild(self.document.createTextNode(w))
+
+        when = self.document.createElement("div")
         when.setAttribute("class", "when")
         whenAnchor.setAttribute("id", t["when"])
         when.appendChild(whenAnchor)
 
-        h = self.document.createElement("td")
+        h = self.document.createElement("div")
         h.setAttribute("class", "post-heading")
         h.appendChild(self.document.createTextNode(t["heading"]))
         head.appendChild(when)
         head.appendChild(h)
 
-        i = self.document.createElement("td")
+        i = self.document.createElement("div")
+        
         if "youtube" in t:
             self._add_yt_to(i, t, 1.0)
+            i.setAttribute("class", "post-image")
+
         elif "image" in t:
             landscape = t["orientation"] != "portrait" if "orientation" in t else True;
             img = self.document.createElement("img")
@@ -118,13 +135,13 @@ window.onresize = resize;
             img.setAttribute("width", str(320 if landscape else 180))
             img.setAttribute("height", str(320 if not landscape else 180))
 
-            img.setAttribute("class", "post-image")
             a = self.document.createElement("a")
             imageId = t["image"].split("/")[-1].split("_")[0]
             a.setAttribute("href", "https://flickr.com/photos/90938695@N06/%s/in/album-72157716077356826/" % imageId)
             a.setAttribute("target", "_blank")
             a.appendChild(img)
 
+            i.setAttribute("class", "post-image")
             i.appendChild(a)
 
         body.appendChild(i)
@@ -132,12 +149,11 @@ window.onresize = resize;
         txt = self.document.createElement("div")
         txt.appendChild(self.document.createTextNode(t["text"]))
         txt.setAttribute("class", "post-text")
-        td = self.document.createElement("td")
-        td.appendChild(txt)
-        body.appendChild(td)
+        body.appendChild(txt)
 
-        self.container.appendChild(head)
-        self.container.appendChild(body)
+        row.appendChild(head)
+        row.appendChild(body)
+        self.container.appendChild(row)
 
 
 class PortfolioPage(TemplateDoc):
@@ -148,6 +164,7 @@ class PortfolioPage(TemplateDoc):
     def add_timeline(self, t):
         if "youtube" in t:
             item = self.document.createElement("div")
+            item.setAttribute("class", "post-yt")
             self._add_yt_to(item, t, 1.3)
             self.container.appendChild(item)
 
