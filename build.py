@@ -177,7 +177,7 @@ class PortfolioPage(TemplateDoc):
 
 class AboutPage(TemplateDoc):
     def __init__(self):
-        TemplateDoc.__init__(self, "about.xhtml", "about.html")
+        TemplateDoc.__init__(self, "template-about.xhtml", "about.html")
         self.container = self.document.getElementById("content")
         self.recent = None
 
