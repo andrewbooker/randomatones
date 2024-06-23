@@ -6,9 +6,6 @@ import datetime
 import sys
 from random import randint
 
-tl = open("timeline.js", "r")
-timeline = json.load(tl)
-tl.close()
 
 class TemplateDoc:
     def __init__(self, template_fn, out_fn):
@@ -33,6 +30,9 @@ class TemplateDoc:
         pass
 
     def add_timeline(self, t):
+        pass
+
+    def add_about(self, t):
         pass
 
     def dump(self):
@@ -72,7 +72,6 @@ function resize() {
     });
     document.getElementById("links").setAttribute("style", "margin-right:" + rm + "px;");
     const pxRatio = Math.max(1.0, window.devicePixelRatio * 0.7);
-    console.log(pxRatio + " " + window.innerWidth);
     Array.from(document.getElementsByClassName("when")).forEach(t => {
         t.setAttribute("style", "font-size: " + (150 * pxRatio) + "%");
     });
@@ -91,7 +90,7 @@ window.onresize = resize;
         script.appendChild(self.document.createTextNode(scr))
 
     def add_timeline(self, t):
-        if len(self.recent.childNodes) < 5:
+        if self.recent is not None and len(self.recent.childNodes) < 5:
             d = self.document.createElement("div")
             a = self.document.createElement("a")
             a.setAttribute("href", "#%s" % t["when"])
@@ -106,19 +105,22 @@ window.onresize = resize;
         head.setAttribute("class", "content-header")
         body = self.document.createElement("div")
         body.setAttribute("class", "content-main")
-
-        w = datetime.datetime.strptime(t["when"], "%Y-%m-%d").strftime('%d %b %Y')
-        whenAnchor = self.document.createElement("a")
-        whenAnchor.appendChild(self.document.createTextNode(w))
-
-        when = self.document.createElement("div")
-        when.setAttribute("class", "when")
-        whenAnchor.setAttribute("id", t["when"])
-        when.appendChild(whenAnchor)
-
+        
         h = self.document.createElement("div")
         h.setAttribute("class", "post-heading")
         h.appendChild(self.document.createTextNode(t["heading"]))
+
+        when = self.document.createElement("div")
+        when.setAttribute("class", "when")
+        if "when" in t:
+            w = datetime.datetime.strptime(t["when"], "%Y-%m-%d").strftime('%d %b %Y')
+            whenAnchor = self.document.createElement("a")
+            whenAnchor.appendChild(self.document.createTextNode(w))
+            whenAnchor.setAttribute("id", t["when"])
+            when.appendChild(whenAnchor)
+        else:
+            when.appendChild(self.document.createTextNode(""))
+
         head.appendChild(when)
         head.appendChild(h)
 
@@ -168,14 +170,59 @@ class PortfolioPage(TemplateDoc):
             self._add_yt_to(item, t, 1.3)
             self.container.appendChild(item)
 
+    def add_resize_script(self):
+        pass
 
-pages = [MainPage(), PortfolioPage()]
 
-for t in timeline:
-    for p in pages:
-        p.add_timeline(t)
+class AboutPage(TemplateDoc):
+    def __init__(self):
+        TemplateDoc.__init__(self, "about.xhtml", "about.html")
+        self.container = self.document.getElementById("content")
+        self.recent = None
 
-pages[0].add_resize_script()
+    def add_about(self, t):
+        MainPage.add_timeline(self, t)
+
+    def add_resize_script(self):
+        scr = """
+function resize() {
+    let rm = window.innerWidth / 24.0
+    const m = (window.innerWidth / 2) - 640;
+    if (m > 0) {
+        rm += m;
+    }
+
+    document.getElementById("links").setAttribute("style", "margin-right:" + rm + "px;");
+    const pxRatio = Math.max(1.0, window.devicePixelRatio * 0.7);
+    Array.from(document.getElementsByClassName("when")).forEach(t => {
+        t.setAttribute("style", "font-size: " + (150 * pxRatio) + "%");
+    });
+    Array.from(document.getElementsByClassName("post-heading")).forEach(t => {
+        t.setAttribute("style", "font-size: " + (150 * pxRatio) + "%");
+    });
+    Array.from(document.getElementsByClassName("post-text")).forEach(t => {
+        t.setAttribute("style", "font-size: " + (100 * pxRatio) + "%");
+    });
+}
+resize();
+window.onresize = resize;
+"""
+        script = self.document.getElementsByTagName("script")[0]
+        script.appendChild(self.document.createTextNode(scr))
+
+
+pages = [MainPage(), PortfolioPage(), AboutPage()]
+
+for i in ["timeline", "about"]:
+    jf = open(f"{i}.js", "r")
+    jfc = json.load(jf)
+    jf.close()
+
+    for j in jfc:
+        for p in pages:
+            getattr(p, f"add_{i}")(j)
+
 for p in pages:
+    p.add_resize_script()
     p.dump()
 
