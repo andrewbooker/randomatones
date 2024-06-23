@@ -43,8 +43,12 @@
             }
             #links {
                 display: flex;
-                justify-content: flex-end;
+                justify-content: space-between;
+            }
+            .link-item {
+                display: flex;
                 align-items: center;
+                color: white;
             }
             .link {
                 margin-left: 20px;
@@ -130,34 +134,73 @@
     <div id="links">
       
             
-      <div class="link">
+      <div class="link-item">
         
                 
-        <a target="_blank" href="https://www.youtube.com/@Randomatones">
-          <img src="./logo-youtube.svg"/>
-        </a>
+        <div class="link">
+          
+                    
+          <a href="./index.html">Home</a>
+          
+                
+        </div>
+        
+                
+        <div class="link">
+          
+                    
+          <strong>About</strong>
+          
+                
+        </div>
+        
+                
+        <div class="link">
+          
+                    
+          <a href="./portfolio.html">Video portfolio</a>
+          
+                
+        </div>
         
             
       </div>
       
             
-      <div class="link">
+      <div class="link-item">
         
                 
-        <a target="_blank" href="https://www.facebook.com/andrew.booker.73">
-          <img src="./logo-facebook.svg"/>
-        </a>
-        
-            
-      </div>
-      
-            
-      <div class="link">
+        <div class="link">
+          
+                    
+          <a target="_blank" href="https://www.youtube.com/@Randomatones">
+            <img src="./logo-youtube.svg"/>
+          </a>
+          
+                
+        </div>
         
                 
-        <a target="_blank" href="https://andrewbooker.bandcamp.com/album/randomatones-volume-one">
-          <img src="./logo-bandcamp.png" width="50" height="50"/>
-        </a>
+        <div class="link">
+          
+                    
+          <a target="_blank" href="https://www.facebook.com/andrew.booker.73">
+            <img src="./logo-facebook.svg"/>
+          </a>
+          
+                
+        </div>
+        
+                
+        <div class="link">
+          
+                    
+          <a target="_blank" href="https://andrewbooker.bandcamp.com/album/randomatones-volume-one">
+            <img src="./logo-bandcamp.png" width="50" height="50"/>
+          </a>
+          
+                
+        </div>
         
             
       </div>
@@ -205,13 +248,15 @@
 		
       
 function resize() {
+    let lm =  Math.min(62, window.innerWidth / 24.0);
     let rm = window.innerWidth / 24.0
     const m = (window.innerWidth / 2) - 640;
     if (m > 0) {
+        lm += m;
         rm += m;
     }
 
-    document.getElementById("links").setAttribute("style", "margin-right:" + rm + "px;");
+    document.getElementById("links").setAttribute("style", "margin-right:" + rm + "px; margin-left:" + lm + "px;");
     const pxRatio = Math.max(1.0, window.devicePixelRatio * 0.7);
     Array.from(document.getElementsByClassName("when")).forEach(t => {
         t.setAttribute("style", "font-size: " + (150 * pxRatio) + "%");

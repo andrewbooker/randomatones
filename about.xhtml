@@ -21,8 +21,12 @@
             }
             #links {
                 display: flex;
-                justify-content: flex-end;
+                justify-content: space-between;
+            }
+            .link-item {
+                display: flex;
                 align-items: center;
+                color: white;
             }
             .link {
                 margin-left: 20px;
@@ -98,14 +102,27 @@
     <body>
         <div id="heading">About Randomatones</div>
         <div id="links">
-            <div class="link">
-                <a target="_blank" href="https://www.youtube.com/@Randomatones"><img src="./logo-youtube.svg"/></a>
+            <div class="link-item">
+                <div class="link">
+                    <a href="./index.html">Home</a>
+                </div>
+                <div class="link">
+                    <strong>About</strong>
+                </div>
+                <div class="link">
+                    <a href="./portfolio.html">Video portfolio</a>
+                </div>
             </div>
-            <div class="link">
-                <a target="_blank" href="https://www.facebook.com/andrew.booker.73"><img src="./logo-facebook.svg"/></a>
-            </div>
-            <div class="link">
-                <a target="_blank" href="https://andrewbooker.bandcamp.com/album/randomatones-volume-one"><img src="./logo-bandcamp.png" width="50" height="50"/></a>
+            <div class="link-item">
+                <div class="link">
+                    <a target="_blank" href="https://www.youtube.com/@Randomatones"><img src="./logo-youtube.svg"/></a>
+                </div>
+                <div class="link">
+                    <a target="_blank" href="https://www.facebook.com/andrew.booker.73"><img src="./logo-facebook.svg"/></a>
+                </div>
+                <div class="link">
+                    <a target="_blank" href="https://andrewbooker.bandcamp.com/album/randomatones-volume-one"><img src="./logo-bandcamp.png" width="50" height="50"/></a>
+                </div>
             </div>
         </div>
         <div id="content">

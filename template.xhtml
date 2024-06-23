@@ -27,9 +27,12 @@
             }
             #links {
                 display: flex;
-                justify-content: flex-end;
-                align-items: center;
+                justify-content: space-between;
                 transform: translate(0%, -920px);
+            }
+            .link-item {
+                display: flex;
+                align-items: center;
             }
             .link {
                 margin-left: 20px;
@@ -122,14 +125,24 @@
         <img src="https://live.staticflickr.com/65535/50386149742_676acfbb6b_h.jpg" width="1280" height="720" />
         <div id="heading">Randomatones</div>
         <div id="links">
-            <div class="link">
-                <a target="_blank" href="https://www.youtube.com/@Randomatones"><img src="./logo-youtube.svg"/></a>
+            <div class="link-item">
+                <div class="link">
+                    <a href="./about.html">About</a>
+                </div>
+                <div class="link">
+                    <a href="./portfolio.html">Video portfolio</a>
+                </div>
             </div>
-            <div class="link">
-                <a target="_blank" href="https://www.facebook.com/andrew.booker.73"><img src="./logo-facebook.svg"/></a>
-            </div>
-            <div class="link">
-                <a target="_blank" href="https://andrewbooker.bandcamp.com/album/randomatones-volume-one"><img src="./logo-bandcamp.png" width="50" height="50"/></a>
+            <div class="link-item">
+                <div class="link">
+                    <a target="_blank" href="https://www.youtube.com/@Randomatones"><img src="./logo-youtube.svg"/></a>
+                </div>
+                <div class="link">
+                    <a target="_blank" href="https://www.facebook.com/andrew.booker.73"><img src="./logo-facebook.svg"/></a>
+                </div>
+                <div class="link">
+                    <a target="_blank" href="https://andrewbooker.bandcamp.com/album/randomatones-volume-one"><img src="./logo-bandcamp.png" width="50" height="50"/></a>
+                </div>
             </div>
         </div>
         <div id="tagline"><span style="letter-spacing: 31px;">Generative sonic art</span></div>

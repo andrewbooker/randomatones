@@ -70,7 +70,7 @@ function resize() {
     ["recent-contents", "flickr"].forEach(id => {
         document.getElementById(id).setAttribute("style", "margin-left:" + lm + "px;");
     });
-    document.getElementById("links").setAttribute("style", "margin-right:" + rm + "px;");
+    document.getElementById("links").setAttribute("style", "margin-right:" + rm + "px; margin-left:" + lm + "px;");
     const pxRatio = Math.max(1.0, window.devicePixelRatio * 0.7);
     Array.from(document.getElementsByClassName("when")).forEach(t => {
         t.setAttribute("style", "font-size: " + (150 * pxRatio) + "%");
@@ -134,7 +134,8 @@ window.onresize = resize;
             landscape = t["orientation"] != "portrait" if "orientation" in t else True;
             img = self.document.createElement("img")
             img.setAttribute("src", t["image"])
-            img.setAttribute("width", str(320 if landscape else 180))
+            img.setAttribute("width", str(320
+ if landscape else 180))
             img.setAttribute("height", str(320 if not landscape else 180))
 
             a = self.document.createElement("a")
@@ -186,13 +187,15 @@ class AboutPage(TemplateDoc):
     def add_resize_script(self):
         scr = """
 function resize() {
+    let lm =  Math.min(62, window.innerWidth / 24.0);
     let rm = window.innerWidth / 24.0
     const m = (window.innerWidth / 2) - 640;
     if (m > 0) {
+        lm += m;
         rm += m;
     }
 
-    document.getElementById("links").setAttribute("style", "margin-right:" + rm + "px;");
+    document.getElementById("links").setAttribute("style", "margin-right:" + rm + "px; margin-left:" + lm + "px;");
     const pxRatio = Math.max(1.0, window.devicePixelRatio * 0.7);
     Array.from(document.getElementsByClassName("when")).forEach(t => {
         t.setAttribute("style", "font-size: " + (150 * pxRatio) + "%");
