@@ -187,11 +187,10 @@ class AboutPage(TemplateDoc):
     def add_resize_script(self):
         scr = """
 function resize() {
-    let lm =  Math.min(62, window.innerWidth / 24.0);
+    let lm =  Math.max(10, (window.innerWidth * 0.3) - (302 + (18 * 2)));
     let rm = window.innerWidth / 24.0
     const m = (window.innerWidth / 2) - 640;
     if (m > 0) {
-        lm += m;
         rm += m;
     }
 
