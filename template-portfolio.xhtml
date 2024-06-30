@@ -12,18 +12,24 @@
         <link rel="icon" type="image/png" href="./favicon.png"/>
         <style>
             body {
-                margin: 0;
+                margin: 20px 0 0 0;
                 padding: 0;
                 background-color: rgb(37,31,28);
                 font-family: Arial;
                 position: relative;
                 text-align: center;
             }
-            #heading {
-                margin: 20px;
-                font-weight: Bold;
-                color: rgb(221,234,234);
-                font-size: 130%;
+            #links {
+                display: flex;
+                justify-content: space-between;
+            }
+            .link-item {
+                display: flex;
+                align-items: center;
+                color: white;
+            }
+            .link {
+                margin-left: 20px;
             }
             #content {
                 margin: 20px;
@@ -43,15 +49,36 @@
         </style>
     </head>
     <body>
-        <div id="heading">Randomatones Portfolio</div>
         <div id="links">
-            <a href="./index.html">Home</a>
-        </div>
-        <div id="links">
-            <a href="./about.html">About</a>
+            <div class="link-item">
+                <div class="link">
+                    <a href="./index.html">Home</a>
+                </div>
+                <div class="link">
+                   <a href="./about.html">About</a>
+                </div>
+                <div class="link">
+                    <h2>Video portfolio</h2>
+                </div>
+                <div class="link">
+                    <a href="./generations.html">The many generations of Randomatones</a>
+                </div>
+            </div>
+            <div class="link-item">
+                <div class="link">
+                    <a target="_blank" href="https://www.youtube.com/@Randomatones"><img src="./logo-youtube.svg"/></a>
+                </div>
+                <div class="link">
+                    <a target="_blank" href="https://www.facebook.com/andrew.booker.73"><img src="./logo-facebook.svg"/></a>
+                </div>
+                <div class="link">
+                    <a target="_blank" href="https://andrewbooker.bandcamp.com/album/randomatones-volume-one"><img src="./logo-bandcamp.png" width="50" height="50"/></a>
+                </div>
+            </div>
         </div>
         <div id="content">
             <div id="timeline"/>
         </div>
+        <script></script>
     </body>
 </html>
