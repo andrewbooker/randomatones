@@ -35,6 +35,9 @@ class TemplateDoc:
     def add_about(self, t):
         pass
 
+    def add_generations(self, t):
+        pass
+
     def dump(self):
         page = self.document.documentElement.toprettyxml(indent="  ", encoding=None)
         page = page.replace("&quot;","\"")
@@ -213,9 +216,47 @@ window.onresize = resize;
         script.appendChild(self.document.createTextNode(scr))
 
 
-pages = [MainPage(), PortfolioPage(), AboutPage()]
+class GenerationPage(TemplateDoc):
+    def __init__(self):
+        TemplateDoc.__init__(self, "template-generations.xhtml", "generations.html")
+        self.container = self.document.getElementById("content")
+        self.recent = None
 
-for i in ["timeline", "about"]:
+    def add_generations(self, t):
+        MainPage.add_timeline(self, t)
+
+    def add_resize_script(self):
+        scr = """
+function resize() {
+    let lm =  Math.max(10, (window.innerWidth * 0.3) - (302 + (18 * 2)));
+    let rm = window.innerWidth / 24.0
+    const m = (window.innerWidth / 2) - 640;
+    if (m > 0) {
+        rm += m;
+    }
+
+    document.getElementById("links").setAttribute("style", "margin-right:" + rm + "px; margin-left:" + lm + "px;");
+    const pxRatio = Math.max(1.0, window.devicePixelRatio * 0.7);
+    Array.from(document.getElementsByClassName("when")).forEach(t => {
+        t.setAttribute("style", "font-size: " + (150 * pxRatio) + "%");
+    });
+    Array.from(document.getElementsByClassName("post-heading")).forEach(t => {
+        t.setAttribute("style", "font-size: " + (150 * pxRatio) + "%");
+    });
+    Array.from(document.getElementsByClassName("post-text")).forEach(t => {
+        t.setAttribute("style", "font-size: " + (100 * pxRatio) + "%");
+    });
+}
+resize();
+window.onresize = resize;
+"""
+        script = self.document.getElementsByTagName("script")[0]
+        script.appendChild(self.document.createTextNode(scr))
+
+
+pages = [MainPage(), PortfolioPage(), AboutPage(), GenerationPage()]
+
+for i in ["timeline", "about", "generations"]:
     jf = open(f"{i}.js", "r")
     jfc = json.load(jf)
     jf.close()
