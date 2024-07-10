@@ -2,7 +2,7 @@
     {
         "heading": "About Andrew Booker",
         "image": "https://live.staticflickr.com/65535/53656446151_de8cb2f22d_b.jpg",
-        "text": "Andrew Booker is a software developer and busy amateur musician. Over the last two decades he has appeared with prog/art rock acts such as No-man, Tim Bowness, Sanguine Hum, Rain and Beatrix Players, as a drummer. At the same time he has nurtured a parallel interest in ambient music. From 2007-2010 he ran <a target=\"_blank\" href=\"http://improvizone.org/\">Improvizone</a>, a semi-regular London-based evening of ambient electronic chillout music. Improvizone has occasionally resurfaced since then, and for an appearance in 2019 he put together a software-based randomising sample player that required no free hands to play it. He later developed this idea into the Randomatones, which have been his main artistic activity since 2020."
+        "text": "Andrew Booker is a software developer and busy amateur musician. Over the past two decades he has appeared as a drummer with prog/art rock acts such as No-man, Tim Bowness, Sanguine Hum, Rain and Beatrix Players. More recently he has nurtured a parallel interest in ambient music. From 2007-2010 he ran <a target=\"_blank\" href=\"http://improvizone.org/\">Improvizone</a>, a semi-regular London-based evening of ambient electronic chillout music. Improvizone has occasionally resurfaced since then, and for an appearance in 2019 he put together a software-based randomising sample player that required no free hands to play it. He later developed this idea into the Randomatones, which have been his main artistic activity since 2020."
     },
     {
         "heading": "About Randomatones",
