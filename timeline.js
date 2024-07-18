@@ -1,5 +1,11 @@
 [
     {
+        "when": "2024-07-18",
+        "heading": "Cwmbran Canal Tunnel",
+        "youtube": "C7SRY2J_L6c",
+        "text": "Videoed over three months ago, this was probably the last floating video for a while, as I'm concentrating on indoor versions for now, that don't need quiet enclosed watery spaces such as this fabulous tunnel on the Monmouthshire and Brecon Canal in Wales. Took some finding on the map, for a start. On this peaceful spring day, too early for boaters to be passing up and down (though I did see a pair of kayakers pass through), this was an excellent location. I didn't notice at the time, but can hear in the recordings now, that it was an acoustic reinforcing chamber for birdsong, even in the middle of the tunnel."
+    },
+    {
         "when": "2024-06-15",
         "heading": "Home video",
         "image": "https://live.staticflickr.com/65535/53793997999_6d267c2368_b.jpg",
