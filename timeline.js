@@ -1,9 +1,9 @@
 [
     {
         "when": "2024-07-30",
-        "heading": "gig at the Heart Of Noise",
+        "heading": "Gig at the Heart Of Noise",
         "image": "https://live.staticflickr.com/65535/53900026427_d2445960ba_b.jpg",
-        "text": "The Randomatones at their second \"gig\", at the fifth <a target=\"_blank\" href=\"https://heartofnoisecambridge.wordpress.com/\">Heart Of Noise</a> evening in Cambridge, featuring <a target=\"_blank\" href=\"http://improvizone.org\">Improvizone</a>, which was my old improvising thing 15 or so years ago (and has occasionally resurfaced since). Again the Randomatones provided pre-show ambient music sounds, and not insignificant lighting throughout the whole evening."
+        "text": "The Randomatones at their second \"gig\", at the fifth <a target=\"_blank\" href=\"https://heartofnoisecambridge.wordpress.com/\">Heart Of Noise</a> evening in Cambridge, featuring <a target=\"_blank\" href=\"http://improvizone.org\">Improvizone</a>, which was my old London-based improvising group 15 or so years ago (and has occasionally resurfaced since). Again the Randomatones provided pre-show ambient music sounds, and not insignificant lighting throughout the whole evening."
     },
     {
         "when": "2024-07-18",
