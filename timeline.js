@@ -1,9 +1,15 @@
 [
     {
+        "when": "2024-08-11",
+        "heading": "Home demo",
+        "youtube": "-Iec5qIazRc",
+        "text": "The video I made a couple of months ago in practice for their appearance at a gig in Cambridge at the end of July. The audio is a blend of the real-life sound in the room, which has lots of bearing joint noise as the motors spin the units. When I was mixing the soundtrack, I was struck by the difference between the direct digital audio from the devices and the room sound as heard through the speakers. Whole parts that are apparent in the digital version seem inaudible in the room recording. I'm not sure I care that much. I deliberately chose plastic horn speakers to convey a kind of disembodied, other-worldly remoteness. I was hoping the cone speakers would compensate, as the standard ones seem to on the floating units, but these mylar speakers (borrowed from some newer more water-resistant floating units I started making) might not be helping."
+    },
+    {
         "when": "2024-07-30",
         "heading": "Gig at the Heart Of Noise",
         "image": "https://live.staticflickr.com/65535/53900026427_d2445960ba_b.jpg",
-        "text": "The Randomatones at their second \"gig\", at the fifth <a target=\"_blank\" href=\"https://heartofnoisecambridge.wordpress.com/\">Heart Of Noise</a> evening in Cambridge, featuring <a target=\"_blank\" href=\"http://improvizone.org\">Improvizone</a>, which was my old London-based improvising group 15 or so years ago (and has occasionally resurfaced since). Again the Randomatones provided pre-show ambient music sounds, and not insignificant lighting throughout the whole evening."
+        "text": "The Randomatones at their second \"gig\", at the fifth <a target=\"_blank\" href=\"https://heartofnoisecambridge.wordpress.com/\">Heart Of Noise</a> evening in Cambridge, featuring <a target=\"_blank\" href=\"http://improvizone.org\">Improvizone</a>, which was my old London-based improvising group 15 or so years ago, and has occasionally resurfaced since. Again the Randomatones provided pre-show ambient music sounds, and not insignificant lighting throughout the whole evening."
     },
     {
         "when": "2024-07-18",
