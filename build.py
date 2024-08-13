@@ -197,10 +197,17 @@ class PortfolioPage(TemplateDoc):
             ("-Iec5qIazRc", "53795241949_051ecc1248")
         ]
         self.omit_items = set()
-        
-        for y, f in self.postcard_items:
-            item = self.document.createElement("div")
+
+        item = None
+        for i in range(0, 4):            
             a = self.document.createElement("a")
+            y, f = self.postcard_items[i]
+            if item is None or i % 2 == 0:
+                item = self.document.createElement("div")
+                item.setAttribute("class", "postcard-row")
+                self.postcard.appendChild(item)
+            
+            item.appendChild(a)
             a.setAttribute("href", f"https://www.youtube.com/watch?v={y}")
             img = self.document.createElement("img")
             img.setAttribute("src", f"https://live.staticflickr.com/65535/{f}_b.jpg")
@@ -208,7 +215,6 @@ class PortfolioPage(TemplateDoc):
             img.setAttribute("height", "270")
             img.setAttribute("class", "postcard-img")
             a.appendChild(img)
-            self.postcard.appendChild(a)
 
     def add_timeline(self, t):
         if "youtube" in t:
