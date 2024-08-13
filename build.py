@@ -15,8 +15,7 @@ class TemplateDoc:
             if n.hasAttribute("id"):
                 n.setIdAttribute("id")
 
-    def _add_yt_to(self, add_to, t, scale):
-        yt_id = t["youtube"]
+    def _add_yt_to(self, add_to, yt_id, scale):
         y = self.document.createElement("iframe")
         y.setAttribute("width", str(int(302 * scale)))
         y.setAttribute("height", str(int(198 * scale)))
@@ -155,7 +154,7 @@ window.onresize = resize;
         i = self.document.createElement("div")
         
         if "youtube" in t:
-            self._add_yt_to(i, t, 1.0)
+            self._add_yt_to(i, t["youtube"], 1.0)
             i.setAttribute("class", "post-image")
 
         elif "image" in t:
@@ -190,13 +189,35 @@ class PortfolioPage(TemplateDoc):
     def __init__(self):
         TemplateDoc.__init__(self, "template-portfolio.xhtml", "portfolio.html")
         self.container = self.document.getElementById("timeline")
+        self.postcard = self.document.getElementById("postcard")
+        self.postcard_items = [
+            ("C7SRY2J_L6c", "53795150323_693d6768b7"),
+            ("PmSZrsthFks", "53795241979_b0e61dd7f7"),
+            ("k2WSEi149CM", "53794930691_7fe02bc0dc"),
+            ("-Iec5qIazRc", "53795241949_051ecc1248")
+        ]
+        self.omit_items = set()
+        
+        for y, f in self.postcard_items:
+            item = self.document.createElement("div")
+            a = self.document.createElement("a")
+            a.setAttribute("href", f"https://www.youtube.com/watch?v={y}")
+            img = self.document.createElement("img")
+            img.setAttribute("src", f"https://live.staticflickr.com/65535/{f}_b.jpg")
+            img.setAttribute("width", "480")
+            img.setAttribute("height", "270")
+            img.setAttribute("class", "postcard-img")
+            a.appendChild(img)
+            self.postcard.appendChild(a)
 
     def add_timeline(self, t):
         if "youtube" in t:
-            item = self.document.createElement("div")
-            item.setAttribute("class", "post-yt")
-            self._add_yt_to(item, t, 1.3)
-            self.container.appendChild(item)
+            y = t["youtube"]
+            if y not in {i for i, _ in self.postcard_items}:
+                item = self.document.createElement("div")
+                item.setAttribute("class", "post-yt")
+                self._add_yt_to(item, t["youtube"], 1.3)
+                self.container.appendChild(item)
 
 
 class AboutPage(TemplateDoc):
