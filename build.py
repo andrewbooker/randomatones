@@ -196,7 +196,16 @@ class PortfolioPage(TemplateDoc):
             ("k2WSEi149CM", "53794930691_7fe02bc0dc"),
             ("-Iec5qIazRc", "53795241949_051ecc1248")
         ]
-        self.omit_items = set()
+        self.omit_items = {
+            "eIS7tWrvk-c",   #pumpkin
+            "6W2pAlF3pl8",   #armitage,
+            "2xTeApzjrQM",   #mcr2
+            "7F-Sw6fVl0I",   #mcr1
+            "jL1AqcHteug",   #apperton
+            "Ijo-B0MvH2w",   #mimmshall
+            "hvtv9qaenxo",   #bow flyover
+            "RBprgrceOII"    #curzon
+        }
 
         item = None
         for i in range(0, 4):            
@@ -208,7 +217,7 @@ class PortfolioPage(TemplateDoc):
                 self.postcard.appendChild(item)
             
             item.appendChild(a)
-            a.setAttribute("href", f"https://www.youtube.com/watch?v={y}")
+            a.setAttribute("href", f"{y}")
             img = self.document.createElement("img")
             img.setAttribute("src", f"https://live.staticflickr.com/65535/{f}_b.jpg")
             img.setAttribute("width", "480")
@@ -219,7 +228,7 @@ class PortfolioPage(TemplateDoc):
     def add_timeline(self, t):
         if "youtube" in t:
             y = t["youtube"]
-            if y not in {i for i, _ in self.postcard_items}:
+            if y not in {i for i, _ in self.postcard_items} and y not in self.omit_items:
                 item = self.document.createElement("div")
                 item.setAttribute("class", "post-yt")
                 self._add_yt_to(item, t["youtube"], 1.3)
