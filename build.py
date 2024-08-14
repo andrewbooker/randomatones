@@ -217,7 +217,8 @@ class PortfolioPage(TemplateDoc):
                 self.postcard.appendChild(item)
             
             item.appendChild(a)
-            a.setAttribute("href", f"{y}")
+            a.setAttribute("href", f"https://www.youtube.com/watch?v={y}")
+            a.setAttribute("target", "_blank")
             img = self.document.createElement("img")
             img.setAttribute("src", f"https://live.staticflickr.com/65535/{f}_b.jpg")
             img.setAttribute("width", "480")
