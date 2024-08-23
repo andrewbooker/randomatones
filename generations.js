@@ -39,5 +39,10 @@
         "image": "https://live.staticflickr.com/65535/53826001551_a3cd4b6e2a_b.jpg",
         "orientation": "portrait",
         "text": "After many location shoots in deserted tunnels or other generally obscure places, I felt it was time to bring the Randomatones to an audience, and revisit an intial idea of exhibiting them somehow. I had an offer to use them as part of a show in nearby Highams Park, and within a few days had a separate offer for an experimental music evening in Cambridge with my old Improvizone friends, and used these as a driver to build new standing units. I wanted the rotation capability still, so I put together a couple of turntable-like setups using some lazy-suzan bearing joints and the low RPM motors reclaimed from the original spinning units. The bearing joints are noisy and unreliable, either coming loose or seizing entirely, but essentially work.<br/><br/>I was in the middle of building new smaller floating units, with different speaker setups, comprising pairs of the small horns I used for the original spinning units, plus some new waterproof cone speakers purchased especially after my experiences in canal tunnels. I added some bright new LEDs (immediately blowing a couple after wiring them incorrectly) and some opaque cylinders intended to bring some directionality to the cone speakers, but that actually make very good lampshade-like baffles for the LEDs."
+    },
+    {
+        "heading": "Third generation floating",
+        "image": "https://live.staticflickr.com/65535/53940136669_5896388a0f_b.jpg",
+        "text": "Currently as far as I've got with two new floating units. The idea is these will be smaller and lighter, using lithium-ion batteries instead of the heavier lead-acid types, and will both fit in my cajon bag which I can carry on my back."
     }
 ]
