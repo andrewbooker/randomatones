@@ -1,5 +1,11 @@
 [
     {
+        "when": "2024-08-23",
+        "heading": "Heart Of Noise 5",
+        "youtube": "sFGq1ZAaaPE",
+        "text": "Short video of the Randomatones providing pre-show sounds as people wandered in before <a target=\"_blank\" href=\"http://improvizone.org\">Improvizone</a> took to the stage."
+    },
+    {
         "when": "2024-08-22",
         "heading": "Chassis for new floating units",
         "image": "https://live.staticflickr.com/65535/53940136669_5896388a0f_b.jpg",
