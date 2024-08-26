@@ -1,5 +1,11 @@
 [
     {
+        "when": "2024-08-26",
+        "heading": "Speakers and LEDs on new floating units",
+        "image": "https://live.staticflickr.com/65535/53950684160_9cb0b375e7_b.jpg",
+        "text": "The new floating units are now a bit closer to being ready. They have speakers, batteries (under the main deck, not visible) and LEDs, wired so I can test them without connecting the Raspberry Pi electronics. The electronics for these new units are boxed. This was to protect them from water when used on floating units, but it also means I can swap them easily between whichever floating or standing units I'm about to video. At the moment, that requires a screwdriver and some fiddling. I'm wondering if I hould make the electronics more easily swappable using 9-pin serial connectors.<br/><br>Next task is to connect the motors. Each has just one, as these are not going to be steerable like the blue unit. That is a decision I may later regret, but likely I'm going to do the first videos of these either with the boat, or where I can reach them easily from the edge with my hook. Plus, anyway, I quite like them when the motors are off.<br/><br/>After fitting the motors, I'll be adding a small bearing socket joint to the mast tops, for attaching the connecting rods. And after that they'll be ready, but the one thing left to do will be to make a separator to keep them apart in their carrying case. More on that later."
+    },
+    {
         "when": "2024-08-23",
         "heading": "Heart Of Noise 5",
         "youtube": "sFGq1ZAaaPE",
