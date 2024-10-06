@@ -1,5 +1,11 @@
 [
     {
+        "when": "2024-10-02",
+        "heading": "Randomatones at their 3rd gig",
+        "youtube": "_sodYEzFBB0",
+        "text": "I spent some time over the summer working on two kinds of Randomatones. One was a new floating design, for which I had bought parts last year and made a start on the construction earlier this year. I then stopped to build a couple of standing units in time for a gig in early summer, and then another one a few weeks later. The standing units found themselves with a third gig a couple of days ago. A band I play in, <a href=\"http://www.beatrixplayers.co.uk/\">Beatrix Players</a>, had a gig at <a href=\"http://www.themusicianpub.co.uk/\">The Musician Leicester</a>, and I was due to pack the standing units in the car for my trip to Leicester for a video shoot the following day. A couple of days before, the support act fell ill. So they did the support instead, seen in this short video, on their first outing with their new loudspeakers."
+    },
+    {
         "when": "2024-08-26",
         "heading": "Speakers and LEDs on new floating units",
         "image": "https://live.staticflickr.com/65535/53950684160_9cb0b375e7_b.jpg",
