@@ -1,5 +1,11 @@
 [
     {
+        "when": "2024-10-20",
+        "heading": "The Old Reservoir at Papplewick Pumping Station",
+        "youtube": "_l_arWJhER8",
+        "text": "I first visited the <a href=\"https://www.papplewickpumpingstation.org.uk/\">Papplewick Pumping Station</a> in 2019 with my family, thinking it was a steam museum only. When we got there, we discovered they were doing tours of a disused Victorian underground reservoir, part of the site beneath a hill above the pumping engines. The reservoir had opened in 1880, but developed a crack in 1906 and had lain empty for over a century.<br/><br/>I had a <a href=\"http://beatrixplayers.co.uk/\">Beatrix Players</a> gig scheduled for September 2024 in Leicester, just under an hour away, and arranged a visit to Papplewick for a Randomatones recording/video for the next day. I had given myself an hour to set up, record/video and dismantle. Both units had worked perfectly the night before. When I switched them on here, the red unit would not connect to my wifi controller. You can see me having to start it manually. That also meant it was still at indoor gig volume. Still able to control the blue unit, I turned it up almost full, and the entirely cavernous space seemed to come alive with song. The sound was absolutely incredible." 
+    },
+    {
         "when": "2024-10-02",
         "heading": "Randomatones at their 3rd gig",
         "youtube": "_sodYEzFBB0",
