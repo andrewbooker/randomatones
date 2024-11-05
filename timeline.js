@@ -12,6 +12,13 @@
         "text": "I spent some time over the summer working on two kinds of Randomatones. One was a new floating design, for which I had bought parts last year and made a start on the construction earlier this year. I then stopped to build a couple of standing units in time for a gig in early summer, and then another one a few weeks later. The standing units found themselves with a third gig a couple of days ago. A band I play in, <a href=\"http://www.beatrixplayers.co.uk/\">Beatrix Players</a>, had a gig at <a href=\"http://www.themusicianpub.co.uk/\">The Musician Leicester</a>, and I was due to pack the standing units in the car for my trip to Leicester for a video shoot the following day. A couple of days before, the support act fell ill. So they did the support instead, seen in this short video, on their first outing with their new loudspeakers."
     },
     {
+        "when": "2024-09-30",
+        "heading": "New underground video shoot",
+        "orientation": "portrait",
+        "image": "https://live.staticflickr.com/65535/54120017898_4910255cb0_b.jpg",
+        "text": "Mystery location to be revealed shortly. This is how you get down into it. The acoustic is amazing in this place."
+    },
+    {
         "when": "2024-08-26",
         "heading": "Speakers and LEDs on new floating units",
         "image": "https://live.staticflickr.com/65535/53950684160_9cb0b375e7_b.jpg",
