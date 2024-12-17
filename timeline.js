@@ -1,5 +1,11 @@
 [
     {
+        "when": "2024-11-29",
+        "heading": "Tapton Lock",
+        "youtube": "fk1_xL9ftOI",
+        "text": "Driving home to London from a gig in Sheffield in the midst of Storm Bert, I passed through Chesterfield, where I knew there was a small canal tunnel underneath the A619. Although it was after 11pm and I was 170 miles from home, I stopped to take a quick look. Having not been able to make a video earlier in the day because of high winds, I was surprised to find there was virtually no wind here at all. The tunnel was entirely unlit, but had a decent natural reverb given it was narrow, having width enough for one canal boat only, little more than 40m long.<br/><br>So I set up for a video, using the two new floating Randomatones I built at the end of the summer. For the first time on a canal tunnel shoot, I had two phantom-powered microphones with approximately 25m of cable between them to get good stereo separation. Almost all of what you hear in the soundtrack is from those mics.<br/><br/>Also in this video I captured the complete journey from the south end of the tunnel to the north, carried along by the current. With some editing between the three cameras, except for right at the end, you are watching that journey in real time. After scooping the devices out of the water, I had everything packed up and back in the car just before midnight."
+    },
+    {
         "when": "2024-10-20",
         "heading": "The Old Reservoir at Papplewick Pumping Station",
         "youtube": "_l_arWJhER8",
