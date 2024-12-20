@@ -10,6 +10,7 @@
         "heading": "Installation 02 Feb 2025 at the Engine House Walthamstow",
         "image": "https://live.staticflickr.com/65535/54217637015_0cf9822be4_b.jpg",
         "orientation": "portrait",
+        "image-width": 226,
         "text": "For the first time, I'll be doing a Randomatones installation early next year. A new eight-speaker Randomatone configuration will be appearing at the Engine House in the Walthamstow Wetlands Nature Reserve. I'm hugely excited about it, as it combines many interests that appeal to me: electronics, ambient music, sonic art installations, Victorian buildings, sitting around doing nothing at the weekend, and cafés that sell enormous croissants. If you're anywhere near, why not pop in and absorb a little randomised ambient music with a hot cup of tea on a wintery Sunday."
     },
     {
@@ -59,6 +60,7 @@
         "when": "2024-08-21",
         "heading": "New speakers for standing units",
         "orientation": "portrait",
+        "image-width": 210,
         "image": "https://live.staticflickr.com/65535/53938897352_955d228152_b.jpg",
         "text": "I built the standing units in a bit of a rush a couple of months ago in time for a gig. In order to get them built quickly, I used speakers I had bought especially for a new pair of floating units that will be more water-resistant. The cone speakers, for example, had waterproof plastic cones.<br/><br/>I now want to go ahead and finish the new floating units, so I bought some cheap speakers for the standing ones. I've now fitted them, involving some modification to the structure on each unit. I'm just about happy with the weight distribution. When I first built them, I had the speakers arranged in complete rotational symmetry, which balanced the weight well, but at the expense of directionality of the sound. It didn't seem to make any audible difference whether the units were rotating or not, apart from the motor noise.<br/><br/>Another thing I'm not sure made any difference was the directional cylinders on the cone speakers. If nothing else, they were useful as something for the LEDs to illuminate. I haven't worked out where I'm going to put the LEDs yet. I need to wire up the speakers first.<br/><br/>These units have one planned outing in the midlands at the end of September. Besides that, I might see if I can get them some more gig pre-show features."
     },

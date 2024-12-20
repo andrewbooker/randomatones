@@ -166,7 +166,10 @@ window.onresize = resize;
             landscape = t["orientation"] != "portrait" if "orientation" in t else True;
             img = self.document.createElement("img")
             img.setAttribute("src", t["image"])
-            img.setAttribute("width", str(320 if landscape else 180))
+            w = 320 if landscape else 180
+            if "image-width" in t:
+                w = int(t["image-width"])
+            img.setAttribute("width", str(w))
             img.setAttribute("height", str(320 if not landscape else 180))
 
             a = self.document.createElement("a")
