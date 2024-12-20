@@ -6,6 +6,12 @@
         "text": "Driving home to London from a gig in Sheffield in the midst of Storm Bert, I passed through Chesterfield, where I knew there was a small canal tunnel underneath the A619. Although it was after 11pm and I was 170 miles from home, I stopped to take a quick look. Having not been able to make a video earlier in the day because of high winds, I was surprised to find there was virtually no wind here at all. The tunnel was entirely unlit, but had a decent natural reverb given it was narrow, having width enough for one canal boat only, little more than 40m long.<br/><br>So I set up for a video, using the two new floating Randomatones I built at the end of the summer. For the first time on a canal tunnel shoot, I had two phantom-powered microphones with approximately 25m of cable between them to get good stereo separation. Almost all of what you hear in the soundtrack is from those mics.<br/><br/>Also in this video I captured the complete journey from the south end of the tunnel to the north, carried along by the current. With some editing between the three cameras, except for right at the end, you are watching that journey in real time. After scooping the devices out of the water, I had everything packed up and back in the car just before midnight."
     },
     {
+        "when": "2024-11-23",
+        "heading": "Drakeholes – too windy to video",
+        "image": "https://live.staticflickr.com/65535/54211231141_b01a001982_b.jpg",
+        "text": "I had a gig in Sheffield later in the evening, so in the morning I set off for the Drakeholes Tunnel in South Yorkshire. I left London in calm weather, but as I got further up the A1, the rain blew and the wind roared, and when I got to this spot on the Chesterfield canal just opposite the Mucky Duck pub, I knew a video shoot would be impossible. If the conditions are wrong, they're wrong. So I stayed in the car and had a sandwich and some tea instead, and got the gig load-in in good time.<br/><br/>At the point I set off back down to London later that night, the weather was much calmer, and I was able to make a video in a different spot on that trip after all."
+    },
+    {
         "when": "2024-10-20",
         "heading": "The Old Reservoir at Papplewick Pumping Station",
         "youtube": "_l_arWJhER8",
