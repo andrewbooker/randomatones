@@ -1,5 +1,11 @@
 [
     {
+        "when": "2024-12-21",
+        "heading": "Eight loudspeakers",
+        "image": "https://live.staticflickr.com/65535/54218279152_1ebc387698_b.jpg",
+        "text": "Spare speakers I have collected for one purpose or another, most for Randomatones, but not all. Each one of these will part of an eight-speaker Randomatone installion I'll be setting up for one day only on 02 Feb 2025 at the Walthamstow Wetlands Engine House. Details in the poster <a href=\"#2024-11-25\">below</a>."
+    },
+    {
         "when": "2024-11-29",
         "heading": "Tapton Lock",
         "youtube": "fk1_xL9ftOI",
@@ -11,7 +17,7 @@
         "image": "https://live.staticflickr.com/65535/54217637015_0cf9822be4_b.jpg",
         "orientation": "portrait",
         "image-width": 226,
-        "text": "For the first time, I'll be doing a Randomatones installation early next year. A new eight-speaker Randomatone configuration will be appearing at the Engine House in the Walthamstow Wetlands Nature Reserve. I'm hugely excited about it, as it combines many interests that appeal to me: electronics, ambient music, sonic art installations, Victorian buildings, sitting around doing nothing at the weekend, and cafés that sell enormous croissants. If you're anywhere near, why not pop in and absorb a little randomised ambient music with a hot cup of tea on a wintery Sunday."
+        "text": "For the first time, I'll be doing a Randomatones installation early next year. A new eight-speaker Randomatone configuration will be appearing at the Engine House in the Walthamstow Wetlands Nature Reserve. I'm hugely excited about it, as it combines many interests that appeal to me: electronics, ambient music, sonic art installations, randomly twinkling LEDs, Victorian buildings especially ones that once house vast machinery, sitting around doing nothing at the weekend, and cafés that sell enormous croissants. If you're anywhere near, why not pop in and absorb a little randomised ambient music with a hot cup of tea on a wintery Sunday."
     },
     {
         "when": "2024-11-23",
