@@ -1,9 +1,16 @@
 [
     {
+        "when": "2024-12-22",
+        "heading": "Simple LED circuit",
+        "image": "https://live.staticflickr.com/65535/54224158452_aab3e50294_b.jpg",
+        "orientation": "portrait",
+        "text": "I like the Randomatones to be visible sound sources, in preference to them being low profile or hidden. The early ones were painted bright colours, while all the recent ones have had coloured LEDs to make them really stand out. The new hanging setup will feature a new bright LED setup I'm trying. The white blob near the bottom of the circuit board is a composite LED, comprising a red, a blue and a green component.<br/><br/>Each of the eight speakers will have one of these LED circuit boards, where the LED will light according to the signal going into the the speaker. The LED will be green if the signal is zero or very quiet, blue at moderate level and red at peak level. The colour changes will be sharp rather than gradual. I might try that approach another time, or perhaps base the colours on the frequency of the sound."
+    },
+    {
         "when": "2024-12-21",
         "heading": "Eight loudspeakers",
         "image": "https://live.staticflickr.com/65535/54218279152_1ebc387698_b.jpg",
-        "text": "Spare speakers I have collected for one purpose or another, most for Randomatones, but not all. Each one of these will part of an eight-speaker Randomatone installion I'll be setting up for one day only on 02 Feb 2025 at the Walthamstow Wetlands Engine House. Details in the poster <a href=\"#2024-11-25\">below</a>."
+        "text": "Spare speakers I have collected for one purpose or another, most for Randomatones, but not all. Each one of these will part of an eight-speaker hanging Randomatone installion I'll be setting up for one day only on 02 Feb 2025 at the Walthamstow Wetlands Engine House. Details in the poster <a href=\"#2024-11-25\">below</a>."
     },
     {
         "when": "2024-11-29",
