@@ -1,5 +1,11 @@
 [
     {
+        "when": "2025-01-03",
+        "heading": "Testing eight speakers",
+        "image": "https://live.staticflickr.com/65535/54245137295_dbfb9afc4a_b.jpg",
+        "text": "A simulation of all 8 speakers playing together. So far I have only built one power amp, and one LED unit, so I videoed each speaker separately as the sun slowly passed behind some trees outside my west-facing window.<br/><br/>Changing over the speakers with the camera rolling nicely quantified just how fiddly it was to set everything up. The speakers will all have plugs/sockets, with the supporting picture-wire cable acting as a conductor (the ground), as it does here. Good bit of steel wire, hence why not. I took a few other notes on general adjustments to make. The high notes are too loud. This is normal, as higher frequency signals carry greater intensity, but I need to compensate for it in the synth stage. Something not obvious in the kind of cavernous tunnel I'm used to videoing the Randomatones in, but clearly noticeable here, is that the sound decay is too sudden. The linear amplitude ramp-down seems to cut off quickly. And it should go without saying I'll be tidying up the wires."
+    },
+    {
         "when": "2024-12-22",
         "heading": "Simple LED circuit",
         "image": "https://live.staticflickr.com/65535/54224158452_aab3e50294_b.jpg",
