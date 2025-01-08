@@ -212,7 +212,11 @@ class PortfolioPage(TemplateDoc):
             "jL1AqcHteug",   #sapperton
             "Ijo-B0MvH2w",   #mimmshall
             "hvtv9qaenxo",   #bow flyover
-            "RBprgrceOII"    #curzon
+            "RBprgrceOII",   #curzon
+            "_sodYEzFBB0",   #leicester
+            "sFGq1ZAaaPE",   #heart of noise
+            "3FMnYXOUaEg",   #highams pk
+            "sBHxgcOxsO8",   #walthamstow marshians
         }
 
         item = None
