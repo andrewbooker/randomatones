@@ -1,5 +1,11 @@
 [
     {
+        "when": "2025-01-10",
+        "heading": "Hanging installation site visit",
+        "image": "https://live.staticflickr.com/65535/54258798046_b309997fed_b.jpg",
+        "text": "This is the Engine House at the <a href=\"https://www.wildlondon.org.uk/nature-reserves/walthamstow-wetlands\">Walthamstow Wetlands Nature Reserve</a>, 2 Forest Road, London N17 9NH. On Sunday 02 Feb I'll be setting up a one-day Randomatones installation in the Turbine Room, pictured here from the outside. This afternoon I went down to take some measurements. Normally the Turbine Room serves as the staff room, the main café being at the other end of the building, but they also use it as a teaching room for school parties, and a functions venue. Although it looks like the smallest part of the building, the Turbine Room is large inside, and has great acoustic. As one of the staff told me today, that doesn't make it a good room to put large numbers of children in.<br/><br/>However, that makes it great place for Randomatones. I'm looking forward to unravelling what I now know will need to be well over 100m of cable for wiring everything up. And then taking it all down again at the end of the day."
+    },
+    {
         "when": "2025-01-03",
         "heading": "Testing eight speakers",
         "image": "https://live.staticflickr.com/65535/54245137295_dbfb9afc4a_b.jpg",
