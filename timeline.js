@@ -1,5 +1,17 @@
 [
     {
+        "when": "2025-01-16",
+        "heading": "Eight-channel amplifier",
+        "image": "https://live.staticflickr.com/65535/54272026696_4ff07f49cf_b.jpg",
+        "text": "The most important bit of what I've been building for the upcoming Randomatones installation at the Walthamstow Wetlands <a href=\"https://www.wildlondon.org.uk/nature-reserves/walthamstow-wetlands\">Engine House</a>. This turns unamplified audio into some that can be heard through loudspeakers, of which I have eight of different sizes. I built and tested one, on the far left, and then built seven copies. I still haven't tested those yet."
+    },
+    {
+        "when": "2025-01-14",
+        "heading": "Short video about my upcoming Randomatones installation",
+        "youtube": "Ug5JnOnAPmA",
+        "text": "I do talking videos occasionally but tend not to post them here as this site is all words anyway. Here's a couple of minutes on the Randomatones installation in North East London in a little under three weeks from now. If you've been there, there's a quick look in the Turbine Room where I'll be setting up a new 8-loudspeaker version of the Randomatones for one day only on 02 Feb 2025."
+    },
+    {
         "when": "2025-01-10",
         "heading": "Hanging installation site visit",
         "image": "https://live.staticflickr.com/65535/54258798046_b309997fed_b.jpg",
