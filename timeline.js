@@ -1,5 +1,17 @@
 [
     {
+        "when": "2025-01-26",
+        "heading": "One week to go before the Randomatones installation",
+        "youtube": "iNJCQX3eocQ",
+        "text": "An update on recent progress towards the Randomatones installation in North East London one week from now. I'll be setting up a new 8-loudspeaker version of the Randomatones for one day only on Sunday 02 Feb 2025 in the Turbine Room, which is not normally open to the public."
+    },
+    {
+        "when": "2025-01-21",
+        "heading": "Dabbling in elementary ancient electronics",
+        "image": "https://live.staticflickr.com/65535/54288461332_1e1186864c_b.jpg",
+        "text": "Fiddling for the severalth time on what should be a set of straightforward comparator circuits that will light one of three LEDs depending on the input voltage which, to be fair, is the loudspeaker signal. So not straightforward DC. The cluster at the bottom left is a rectifier to turn it into DC, where the op-amp compensates for the voltage drop across the diode. The chip is an LM324 quad op-amp. Those were first released in 1972."
+    },
+    {
         "when": "2025-01-16",
         "heading": "Eight-channel amplifier",
         "image": "https://live.staticflickr.com/65535/54272026696_4ff07f49cf_b.jpg",
