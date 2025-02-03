@@ -1,5 +1,11 @@
 [
     {
+        "when": "2025-02-02",
+        "heading": "Turbine Room Installation",
+        "image": "https://live.staticflickr.com/65535/54303583019_8b91477cc0_b.jpg",
+        "text": "Back home now and reflecting on a sublime late-morning-to-mid-afternoon at the Walthamstow Wetlands Engine House earlier today. The sound was excellent in the Turbine room, and there was a lot more footfall than I expected, possibly the happy outcome of nature reserve meets fine weather. I am full of thanks to everyone wandered in, sat down for a while, stood and took pictures, or peered at the laptop and the electronics, and generally expressed curiosity and interest. I certainly talked to many of you! And it was a pleasure."
+    },
+    {
         "when": "2025-01-26",
         "heading": "One week to go before the Randomatones installation",
         "youtube": "iNJCQX3eocQ",
