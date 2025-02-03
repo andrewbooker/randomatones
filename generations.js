@@ -44,5 +44,10 @@
         "heading": "Third generation floating",
         "image": "https://live.staticflickr.com/65535/54244996328_4795c3cfcb_b.jpg",
         "text": "Two new floating units, seen here on their first video shoot in the middle of the night in Chesterfield. These are smaller and lighter than the previous floating ones. They use lithium-ion batteries instead of the heavier lead-acid types. The battery and propellor are both attached, meaning it's straight out of the carrying container and into the water. Both have only one propellor, so they are not steerable, unlike the previous kind, where one was a \"pilot\" device with an extra propellor. I don't plan to upgrade either one of these. In fact I'm more likely to remove the propellors completely.<br/><br/>Even with propellors, I can fit them both in my cajon bag, and I can carry the bag on my back. I've yet to cycle to a video shoot with these, as there is always other gear to carry for a floating shoot, but I'm hoping they will be portable enough for me to try out some more floating locations in London."
+    },
+    {
+        "heading": "Static hanging",
+        "image": "https://live.staticflickr.com/65535/54303583019_8b91477cc0_b.jpg",
+        "text": "An eight-loudspeaker installation built especially for and shown for the first time in The Turbine Room at the Walthamstow Wetlands Engine House on Sunday 02 Feb 2025 (pictured)."
     }
 ]
