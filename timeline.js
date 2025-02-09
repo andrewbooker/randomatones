@@ -1,5 +1,11 @@
 [
     {
+        "when": "2025-02-07",
+        "heading": "Engine House installation video",
+        "youtube": "8jH8vtE1S_Q",
+        "text": "Video from last weekend's one-day installation at the Engine House in the Walthamstow Wetlands."
+    },
+    {
         "when": "2025-02-02",
         "heading": "Turbine Room Installation",
         "image": "https://live.staticflickr.com/65535/54303583019_8b91477cc0_b.jpg",
