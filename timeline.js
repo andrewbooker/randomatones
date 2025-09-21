@@ -12,6 +12,18 @@
         "text": "Not much here except a couple of transistors to convert the feeble output of a motor control circuit, that I have yet to build, into something capable of driving a small motor. Once I get one complete control device working, I will build seven more and insert the motor between the hanging speaker and the suspending cable. The idea is to make the speakers rotate a little when sound plays through them."
     },
     {
+        "when": "2025-06-07",
+        "youtube": "dRFCN1OKmTI",
+        "heading": "Running Randomatones on old hardware",
+        "text": "Demoing the Randomatones software, as it was at the time of the February 2025 installation, now running on the innards of an old laptop."
+    },
+    {
+        "when": "2025-05-29",
+        "youtube": "Rl9Oko9jsgM",
+        "heading": "One hour of Randomatones sound for meditation, relaxation or concentration",
+        "text": "Recorded using a new one-broken laptop, and superimposed onto spare footage from the Scout Tunnel shoot in Greater Manchester in February 2024"
+    },
+    {
         "when": "2025-05-09",
         "heading": "Single Randomatone in the Kew Bridge Museum of Water and Steam",
         "youtube": "3FMlyxzv-o8",
