@@ -1,5 +1,11 @@
 [
     {
+        "when": "2025-09-10",
+        "heading": "Class D amplifier trial",
+        "image": "https://live.staticflickr.com/65535/54794396081_cb581fc41e_b.jpg",
+        "text": "When I built an 8-channel amplifier for the February 2025 installation, I used the TDA2030. This 5-pin chip is very simple to use, but is inefficient and wastes energy through a heatsink. I wanted to try a newer type of amplifier that uses Pulse Width Modulation (PWM) of a higher current signal to amplify more efficiently. Here I'm trying out the TPA3122D2 chip, a dual amplifier up to 15W per channel with a sufficiently high supply voltage (28V) and the right speaker impedance. I'll be using it at the standard 12V from an ATX power supply. Here I've built a working 2-channel amplifier, and will extend this to six channels."
+    },
+    {
         "when": "2025-09-02",
         "heading": "Why I don't make floating videos in summer",
         "image": "https://live.staticflickr.com/65535/54793543742_7ea3d58d4d_b.jpg",
