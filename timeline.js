@@ -1,5 +1,35 @@
 [
     {
+        "when": "2025-08-18",
+        "heading": "Building a motor control (part two of possibly several)",
+        "image": "https://live.staticflickr.com/65535/54794648468_fc0b5bb854_b.jpg",
+        "text": "Thinking about the electronics required to make a motor turn when sound plays through a Randomatone loudspeaker. It must rotate the motor in alternate directions and by the same amount each time, otherwise the connecting cable will become twisted. It would be very easy to send signals from a Raspberry Pi to do this, as it has all the necessary control ports. The trouble is, I'm not using a Raspberry Pi in the hanging installation (it would not play audio through the HDMI output properly). And even if I was, it would mean two extra control cables for each speaker, which I want to avoid, for the weight if not the expense."
+    },
+    {
+        "when": "2025-08-17",
+        "heading": "Building a motor control (part one of probably many)",
+        "image": "https://live.staticflickr.com/65535/54794396086_14cfef34b0_b.jpg",
+        "text": "Not much here except a couple of transistors to convert the feeble output of a motor control circuit, that I have yet to build, into something capable of driving a small motor. Once I get one complete control device working, I will build seven more and insert the motor between the hanging speaker and the suspending cable. The idea is to make the speakers rotate a little when sound plays through them."
+    },
+    {
+        "when": "2025-05-09",
+        "heading": "Single Randomatone in the Kew Bridge Museum of Water and Steam",
+        "youtube": "3FMlyxzv-o8",
+        "text": "Although it will be some time before I might be able and ready to do an installation here, in the place I still affectionately call The Steam Museum from when my son and I used to come here often, I did get to make a video just before the opening of their present exhibition by artist Jasmine Pradissitto. The shoot did not go well, mainly because I had only one device. I purposefully wanted to take the new smaller floating Randomatones on the tube, because they are supposed to be portable, sitting side-by-side in my cajon bag. I've taken them in that bag in car before (to a gig in Sheffield) and they were fine. But when I arrived at the Steam Museum, I discovered the red unit had turned itself on, including all its LEDs, which are several watts. The battery on the unit is very small, only 1.4Ah. By the time I opened the bag, the battery was just about dead. I had come without a charger to save weight, thinking I wouldn't need one. There was nothing I could do, but shoot with just the one unit. It did well, but I wasn't very interested in how it looked. So I did a bit multiplexing in the final video. The shoot was worthwhile though, as I now have an idea for fixed installation in this pool, if/when I have the opportunity."
+    },
+    {
+        "when": "2025-03-09",
+        "heading": "Not-so broken laptop",
+        "image": "https://live.staticflickr.com/65535/54794643814_aac7390024_b.jpg",
+        "text": "Not wanting to leave my main laptop the next time I do a hanging Randomatones installation, I went on ebay and spent £15 on a computer that didn't work. No hard disk, no mouse pad, no battery and no power supply. Soon got it going. Superb machine. The one downside is that the power switch is minitature and flimsy. I would rather it not have one at all, but the ribbon cable connecting it to the motherboard is tiny and I'm not sure I can work out how to bypass it."
+    },
+    {
+        "when": "2025-02-19",
+        "heading": "Electric Room",
+        "image": "https://live.staticflickr.com/65535/54802205614_e9629d8083_b.jpg",
+        "text": "Back when my son was two (he's 15 now) and starting to like being taken on trips at the weekend, we discovered the Kew Bridge Steam Museum, immediately fell in love with the place, and over the next few years visited it many, many times. Having just done a successful Randomatones installation in a not dissimilar setting, I contacted the site, now called the London Museum of Water and Steam, to see if I might be able to do an installation there. I had a lovely reply from Richard Albanese, their project manager for sustainability-related presentations, who invited me over for a quick chat. I won't be doing anything there in the short term, but Richard did give me an idea for a one-off video which I think about a possible installation in the longer term. The video will not be in this room, which was in fact off-limits and under reconstruction when my son and I used to visit."
+    },
+    {
         "when": "2025-02-07",
         "heading": "Engine House installation video",
         "youtube": "8jH8vtE1S_Q",
@@ -21,7 +51,7 @@
         "when": "2025-01-21",
         "heading": "Dabbling in elementary ancient electronics",
         "image": "https://live.staticflickr.com/65535/54288461332_1e1186864c_b.jpg",
-        "text": "Fiddling for the severalth time on what should be a set of straightforward comparator circuits that will light one of three LEDs depending on the input voltage which, to be fair, is the loudspeaker signal. So not straightforward DC. The cluster at the bottom left is a rectifier to turn it into DC, where the op-amp compensates for the voltage drop across the diode. The chip is an LM324 quad op-amp. Those were first released in 1972."
+        "text": "Fiddling for the severalth time on what should be a set of straightforward comparator circuits that will light one of three LEDs depending on the input voltage which, to be fair, is the loudspeaker signal. So not straightforward DC. The cluster at the bottom left is a rectifier to turn it into DC, where the op-amp compensates for the voltage drop across the diode. The chip is an LM324 quad op-amp. Those first entered production in 1972."
     },
     {
         "when": "2025-01-16",
