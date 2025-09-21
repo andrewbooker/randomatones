@@ -1,5 +1,11 @@
 [
     {
+        "when": "2025-09-19",
+        "heading": "Beside the River Deben",
+        "image": "https://live.staticflickr.com/65535/54802015872_b7d5c81452_b.jpg",
+        "text": "Delighted to have been invited by organiser Jan Pulsford two days before, I took the two standing Randomatones to the Woodbridge Cruising Club to feature in the first evening of the 2025 <a href=\"https://woodbridgeambientmusicfestival.com/\" target=\"_blank\">Woodbridge Ambient Music Festival</a>. They ran for around half an hour in the balmy sunset while the outdoor music setup moved indoors."
+    },
+    {
         "when": "2025-09-10",
         "heading": "Class D amplifier trial",
         "image": "https://live.staticflickr.com/65535/54794396081_cb581fc41e_b.jpg",
