@@ -1,5 +1,11 @@
 [
     {
+        "when": "2025-09-02",
+        "heading": "Why I don't make floating videos in summer",
+        "image": "https://live.staticflickr.com/65535/54793543742_7ea3d58d4d_b.jpg",
+        "text": "I have had my eye on this location for a while now. For a long time this section of path on the City Mill River in Stratford was closed, while an extension to the railway bridge for the Elizabeth line was under construction. Earlier this year the water was clear, but I was not ready for the kind of shoot I wanted. Later in the summer it started to accumulate duckweed. Now, at the beginning of September, it looks like this. No matter, it will die back again, and I will eventually get round to making another floating video here."
+    },
+    {
         "when": "2025-08-18",
         "heading": "Building a motor control (part two of possibly several)",
         "image": "https://live.staticflickr.com/65535/54794648468_fc0b5bb854_b.jpg",
