@@ -42,6 +42,12 @@
         "text": "Although it will be some time before I might be able and ready to do an installation here, in the place I still affectionately call <a href=\"https://waterandsteam.org.uk/\" target=\"_blank\">The Steam Museum</a> from when my son and I used to come here often, I did get to make a video just before the opening of their present exhibition by artist Jasmine Pradissitto. The shoot did not go well, mainly because I had only one device. I purposefully wanted to take the new smaller floating Randomatones on the tube, because they are supposed to be portable, sitting side-by-side in my cajon bag. I've taken them in that bag in car before (to a gig in Sheffield) and they were fine. But when I arrived at the Steam Museum, I discovered the red unit had turned itself on, including all its LEDs, which are several watts. The battery on the unit is very small, only 1.4Ah. By the time I opened the bag, the battery was just about dead. I had come without a charger to save weight, thinking I wouldn't need one. There was nothing I could do, but shoot with just the one unit. It did well, but I wasn't very interested in how it looked. So I did a bit multiplexing in the final video. The shoot was worthwhile though, as I now have an idea for fixed installation in this pool, if/when I have the opportunity."
     },
     {
+        "when": "2025-04-22",
+        "heading": "New video afloat",
+        "image": "https://live.staticflickr.com/65535/54802205969_cea12d6d88_b.jpg",
+        "text": "Currently editing a new Randomatones video. Like the very first floating video, just a single device in this one. I did take two to the shoot, but coluld use only one."
+    },
+    {
         "when": "2025-03-09",
         "heading": "Not-so broken laptop",
         "image": "https://live.staticflickr.com/65535/54794643814_aac7390024_b.jpg",
