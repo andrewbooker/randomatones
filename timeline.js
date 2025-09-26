@@ -6,6 +6,13 @@
         "text": "Video of the Randomatones appearing outdoors in the break between the outdoor and indoor performances on the Friday evening of the <a href=\"https://woodbridgeambientmusicfestival.com/\" target=\"_blank\">Woodbridge Ambient Music Festival</a>. After do many videos of them under cover of some enclosure or other, often in otherwise complete darkness, it was good to see them under an almost cloudless sky at sunset."
     },
     {
+        "when": "2025-09-21",
+        "heading": "Possible location?",
+        "image": "https://live.staticflickr.com/65535/54813327931_fa6e3539ef_b.jpg",
+        "orientation": "portrait",
+        "text": "I've been wondering about this place as somewhere to record/video. Clearly, I'm not going in that culvert, least of all because there are barriers and spikey deterrents everywhere to prevent would-be swimmers, or even accidental ones, but mostly because I have absolutely zero wish to. There's probably less than half a metre clearance in there, and there are bound to be monsters. But I do wonder what the acoustics would be like, and just because I wouldn't be going in, some free-floating equipment could.<br/><br/>There are potentially several other places that I've been thinking I could send unaccompanied Randomatones into, with audio and video recorded from separate units. This location has the advantage of a reasonable current to carry everything through in probably only a few minutes. The other places that come to mind are the many canal tunnels in the UK that do not allow unpowered craft, meaning I can't go in there and video with my boat. But sending Randomatones in to video themselves may work. The trouble with canals is they have very little current, especially now after a period of <a href=\"https://www.gov.uk/government/news/drought-expected-to-continue-through-autumn-despite-recent-rain\">prolonged drought in England</a>."
+    },
+    {
         "when": "2025-09-19",
         "heading": "Beside the River Deben",
         "image": "https://live.staticflickr.com/65535/54802015872_b7d5c81452_b.jpg",
