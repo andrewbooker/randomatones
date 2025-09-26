@@ -1,5 +1,11 @@
 [
     {
+        "when": "2025-09-25",
+        "heading": "Woodbridge Ambient Music Festival 2025",
+        "youtube": "iMTdnAYcTzM",
+        "text": "Video of the Randomatones appearing outdoors in the break between the outdoor and indoor performances on the Friday evening of the <a href=\"https://woodbridgeambientmusicfestival.com/\" target=\"_blank\">Woodbridge Ambient Music Festival</a>. After do many videos of them under cover of some enclosure or other, often in otherwise complete darkness, it was good to see them under an almost cloudless sky at sunset."
+    },
+    {
         "when": "2025-09-19",
         "heading": "Beside the River Deben",
         "image": "https://live.staticflickr.com/65535/54802015872_b7d5c81452_b.jpg",
