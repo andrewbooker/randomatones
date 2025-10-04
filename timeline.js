@@ -1,5 +1,11 @@
 [
     {
+        "when": "2025-10-04",
+        "heading": "Afternoon in an underground ditch",
+        "image": "https://live.staticflickr.com/65535/54832115505_944abca8d3_b.jpg",
+        "text": "The standing Randomatones in a tunnel under the A10 in Hertfordshire, where the Spital Brook flows under the dual carriageway and onwards to the pond in Barclay Bark. Not that there was much flow. Despite recent rainfall, it has been so dry in the UK for the last six months, there was hardly any water in the tunnel. Where there was, I was able to stand in what was little more than a muddy puddle. I was able to put the Randomatones, and two camera tripods, effectively on dry land."
+    },
+    {
         "when": "2025-09-25",
         "heading": "Woodbridge Ambient Music Festival 2025",
         "youtube": "iMTdnAYcTzM",
@@ -10,7 +16,7 @@
         "heading": "Possible location?",
         "image": "https://live.staticflickr.com/65535/54813327931_fa6e3539ef_b.jpg",
         "orientation": "portrait",
-        "text": "I've been wondering about this place as somewhere to record/video. Clearly, I'm not going in that culvert, least of all because there are barriers and spikey deterrents everywhere to prevent would-be swimmers, or even accidental ones, but mostly because I have absolutely zero wish to. There's probably less than half a metre clearance in there, and there are bound to be monsters. But I do wonder what the acoustics would be like, and just because I wouldn't be going in, some free-floating equipment could.<br/><br/>There are potentially several other places that I've been thinking I could send unaccompanied Randomatones into, with audio and video recorded from separate units. This location has the advantage of a reasonable current to carry everything through in probably only a few minutes. The other places that come to mind are the many canal tunnels in the UK that do not allow unpowered craft, meaning I can't go in there and video with my boat. But sending Randomatones in to video themselves may work. The trouble with canals is they have very little current, especially now after a period of <a href=\"https://www.gov.uk/government/news/drought-expected-to-continue-through-autumn-despite-recent-rain\">prolonged drought in England</a>."
+        "text": "I've been wondering about this place as somewhere to record/video. No way am I going in that culvert myself. Least of all, there are barriers and spikey deterrents everywhere to prevent would-be swimmers, or even accidental ones, but mostly because I have absolutely zero wish to. There's probably less than half a metre clearance in there, and there are bound to be monsters. But I do wonder what the acoustics would be like, and just because I wouldn't be going in, some free-floating equipment could.<br/><br/>There are potentially several other places that I've been thinking I could send unaccompanied Randomatones into, with audio and video recorded from separate units. This location has the advantage of a reasonable current to carry everything through in probably only a few minutes. The other places that come to mind are the many canal tunnels in the UK that do not allow unpowered craft, meaning I can't go in there and video with my boat. But sending Randomatones in to video themselves may work. The trouble with canals is they have very little current, especially now after a period of <a href=\"https://www.gov.uk/government/news/drought-expected-to-continue-through-autumn-despite-recent-rain\">prolonged drought in England</a>."
     },
     {
         "when": "2025-09-19",
