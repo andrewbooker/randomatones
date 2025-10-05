@@ -3,13 +3,13 @@
         "when": "2025-10-04",
         "heading": "Afternoon in an underground ditch",
         "image": "https://live.staticflickr.com/65535/54832115505_944abca8d3_b.jpg",
-        "text": "The standing Randomatones in a tunnel under the A10 in Hertfordshire, where the Spital Brook flows under the dual carriageway and onwards to the pond in Barclay Bark. Not that there was much flow. Despite recent rainfall, it has been so dry in the UK for the last six months, there was hardly any water in the tunnel. Where there was, I was able to stand in what was little more than a muddy puddle. I was able to put the Randomatones, and two camera tripods, effectively on dry land."
+        "text": "The standing Randomatones in a tunnel under the A10 in Hertfordshire, where the Spital Brook flows under the dual carriageway and onwards to the pond in Barclay Park. Not that there was much flow. Despite recent rainfall, it has been so dry in the UK for the last six months, there was hardly any water in the tunnel. Where there was, I was able to stand in little more than a muddy puddle. I was able to put the Randomatones, and two camera tripods, effectively on dry land."
     },
     {
         "when": "2025-09-25",
         "heading": "Woodbridge Ambient Music Festival 2025",
         "youtube": "iMTdnAYcTzM",
-        "text": "Video of the Randomatones appearing outdoors in the break between the outdoor and indoor performances on the Friday evening of the <a href=\"https://woodbridgeambientmusicfestival.com/\" target=\"_blank\">Woodbridge Ambient Music Festival</a>. After do many videos of them under cover of some enclosure or other, often in otherwise complete darkness, it was good to see them under an almost cloudless sky at sunset."
+        "text": "Video of the Randomatones appearing outdoors in the break between the outdoor and indoor performances on the Friday evening of the <a href=\"https://woodbridgeambientmusicfestival.com/\" target=\"_blank\">Woodbridge Ambient Music Festival</a>. After so many videos of them under cover of some enclosure or other, often in otherwise complete darkness, it was good to see them under an almost cloudless sky at sunset."
     },
     {
         "when": "2025-09-21",
@@ -22,7 +22,7 @@
         "when": "2025-09-19",
         "heading": "Beside the River Deben",
         "image": "https://live.staticflickr.com/65535/54802015872_b7d5c81452_b.jpg",
-        "text": "Delighted to have been invited by organiser Jan Pulsford two days before, I took the two standing Randomatones to the Woodbridge Cruising Club to feature in the first evening of the 2025 <a href=\"https://woodbridgeambientmusicfestival.com/\" target=\"_blank\">Woodbridge Ambient Music Festival</a>. They ran for around half an hour in the balmy sunset while the outdoor music setup moved indoors."
+        "text": "Delighted to have been invited by organiser Jan Pulsford two days before, I took the two standing Randomatones to the Woodbridge Cruising Club to feature in the first evening of the 2025 <a href=\"https://woodbridgeambientmusicfestival.com/\" target=\"_blank\">Woodbridge Ambient Music Festival</a>. My \"ambient lights\", as Jan called them, ran for around half an hour in the balmy sunset while the outdoor music setup moved indoors."
     },
     {
         "when": "2025-09-10",
