@@ -1,5 +1,11 @@
 [
     {
+        "when": "2025-10-07",
+        "heading": "Unmanned explorer",
+        "image": "https://live.staticflickr.com/65535/54841533251_bab17ccc1f_b.jpg",
+        "text": "A return trip to the <a href=\"#2025-09-21\">possible location</a> I stopped off at a couple of weeks ago, this time with some lights and my cheapest most expendable video camera on a float, which I lowered into the water upstream, then waited for to emerge downstream, carried only by the current. Originally I thought it would only be a few minutes. I peered in from the downstream end and could see the lights but could not tell if it was moving or stuck. So I sat at the edge and waited hopefully. As I sat, watching leaves drift past, I estimated they were moving at around 10s per metre. With the culvert approximately 100m long, the float would take 1000s to pass through, a bit less than 20 minutes. Sure enough, 20 mins after dropping in at the top end, I watched it emerge from the bottom end, and scooped it out.<br/><br/>The video is very dark and not much to look at, except for a stunning moment where it passes under a circular inspection hatch moulding, like some giant Star Wars space ship moving overhead. The video is not important though, the purpose was to check the thing would make it through the tunnel without getting stuck on anything, before I start putting moderately valuable equipment in there."
+    },
+    {
         "when": "2025-10-04",
         "heading": "Afternoon in an underground ditch",
         "image": "https://live.staticflickr.com/65535/54832115505_944abca8d3_b.jpg",
