@@ -48,7 +48,7 @@
     {
         "heading": "Upgraded standing",
         "image": "https://live.staticflickr.com/65535/54842102195_72a90b1762_b.jpg",
-        "text": "The same base frames as the standing units, but with new horn speakers (having given the original ones back to the third generation floating units). I still occasionally use these, not always in front of people, although here they are on the first night of the 2025 <a href=\"https://woodbridgeambientmusicfestival.com/\" target=\"_blank\">Woodbridge Ambient Music Festival</a> next to the River Deben." 
+        "text": "The same base frames as the second generation standing units, so technically still second generation, but with new horn speakers (having given the original ones back to the third generation floating units). I still occasionally use these, not always in front of people, although here they are on the first night of the 2025 <a href=\"https://woodbridgeambientmusicfestival.com/\" target=\"_blank\">Woodbridge Ambient Music Festival</a> next to the River Deben." 
     },
     {
         "heading": "Static hanging",
