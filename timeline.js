@@ -1,5 +1,11 @@
 [
     {
+        "when": "2025-10-11",
+        "heading": "Hidden acoustic chamber",
+        "image": "https://live.staticflickr.com/65535/54848041429_e8d65b175d_b.jpg",
+        "text": "I do like it when a location scouting walk turns up something unexpectedly good. I have known about this place for many years, and dismissed is as probably not interesting enough to be worth checking out. With my re-emerging interest in the standing units, this place may a candidate after all. There's even a bit of graffiti, for my purposes a good thing in a place like this. It's possibly a bit huge, but that just means I need to be careful where to put the cameras, and might be able to turn everything up.<br/><br/>Visually, though I was somewhat lucky with the light at the time I was there, I especially like the pastel sandiness of the concrete and the ground in this picture, as if I've discovered a route to a hidden bunker in the desert. In fact this is a farm access tunnel under the M25 in Essex."
+    },
+    {
         "when": "2025-10-07",
         "heading": "Unmanned explorer",
         "image": "https://live.staticflickr.com/65535/54841533251_bab17ccc1f_b.jpg",
@@ -9,7 +15,7 @@
         "when": "2025-10-04",
         "heading": "Afternoon in an underground ditch",
         "image": "https://live.staticflickr.com/65535/54832115505_944abca8d3_b.jpg",
-        "text": "The standing Randomatones in a tunnel under the A10 in Hertfordshire, where the Spital Brook flows under the dual carriageway and onwards to the pond in Barclay Park. Not that there was much flow. Despite recent rainfall, it has been so dry in the UK for the last six months, there was hardly any water in the tunnel. Where there was, I was able to stand in little more than a muddy puddle. I was able to put the Randomatones, and two camera tripods, effectively on dry land."
+        "text": "The standing Randomatones in a tunnel under the A10 in Hertfordshire, where the Spital Brook (which I have <a href=\"#2022-01-15\">visited before</a>) flows under the dual carriageway and onwards to the pond in Barclay Park. Not that there was much flow. Despite recent rainfall, it has been so dry in the UK for the last six months, there was hardly any water in the tunnel. Where there was, I was able to stand in little more than a muddy puddle. I was able to put the Randomatones, and two camera tripods, effectively on dry land."
     },
     {
         "when": "2025-09-25",
