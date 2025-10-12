@@ -1,5 +1,11 @@
 [
     {
+        "when": "2025-10-12",
+        "heading": "Upcycling for a forthcoming video shoot",
+        "image": "https://live.staticflickr.com/65535/54850615389_88de496ec1_b.jpg",
+        "text": "I almost never throw wood away. With a pursuit like mine, there is always something I want to build, refined or crude, that will serve some useful purpose, either as part of a Randomatones artifact (I have made <a href=\"./generations.html\">many kinds</a>), or in the case of these pieces, some kind of supporting structure that will help me with an installation or a video shoot. These, probably with a bit more paint, will help me with a somewhat daring video I have planned for as soon as I'm ready. I've been meaning to do something like this for a while, and have already made a start on the electrics on one of the pieces that will provide lighting."
+    },
+    {
         "when": "2025-10-11",
         "heading": "Hidden acoustic chamber",
         "image": "https://live.staticflickr.com/65535/54848041429_e8d65b175d_b.jpg",
