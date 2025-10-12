@@ -68,7 +68,7 @@ window.onresize = resize;
         pass
 
     def dump(self):
-        page = self.document.documentElement.toprettyxml(indent="  ", encoding=None)
+        page = self.document.documentElement.toxml(encoding=None)
         page = page.replace("&quot;","\"")
         page = page.replace("&lt;", "<")
         page = page.replace("&gt;", ">")
