@@ -51,23 +51,18 @@
                 color: rgba(37,31,28, 0.2);
                 transform: translate(0%, -806px);
             }
-            #recent-contents {
+            #recent-contents, #content-by-year {
                 text-align: left;
                 transform: translate(0%, -510px);
             }
-            #flickr {
-                display: flex;
-                flex-direction: row;
-                justify-content: flex-start;
-                align-items: center;
-                height: 24px;
-                transform: translate(0%, -470px);
+            #content-by-year {
+                margin-top: 20px;
             }
             #flickr img {
                 margin-left: 0px;
                 padding-left: 0px;
             }
-            #content, #author {
+            #content, #author, #flickr {
                 transform: translate(0%, -460px);
             }
             #content {
@@ -153,15 +148,16 @@
         </div>
         <div id="tagline"><span style="letter-spacing: 22px;">Aleatoric ambient musical art</span></div>
         <div id="recent-contents"></div>
-        <div id="flickr">
-            <div>All images stored in and accessed from</div>
-            <a target="_blank" href="https://flickr.com/photos/90938695@N06/albums/72157716077356826"><img src="./logo-flickr.svg"/></a>
-        </div>
+        <div id="content-by-year"></div>
         <div id="content">
         </div>
         <div id="author">
             <div style="font-size: 80%; margin: 40px 0 10px 0; color: white;">Visionary, programmer and amateur carpenter:<br/><a target="_blank" href="https://www.facebook.com/andrew.booker.73">Andrew Booker</a></div>
             <img src="ab.png" />
+        </div>
+        <div id="flickr">
+            <div style="font-size: 80%; margin: 40px 0 10px 0; color: white;">All images stored in and accessed from</div>
+            <a target="_blank" href="https://flickr.com/photos/90938695@N06/albums/72157716077356826"><img src="./logo-flickr.svg"/></a>
         </div>
 		<script>
 		</script>	

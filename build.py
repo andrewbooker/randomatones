@@ -83,6 +83,8 @@ class MainPage(TemplateDoc):
         TemplateDoc.__init__(self, "template.xhtml", "index.html")
         self.container = self.document.getElementById("content")
         self.recent = self.document.getElementById("recent-contents")
+        self.years = dict()
+        self.yearList = self.document.getElementById("content-by-year")
 
     def add_resize_script(self):
         scr = """
@@ -99,7 +101,7 @@ function resize() {
         lm += m;
         rm += m;
     }
-    ["recent-contents", "flickr"].forEach(id => {
+    ["recent-contents", "content-by-year"].forEach(id => {
         document.getElementById(id).setAttribute("style", "margin-left:" + lm + "px;");
     });
     document.getElementById("links").setAttribute("style", "margin-right:" + rm + "px; margin-left:" + lm + "px;");
@@ -145,11 +147,22 @@ window.onresize = resize;
         when = self.document.createElement("div")
         when.setAttribute("class", "when")
         if "when" in t:
-            w = datetime.datetime.strptime(t["when"], "%Y-%m-%d").strftime('%d %b %Y')
+            wd = t["when"]
+            w = datetime.datetime.strptime(wd, "%Y-%m-%d").strftime("%d %b %Y")
             whenAnchor = self.document.createElement("a")
             whenAnchor.appendChild(self.document.createTextNode(w))
-            whenAnchor.setAttribute("id", t["when"])
+            whenAnchor.setAttribute("id", wd)
             when.appendChild(whenAnchor)
+            year = wd[:4]
+            if year not in self.years:
+                wasEmpty = len(self.years) == 0
+                self.years[year] = wd
+                if not wasEmpty:
+                    yearLink = self.document.createElement("a")
+                    yearLink.appendChild(self.document.createTextNode(year))
+                    yearLink.setAttribute("href", f"#{wd}")
+                    yearLink.setAttribute("class", "previous-year")
+                    self.yearList.appendChild(yearLink)
         else:
             when.appendChild(self.document.createTextNode(""))
 
