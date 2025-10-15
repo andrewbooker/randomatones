@@ -9,7 +9,7 @@ from random import randint
 
 class TemplateDoc:
     def __init__(self, template_fn, out_fn):
-        self.document = minidom.parse(template_fn)
+        self.document = minidom.parse(f"templates/{template_fn}")
         self.out_fn = out_fn
         for n in self.document.getElementsByTagName("*"):
             if n.hasAttribute("id"):
