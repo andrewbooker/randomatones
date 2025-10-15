@@ -315,7 +315,7 @@ class GenerationPage(TemplateDoc):
 
 pages = [MainPage(), PortfolioPage(), AboutPage(), GenerationPage()]
 for i in ["timeline", "about", "generations"]:
-    jf = open(f"content/{i}.js", "r")
+    jf = open(f"content/{i}.json", "r")
     jfc = json.load(jf)
     jf.close()
 
