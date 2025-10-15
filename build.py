@@ -15,6 +15,25 @@ class TemplateDoc:
             if n.hasAttribute("id"):
                 n.setIdAttribute("id")
 
+    def set_metadata(self, page_name=None):
+        head = self.document.getElementsByTagName("head")[0]
+        title = self.document.createElement("title")
+        t = ["Randomatones"]
+        if page_name is not None:
+            t.append(page_name)
+        title.appendChild(self.document.createTextNode(" | ".join(t)))
+        head.appendChild(title)
+        og_title = self.document.createElement("meta")
+        og_title.setAttribute("property", "og:title")
+        og_title.setAttribute("content", " | ".join(t))
+        head.appendChild(og_title)
+        
+        u = ["http://randomatones.co.uk/", self.out_fn]
+        og_url = self.document.createElement("meta")
+        og_url.setAttribute("property", "og:url")
+        og_url.setAttribute("content", "".join(u))
+        head.appendChild(og_url)
+
     def _add_yt_to(self, add_to, yt_id, scale):
         y = self.document.createElement("iframe")
         y.setAttribute("width", str(int(302 * scale)))
@@ -81,6 +100,7 @@ window.onresize = resize;
 class MainPage(TemplateDoc):
     def __init__(self):
         TemplateDoc.__init__(self, "template.xhtml", "index.html")
+        self.set_metadata()
         self.container = self.document.getElementById("content")
         self.recent = self.document.getElementById("recent-contents")
         self.years = dict()
@@ -209,6 +229,7 @@ window.onresize = resize;
 class PortfolioPage(TemplateDoc):
     def __init__(self):
         TemplateDoc.__init__(self, "template-portfolio.xhtml", "portfolio.html")
+        self.set_metadata("Portfolio")
         self.container = self.document.getElementById("timeline")
         self.postcard = self.document.getElementById("postcard")
         self.postcard_items = [
@@ -272,6 +293,7 @@ class PortfolioPage(TemplateDoc):
 class AboutPage(TemplateDoc):
     def __init__(self):
         TemplateDoc.__init__(self, "template-about.xhtml", "about.html")
+        self.set_metadata("About")
         self.container = self.document.getElementById("content")
         self.recent = None
 
@@ -282,6 +304,7 @@ class AboutPage(TemplateDoc):
 class GenerationPage(TemplateDoc):
     def __init__(self):
         TemplateDoc.__init__(self, "template-generations.xhtml", "generations.html")
+        self.set_metadata("Generations")
         self.container = self.document.getElementById("content")
         self.recent = None
 
