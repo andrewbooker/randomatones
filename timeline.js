@@ -76,7 +76,7 @@
         "when": "2025-05-29",
         "youtube": "Rl9Oko9jsgM",
         "heading": "One hour of Randomatones sound for meditation, relaxation or concentration",
-        "text": "Recorded using a new one-broken laptop, and superimposed onto spare footage from the Scout Tunnel shoot in Greater Manchester in February 2024"
+        "text": "Recorded using a new once-broken laptop, and superimposed onto spare footage from the Scout Tunnel shoot in Greater Manchester in February 2024."
     },
     {
         "when": "2025-05-09",
