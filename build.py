@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 from xml.dom import minidom
+from xml.dom.minidom import Node
 import json
 import datetime
 import sys
@@ -15,7 +16,7 @@ class TemplateDoc:
             if n.hasAttribute("id"):
                 n.setIdAttribute("id")
 
-    def set_metadata(self, page_name=None):
+    def set_metadata(self, page_name=None, link_name=None):
         head = self.document.getElementsByTagName("head")[0]
         title = self.document.createElement("title")
         t = ["Randomatones"]
@@ -27,12 +28,23 @@ class TemplateDoc:
         og_title.setAttribute("property", "og:title")
         og_title.setAttribute("content", " | ".join(t))
         head.appendChild(og_title)
-        
+
         u = ["http://randomatones.co.uk/", self.out_fn]
         og_url = self.document.createElement("meta")
         og_url.setAttribute("property", "og:url")
         og_url.setAttribute("content", "".join(u))
         head.appendChild(og_url)
+
+        pages = self.document.getElementById("links")
+        for p in [n for n in pages.childNodes if n.nodeType != Node.TEXT_NODE]:
+            for link in [n for n in p.childNodes if n.nodeType != Node.TEXT_NODE]:
+                a = link.getElementsByTagName("a")[0]
+                label = a.firstChild.nodeValue
+                if (link_name is None and label == "Home") or (label is not None and label == link_name):
+                    link.removeChild(a)
+                    h = self.document.createElement("h2")
+                    h.appendChild(self.document.createTextNode(label))
+                    link.appendChild(h)
 
     def _add_yt_to(self, add_to, yt_id, scale):
         y = self.document.createElement("iframe")
@@ -204,7 +216,7 @@ window.onresize = resize;
 class PortfolioPage(TemplateDoc):
     def __init__(self):
         TemplateDoc.__init__(self, "template-portfolio.xhtml", "portfolio.html")
-        self.set_metadata("Portfolio")
+        self.set_metadata("Portfolio", "Video portfolio")
         self.container = self.document.getElementById("timeline")
         self.postcard = self.document.getElementById("postcard")
         self.postcard_items = [
@@ -267,8 +279,8 @@ class PortfolioPage(TemplateDoc):
 
 class AboutPage(TemplateDoc):
     def __init__(self):
-        TemplateDoc.__init__(self, "template-about.xhtml", "about.html")
-        self.set_metadata("About")
+        TemplateDoc.__init__(self, "template-common.xhtml", "about.html")
+        self.set_metadata("About", "About")
         self.container = self.document.getElementById("content")
         self.recent = None
 
@@ -278,8 +290,8 @@ class AboutPage(TemplateDoc):
 
 class GenerationPage(TemplateDoc):
     def __init__(self):
-        TemplateDoc.__init__(self, "template-generations.xhtml", "generations.html")
-        self.set_metadata("Generations")
+        TemplateDoc.__init__(self, "template-common.xhtml", "generations.html")
+        self.set_metadata("Generations", "The many generations of Randomatones")
         self.container = self.document.getElementById("content")
         self.recent = None
 
