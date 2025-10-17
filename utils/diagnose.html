@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <style>
+        body {
+            font-size: 200%;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="back">
+            <a href="../index.html">home</a>
+        </div>
+        <div id="links">links</div>
+        <div id="when">when</div>
+        <div id="post-heading">post-heading</div>
+        <div id="post-text">post-text</div>
+        <div id="say"></div>
+
+        <script>
+            function say(what) {
+                const s = document.getElementById("say");
+                const w = document.createElement("div");
+                w.innerHTML = what;
+                s.appendChild(w);
+            }
+            say(window.innerWidth + "x" + window.innerHeight);
+            say(window.devicePixelRatio);
+        </script>
+        <script src="../resize.js" />
+        <script>
+            resize();
+            window.onresize = function() {
+                resize();
+                // show sizes
+            }
+        </script>
+    </body>
+</html>
