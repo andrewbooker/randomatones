@@ -56,11 +56,6 @@ class TemplateDoc:
         y.appendChild(self.document.createTextNode(""))
         add_to.appendChild(y)
 
-    def add_common_style(self):
-        for s in self.document.getElementsByTagName("style"):
-            for p in s.childNodes:
-                p.nodeValue += "a:link { color: dodgerblue; }\na:visited { color: mediumslateblue; }\n"
-
     def add_resize_script(self):
         pass
 
@@ -311,7 +306,6 @@ for i in ["timeline", "about", "generations"]:
             getattr(p, f"add_{i}")(j)
 
 for p in pages:
-    p.add_common_style()
     p.add_resize_script()
     p.dump()
 

@@ -72,3 +72,10 @@ body {
     text-align: left;
     color: rgb(221,234,234)
 }
+a:link { 
+    color: dodgerblue;
+}
+a:visited {
+    color: mediumslateblue;
+}
+
