@@ -7,6 +7,7 @@ function resize() {
     }
 
     document.getElementById("links").setAttribute("style", "margin-right:" + rm + "px; margin-left:" + lm + "px;");
+    document.getElementsByTagName("h1")[0].setAttribute("style", "margin-right:" + rm + "px; margin-left:" + (lm + 20) + "px;");
     const pxRatio = Math.max(1.0, window.devicePixelRatio * 0.7);
     Array.from(document.getElementsByClassName("when")).forEach(t => {
         t.setAttribute("style", "font-size: " + (150 * pxRatio) + "%");

@@ -291,7 +291,7 @@ class AboutPage(TemplateDoc):
 class GenerationPage(TemplateDoc):
     def __init__(self):
         TemplateDoc.__init__(self, "template-common.xhtml", "generations.html")
-        self.set_metadata("Generations", "The many generations of Randomatones")
+        self.set_metadata("Generations", "The many generations")
         self.container = self.document.getElementById("content")
         self.recent = None
 
