@@ -56,9 +56,6 @@ class TemplateDoc:
         y.appendChild(self.document.createTextNode(""))
         add_to.appendChild(y)
 
-    def add_resize_script(self):
-        pass
-
     def add_timeline(self, t):
         pass
 
@@ -87,43 +84,6 @@ class MainPage(TemplateDoc):
         self.recent = self.document.getElementById("recent-contents")
         self.years = dict()
         self.yearList = self.document.getElementById("content-by-year")
-
-    def add_resize_script(self):
-        scr = """
-function resize() {
-    const fh = Math.min(1000, 0.8 * window.innerWidth);
-    const ft = Math.min(180, 0.3 * window.innerWidth);
-    document.getElementById("heading").setAttribute("style", "font-size: " + fh + "%");
-    document.getElementById("tagline").setAttribute("style", "font-size: " + ft + "%");
-
-    let lm =  Math.min(62, window.innerWidth / 24.0);
-    let rm = window.innerWidth / 24.0
-    const m = (window.innerWidth / 2) - 640;
-    if (m > 0) {
-        lm += m;
-        rm += m;
-    }
-    ["recent-contents", "content-by-year"].forEach(id => {
-        document.getElementById(id).setAttribute("style", "margin-left:" + lm + "px;");
-    });
-    document.getElementById("links").setAttribute("style", "margin-right:" + rm + "px; margin-left:" + lm + "px;");
-    const pxRatio = Math.max(1.0, window.devicePixelRatio * 0.7);
-    Array.from(document.getElementsByClassName("when")).forEach(t => {
-        t.setAttribute("style", "font-size: " + (150 * pxRatio) + "%");
-    });
-    Array.from(document.getElementsByClassName("post-heading")).forEach(t => {
-        t.setAttribute("style", "font-size: " + (150 * pxRatio) + "%");
-    });
-    Array.from(document.getElementsByClassName("post-text")).forEach(t => {
-        t.setAttribute("style", "font-size: " + (100 * pxRatio) + "%");
-    });
-}
-resize();
-window.onresize = resize;
-"""
-
-        script = self.document.getElementsByTagName("script")[0]
-        script.appendChild(self.document.createTextNode(scr))
 
     def add_timeline(self, t):
         if self.recent is not None and len(self.recent.childNodes) < 5:
@@ -306,6 +266,5 @@ for i in ["timeline", "about", "generations"]:
             getattr(p, f"add_{i}")(j)
 
 for p in pages:
-    p.add_resize_script()
     p.dump()
 
