@@ -65,6 +65,9 @@ class TemplateDoc:
     def add_generations(self, t):
         pass
 
+    def add_year(self, t):
+        pass
+
     def dump(self):
         page = self.document.documentElement.toxml(encoding=None)
         page = page.replace("&quot;","\"")
@@ -84,6 +87,20 @@ class MainPage(TemplateDoc):
         self.recent = self.document.getElementById("recent-contents")
         self.years = dict()
         self.yearList = self.document.getElementById("content-by-year")
+
+    def add_year(self, t):
+        if "when" in t:
+            wd = t["when"]
+            year = wd[:4]
+            if year not in self.years:
+                wasEmpty = len(self.years) == 0
+                self.years[year] = wd
+                if not wasEmpty:
+                    yearLink = self.document.createElement("a")
+                    yearLink.appendChild(self.document.createTextNode(year))
+                    yearLink.setAttribute("href", f"#{wd}")
+                    yearLink.setAttribute("class", "previous-year")
+                    self.yearList.appendChild(yearLink)
 
     def add_timeline(self, t):
         if self.recent is not None and len(self.recent.childNodes) < 5:
@@ -115,16 +132,6 @@ class MainPage(TemplateDoc):
             whenAnchor.appendChild(self.document.createTextNode(w))
             whenAnchor.setAttribute("id", wd)
             when.appendChild(whenAnchor)
-            year = wd[:4]
-            if year not in self.years:
-                wasEmpty = len(self.years) == 0
-                self.years[year] = wd
-                if not wasEmpty:
-                    yearLink = self.document.createElement("a")
-                    yearLink.appendChild(self.document.createTextNode(year))
-                    yearLink.setAttribute("href", f"#{wd}")
-                    yearLink.setAttribute("class", "previous-year")
-                    self.yearList.appendChild(yearLink)
         else:
             when.appendChild(self.document.createTextNode(""))
 
@@ -183,7 +190,7 @@ class PortfolioPage(TemplateDoc):
         self.feature = "8jH8vtE1S_Q"
         self.omit_items = {
             "eIS7tWrvk-c",   #pumpkin
-            "6W2pAlF3pl8",   #armitage,
+            "6W2pAlF3pl8",   #armitage
             "2xTeApzjrQM",   #mcr2
             "7F-Sw6fVl0I",   #mcr1
             "jL1AqcHteug",   #sapperton
@@ -254,8 +261,39 @@ class GenerationPage(TemplateDoc):
         MainPage.add_timeline(self, t)
 
 
+class YearPage(TemplateDoc):
+    def __init__(self, year):
+        TemplateDoc.__init__(self, "template-common.xhtml", f"{year}.html")
+        self.container = self.document.getElementById("content")
+        self.recent = None
+        self.year = year
+        self.years = dict()
+        self.yearList = self.document.getElementById("content-by-year")
+
+    def add_year(self, t):
+        if "when" in t:
+            wd = t["when"]
+            year = wd[:4]
+            if year not in self.years:
+                wasEmpty = len(self.years) == 0
+                self.years[year] = wd
+                if not wasEmpty:
+                    yearLink = self.document.createElement("a")
+                    yearLink.appendChild(self.document.createTextNode(year))
+                    yearLink.setAttribute("href", f"{year}.html")
+                    yearLink.setAttribute("class", "previous-year")
+                    self.yearList.appendChild(yearLink)
+
+    def add_timeline(self, t):
+        if int(t["when"][:4]) == self.year:
+            MainPage.add_timeline(self, t)
+
+
 
 pages = [MainPage(), PortfolioPage(), AboutPage(), GenerationPage()]
+for y in range(2020, int(datetime.datetime.now().strftime("%Y")) + 1):
+    pages.append(YearPage(y))
+
 for i in ["timeline", "about", "generations"]:
     jf = open(f"content/{i}.json", "r")
     jfc = json.load(jf)
@@ -264,6 +302,7 @@ for i in ["timeline", "about", "generations"]:
     for j in jfc:
         for p in pages:
             getattr(p, f"add_{i}")(j)
+            p.add_year(j)
 
 for p in pages:
     p.dump()
