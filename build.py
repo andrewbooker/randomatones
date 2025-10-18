@@ -144,12 +144,13 @@ class TemplateDoc:
 
 
 class MainPage(TemplateDoc):
-    def __init__(self):
+    def __init__(self, currentYear):
         TemplateDoc.__init__(self, "template.xhtml", "index.html")
         self.set_metadata()
         self.recent = self.document.getElementById("recent-contents")
         self.years = dict()
         self.yearList = self.document.getElementById("content-by-year")
+        self.currentYear = currentYear
 
     def add_year(self, t):
         if "when" in t:
@@ -161,7 +162,7 @@ class MainPage(TemplateDoc):
                 if not wasEmpty:
                     yearLink = self.document.createElement("a")
                     yearLink.appendChild(self.document.createTextNode(year))
-                    yearLink.setAttribute("href", f"#{wd}")
+                    yearLink.setAttribute("href", f"{year}.html")
                     yearLink.setAttribute("class", "previous-year")
                     self.yearList.appendChild(yearLink)
 
@@ -175,7 +176,8 @@ class MainPage(TemplateDoc):
             d.appendChild(a)
             self.recent.appendChild(d)
 
-        TemplateDoc.add_content(self, t)
+        if int(t["when"][:4]) == self.currentYear or len(self.recent.childNodes) < 5:
+            TemplateDoc.add_content(self, t)
 
 
 class PortfolioPage(TemplateDoc):
@@ -294,8 +296,9 @@ class YearPage(TemplateDoc):
 
 
 
-pages = [MainPage(), PortfolioPage(), AboutPage(), GenerationPage()]
-for y in range(2020, int(datetime.datetime.now().strftime("%Y")) + 1):
+currentYear = int(datetime.datetime.now().strftime("%Y"))
+pages = [MainPage(currentYear), PortfolioPage(), AboutPage(), GenerationPage()]
+for y in range(2020, currentYear + 1):
     pages.append(YearPage(y))
 
 for i in ["timeline", "about", "generations"]:
