@@ -69,49 +69,7 @@ class TemplateDoc:
     def add_year(self, t):
         pass
 
-    def dump(self):
-        page = self.document.documentElement.toxml(encoding=None)
-        page = page.replace("&quot;","\"")
-        page = page.replace("&lt;", "<")
-        page = page.replace("&gt;", ">")
-
-        with open(self.out_fn, "w") as out:
-            out.write("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n")
-            out.write(page)
-
-
-class MainPage(TemplateDoc):
-    def __init__(self):
-        TemplateDoc.__init__(self, "template.xhtml", "index.html")
-        self.set_metadata()
-        self.recent = self.document.getElementById("recent-contents")
-        self.years = dict()
-        self.yearList = self.document.getElementById("content-by-year")
-
-    def add_year(self, t):
-        if "when" in t:
-            wd = t["when"]
-            year = wd[:4]
-            if year not in self.years:
-                wasEmpty = len(self.years) == 0
-                self.years[year] = wd
-                if not wasEmpty:
-                    yearLink = self.document.createElement("a")
-                    yearLink.appendChild(self.document.createTextNode(year))
-                    yearLink.setAttribute("href", f"#{wd}")
-                    yearLink.setAttribute("class", "previous-year")
-                    self.yearList.appendChild(yearLink)
-
-    def add_timeline(self, t):
-        if self.recent is not None and len(self.recent.childNodes) < 5:
-            d = self.document.createElement("div")
-            a = self.document.createElement("a")
-            a.setAttribute("href", "#%s" % t["when"])
-            a.appendChild(self.document.createTextNode(t["heading"]))
-
-            d.appendChild(a)
-            self.recent.appendChild(d)
-
+    def add_content(self, t):
         row = self.document.createElement("div")
         row.setAttribute("class", "content-item")
         head = self.document.createElement("div")
@@ -173,6 +131,51 @@ class MainPage(TemplateDoc):
         row.appendChild(head)
         row.appendChild(body)
         self.container.appendChild(row)
+
+    def dump(self):
+        page = self.document.documentElement.toxml(encoding=None)
+        page = page.replace("&quot;","\"")
+        page = page.replace("&lt;", "<")
+        page = page.replace("&gt;", ">")
+
+        with open(self.out_fn, "w") as out:
+            out.write("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n")
+            out.write(page)
+
+
+class MainPage(TemplateDoc):
+    def __init__(self):
+        TemplateDoc.__init__(self, "template.xhtml", "index.html")
+        self.set_metadata()
+        self.recent = self.document.getElementById("recent-contents")
+        self.years = dict()
+        self.yearList = self.document.getElementById("content-by-year")
+
+    def add_year(self, t):
+        if "when" in t:
+            wd = t["when"]
+            year = wd[:4]
+            if year not in self.years:
+                wasEmpty = len(self.years) == 0
+                self.years[year] = wd
+                if not wasEmpty:
+                    yearLink = self.document.createElement("a")
+                    yearLink.appendChild(self.document.createTextNode(year))
+                    yearLink.setAttribute("href", f"#{wd}")
+                    yearLink.setAttribute("class", "previous-year")
+                    self.yearList.appendChild(yearLink)
+
+    def add_timeline(self, t):
+        if self.recent is not None and len(self.recent.childNodes) < 5:
+            d = self.document.createElement("div")
+            a = self.document.createElement("a")
+            a.setAttribute("href", "#%s" % t["when"])
+            a.appendChild(self.document.createTextNode(t["heading"]))
+
+            d.appendChild(a)
+            self.recent.appendChild(d)
+
+        TemplateDoc.add_content(self, t)
 
 
 class PortfolioPage(TemplateDoc):
@@ -246,7 +249,7 @@ class AboutPage(TemplateDoc):
         self.recent = None
 
     def add_about(self, t):
-        MainPage.add_timeline(self, t)
+        TemplateDoc.add_content(self, t)
 
 
 class GenerationPage(TemplateDoc):
@@ -256,7 +259,7 @@ class GenerationPage(TemplateDoc):
         self.recent = None
 
     def add_generations(self, t):
-        MainPage.add_timeline(self, t)
+        TemplateDoc.add_content(self, t)
 
 
 class YearPage(TemplateDoc):
@@ -287,7 +290,7 @@ class YearPage(TemplateDoc):
 
     def add_timeline(self, t):
         if int(t["when"][:4]) == self.year:
-            MainPage.add_timeline(self, t)
+            TemplateDoc.add_content(self, t)
 
 
 
