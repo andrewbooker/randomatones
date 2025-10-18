@@ -15,6 +15,7 @@ class TemplateDoc:
         for n in self.document.getElementsByTagName("*"):
             if n.hasAttribute("id"):
                 n.setIdAttribute("id")
+        self.container = self.document.getElementById("content")
 
     def set_metadata(self, page_name=None, link_name=None):
         head = self.document.getElementsByTagName("head")[0]
@@ -83,7 +84,6 @@ class MainPage(TemplateDoc):
     def __init__(self):
         TemplateDoc.__init__(self, "template.xhtml", "index.html")
         self.set_metadata()
-        self.container = self.document.getElementById("content")
         self.recent = self.document.getElementById("recent-contents")
         self.years = dict()
         self.yearList = self.document.getElementById("content-by-year")
@@ -179,7 +179,6 @@ class PortfolioPage(TemplateDoc):
     def __init__(self):
         TemplateDoc.__init__(self, "template-portfolio.xhtml", "portfolio.html")
         self.set_metadata("Portfolio", "Video portfolio")
-        self.container = self.document.getElementById("timeline")
         self.postcard = self.document.getElementById("postcard")
         self.postcard_items = [
             ("C7SRY2J_L6c", "53795150323_693d6768b7"),
@@ -223,6 +222,7 @@ class PortfolioPage(TemplateDoc):
             a.appendChild(img)
 
     def add_timeline(self, t):
+        add_to = self.document.getElementById("timeline")
         if "youtube" in t:
             y = t["youtube"]
             if y not in {i for i, _ in self.postcard_items} and y not in self.omit_items:
@@ -231,19 +231,18 @@ class PortfolioPage(TemplateDoc):
                         item = self.document.createElement("div")
                         item.setAttribute("class", "post-yt")
                         self._add_yt_to(item, t["youtube"], 3.2)
-                        self.container.appendChild(item)    
+                        add_to.appendChild(item)
                 else:
                     item = self.document.createElement("div")
                     item.setAttribute("class", "post-yt")
                     self._add_yt_to(item, t["youtube"], 1.3)
-                    self.container.appendChild(item)
+                    add_to.appendChild(item)
 
 
 class AboutPage(TemplateDoc):
     def __init__(self):
         TemplateDoc.__init__(self, "template-common.xhtml", "about.html")
         self.set_metadata("About", "About")
-        self.container = self.document.getElementById("content")
         self.recent = None
 
     def add_about(self, t):
@@ -254,7 +253,6 @@ class GenerationPage(TemplateDoc):
     def __init__(self):
         TemplateDoc.__init__(self, "template-common.xhtml", "generations.html")
         self.set_metadata("Generations", "The many generations")
-        self.container = self.document.getElementById("content")
         self.recent = None
 
     def add_generations(self, t):
@@ -264,7 +262,6 @@ class GenerationPage(TemplateDoc):
 class YearPage(TemplateDoc):
     def __init__(self, year):
         TemplateDoc.__init__(self, "template-common.xhtml", f"{year}.html")
-        self.container = self.document.getElementById("content")
         self.recent = None
         self.year = year
         self.years = dict()
