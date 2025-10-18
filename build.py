@@ -275,14 +275,18 @@ class YearPage(TemplateDoc):
             wd = t["when"]
             year = wd[:4]
             if year not in self.years:
-                wasEmpty = len(self.years) == 0
                 self.years[year] = wd
-                if not wasEmpty:
+                if int(year) != self.year:
                     yearLink = self.document.createElement("a")
                     yearLink.appendChild(self.document.createTextNode(year))
                     yearLink.setAttribute("href", f"{year}.html")
                     yearLink.setAttribute("class", "previous-year")
                     self.yearList.appendChild(yearLink)
+                else:
+                    currentYear = self.document.createElement("p")
+                    currentYear.appendChild(self.document.createTextNode(year))
+                    currentYear.setAttribute("class", "current-year")
+                    self.yearList.appendChild(currentYear)
 
     def add_timeline(self, t):
         if int(t["when"][:4]) == self.year:
