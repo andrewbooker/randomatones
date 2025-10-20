@@ -114,7 +114,7 @@ class TemplateDoc:
 
             a = self.document.createElement("a")
             imageId = t["image"].split("/")[-1].split("_")[0]
-            a.setAttribute("href", "https://flickr.com/photos/90938695@N06/%s/in/album-72157716077356826/" % imageId)
+            a.setAttribute("href", "https://www.flickr.com/photos/90938695@N06/%s/in/album-72157716077356826/" % imageId)
             a.setAttribute("target", "_blank")
             a.appendChild(img)
 
