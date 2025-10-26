@@ -7,8 +7,10 @@ class Resize {
         let rm = window.innerWidth / 24.0;
         const m = (window.innerWidth / 2) - 640;
         if (m > 0) {
-            lm += m;
             rm += m;
+            if (lmOffset === 0) {
+                lm += m;
+            }
         }
         this.leftMargin = lm;
         this.rightMargin = rm;
