@@ -109,8 +109,7 @@
                 byId("tagline").setAttribute("style", "font-size: " + ft + "%");
 
                 const lm = Math.min(62, window.innerWidth / 24.0);
-                sizeMargins(lm, {"recent-contents": byId, "content-by-year": byId}, 0);
-                sizeFonts();
+                new Resize(lm, {"recent-contents": byId, "content-by-year": byId}, 0).margins().fonts().render();
             }
             resize();
             window.onresize = resize;

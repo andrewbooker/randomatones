@@ -1,5 +1,3 @@
-function sizeFonts() {}
-
 class Resize {
     constructor(leftMargin, lmOnlyItems, lmOffset) {
         this.leftMargin = leftMargin;
@@ -63,8 +61,4 @@ class Resize {
             e.setAttribute("style", Array.from(ss).join("; "));
         }
     }
-}
-
-function sizeMargins(leftMargin, lmOnlyItems, lmOffset) {
-    new Resize(leftMargin, lmOnlyItems, lmOffset).margins().fonts().render();
 }
