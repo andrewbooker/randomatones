@@ -1,9 +1,17 @@
 class Resize {
     constructor(leftMargin, lmOnlyItems, lmOffset) {
-        this.leftMargin = leftMargin;
         this.lmOnlyItems = lmOnlyItems;
         this.lmOffset = lmOffset;
         this.styles = new Map();
+        let lm = leftMargin;
+        let rm = window.innerWidth / 24.0;
+        const m = (window.innerWidth / 2) - 640;
+        if (m > 0) {
+            lm += m;
+            rm += m;
+        }
+        this.leftMargin = lm;
+        this.rightMargin = rm;
     }
 
     setStyle(e, s) {
@@ -14,19 +22,12 @@ class Resize {
     }
 
     margins() {
-        let lm = this.leftMargin;
-        let rm = window.innerWidth / 24.0;
-        const m = (window.innerWidth / 2) - 640;
-        if (m > 0) {
-            lm += m;
-            rm += m;
-        }
-        this.setStyle(document.getElementById("links"), "margin-right:" + rm + "px");
-        this.setStyle(document.getElementById("links"), "margin-left:" + lm + "px;");
+        this.setStyle(document.getElementById("links"), "margin-right:" + this.rightMargin + "px");
+        this.setStyle(document.getElementById("links"), "margin-left:" + this.leftMargin + "px;");
         Object.entries(this.lmOnlyItems).forEach(([id, get]) => {
             const e = get(id);
             if (e) {
-                this.setStyle(e, "margin-left:" + (lm + this.lmOffset) + "px;");
+                this.setStyle(e, "margin-left:" + (this.leftMargin + this.lmOffset) + "px;");
             }
         });
         return this;

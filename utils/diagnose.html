@@ -29,7 +29,8 @@
              </div>
         </div>
         <div id="say"></div>
-
+        <script src="../size-items.js"></script>
+        <script src="../resize.js"></script>
         <script>
             const sayTo = document.getElementById("say");
             function say(what) {
@@ -46,15 +47,17 @@
                 //say("screen: " + screen.innerWidth + "x" + screen.innerHeight);
                 say("device pixel ratio: " + window.devicePixelRatio);
             }
-            showDimensions();
+            function report(rs) {
+                say("left margin: " + rs.leftMargin);
+                say("right margin: " + rs.rightMargin);
+            }
         </script>
-        <script src="../size-items.js"></script>
-        <script src="../resize.js"></script>
         <script>
-            resize();
+            showDimensions();
+            report(resize());
             window.onresize = function() {
                 showDimensions();
-                resize();
+                report(resize());
             }
         </script>
     </body>

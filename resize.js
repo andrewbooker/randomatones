@@ -1,7 +1,9 @@
 function resize() {
     const lm =  Math.max(10, (window.innerWidth * 0.3) - (302 + (18 * 2)));
-    new Resize(lm, {
+    const rs = new Resize(lm, {
         "content-by-year": (i) => document.getElementById(i),
         "page-heading": (c) => document.getElementsByClassName(c)[0]
-    }, 20).margins().fonts().render();
+    }, 20);
+    rs.margins().fonts().render();
+    return rs;
 }
