@@ -3,7 +3,9 @@ function sizeFonts() {
     const ratios = {
         "when": 150,
         "post-heading": 150,
-        "post-text": 100
+        "post-text": 100,
+        "previous-year": 100,
+        "current-year": 100
     };
     Object.entries(ratios).forEach(([c, r]) => {
         Array.from(document.getElementsByClassName(c)).forEach(t => {
