@@ -46,7 +46,8 @@ class Resize {
             "post-heading": 150,
             "post-text": 100,
             "previous-year": 100,
-            "current-year": 100
+            "current-year": 100,
+            "page-heading": 240
         };
         Object.entries(ratios).forEach(([c, r]) => {
             Array.from(document.getElementsByClassName(c)).forEach(t => {
