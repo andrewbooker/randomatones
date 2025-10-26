@@ -33,7 +33,7 @@ class Resize {
         if (!this.styles.has(e)) {
             this.styles.set(e, []);
         }
-        this.styles.get(e).push(s);
+        (this.styles.has(e) ? this.styles.get(e) : this.styles.set(key, initialize()).get(key)).push(s);
     }
 
     margins() {
@@ -44,20 +44,21 @@ class Resize {
             lm += m;
             rm += m;
         }
-        document.getElementById("links").setAttribute("style", "margin-right:" + rm + "px; margin-left:" + lm + "px;");
+        this.setStyle(document.getElementById("links"), "margin-right:" + rm + "px");
+        this.setStyle(document.getElementById("links"), "margin-left:" + lm + "px;");
         Object.entries(this.lmOnlyItems).forEach(([id, get]) => {
             const e = get(id);
             if (e) {
-                e.setAttribute("style", "margin-left:" + (lm + this.lmOffset) + "px;");
+                this.setStyle(e, "margin-left:" + (lm + this.lmOffset) + "px;");
             }
         });
         return this;
     }
 
     render() {
-        this.styles.forEach(([o, sa]) => {
-            e.setAttribute("style", sa.join("; "));
-        });
+        for (let [e, ss] of this.styles) {
+            e.setAttribute("style", Array.from(ss).join("; "));
+        }
     }
 }
 
