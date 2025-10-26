@@ -1,12 +1,13 @@
 function sizeFonts() {
     const pxRatio = Math.max(1.0, window.devicePixelRatio * 0.7);
-    Array.from(document.getElementsByClassName("when")).forEach(t => {
-        t.setAttribute("style", "font-size: " + (150 * pxRatio) + "%");
-    });
-    Array.from(document.getElementsByClassName("post-heading")).forEach(t => {
-        t.setAttribute("style", "font-size: " + (150 * pxRatio) + "%");
-    });
-    Array.from(document.getElementsByClassName("post-text")).forEach(t => {
-        t.setAttribute("style", "font-size: " + (100 * pxRatio) + "%");
+    const ratios = {
+        "when": 150,
+        "post-heading": 150,
+        "post-text": 100
+    };
+    Object.entries(ratios).forEach(([c, r]) => {
+        Array.from(document.getElementsByClassName(c)).forEach(t => {
+            t.setAttribute("style", "font-size: " + (r * pxRatio) + "%");
+        });
     });
 }
