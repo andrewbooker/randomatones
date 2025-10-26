@@ -6,7 +6,9 @@ function resize() {
         rm += m;
     }
 
-    document.getElementsByTagName("h1")[0].setAttribute("style", "margin-right:" + rm + "px; margin-left:" + (lm + 20) + "px;");
-    sizeMargins(lm, rm, ["content-by-year"], 20);
+    sizeMargins(lm, rm, {
+        "content-by-year": (i) => document.getElementById(i),
+        "h1": (t) => document.getElementsByTagName(t)[0]
+    }, 20);
     sizeFonts();
 }

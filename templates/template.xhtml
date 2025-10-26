@@ -103,11 +103,12 @@
         <script src="./size-margins.js">
         </script>
 		<script>
+		    const byId = (i) => document.getElementById(i);
 		    function resize() {
                 const fh = Math.min(1000, 0.8 * window.innerWidth);
                 const ft = Math.min(180, 0.3 * window.innerWidth);
-                document.getElementById("heading").setAttribute("style", "font-size: " + fh + "%");
-                document.getElementById("tagline").setAttribute("style", "font-size: " + ft + "%");
+                byId("heading").setAttribute("style", "font-size: " + fh + "%");
+                byId("tagline").setAttribute("style", "font-size: " + ft + "%");
 
                 let lm =  Math.min(62, window.innerWidth / 24.0);
                 let rm = window.innerWidth / 24.0
@@ -116,7 +117,7 @@
                     lm += m;
                     rm += m;
                 }
-                sizeMargins(lm, rm, ["recent-contents", "content-by-year"], 0);
+                sizeMargins(lm, rm, {"recent-contents": byId, "content-by-year": byId}, 0);
                 sizeFonts();
             }
             resize();

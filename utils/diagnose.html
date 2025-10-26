@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <style>
         body {
@@ -7,9 +8,11 @@
         </style>
     </head>
     <body>
+        <h1>h1</h1>
         <div id="back">
             <a href="../index.html">home</a>
         </div>
+        <div id="content-by-year">content-by-year</div>
         <div id="links">links</div>
         <div id="when">when</div>
         <div id="post-heading">post-heading</div>
@@ -17,21 +20,31 @@
         <div id="say"></div>
 
         <script>
+            const sayTo = document.getElementById("say");
             function say(what) {
-                const s = document.getElementById("say");
                 const w = document.createElement("div");
                 w.innerHTML = what;
-                s.appendChild(w);
+                sayTo.appendChild(w);
             }
-            say(window.innerWidth + "x" + window.innerHeight);
-            say(window.devicePixelRatio);
+            function wipe() {
+                sayTo.innerHTML = "";
+            }
+            function showDimensions() {
+                wipe();
+                say("window: " + window.innerWidth + "x" + window.innerHeight);
+                //say("screen: " + screen.innerWidth + "x" + screen.innerHeight);
+                say("device pixel ratio: " + window.devicePixelRatio);
+            }
+            showDimensions();
         </script>
-        <script src="../resize.js" />
+        <script src="../size-fonts.js"></script>
+        <script src="../size-margins.js"></script>
+        <script src="../resize.js"></script>
         <script>
             resize();
             window.onresize = function() {
+                showDimensions();
                 resize();
-                // show sizes
             }
         </script>
     </body>
