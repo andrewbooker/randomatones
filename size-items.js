@@ -21,19 +21,46 @@ function sizeFonts() {
     });
 }
 
-function sizeMargins(leftMargin, lmOnlyItems, lmOffset) {
-    let lm = leftMargin;
-    let rm = window.innerWidth / 24.0;
-    const m = (window.innerWidth / 2) - 640;
-    if (m > 0) {
-        lm += m;
-        rm += m;
+class Resize {
+    constructor(leftMargin, lmOnlyItems, lmOffset) {
+        this.leftMargin = leftMargin;
+        this.lmOnlyItems = lmOnlyItems;
+        this.lmOffset = lmOffset;
+        this.styles = new Map();
     }
-    document.getElementById("links").setAttribute("style", "margin-right:" + rm + "px; margin-left:" + lm + "px;");
-    Object.entries(lmOnlyItems).forEach(([id, get]) => {
-        const e = get(id);
-        if (e) {
-            e.setAttribute("style", "margin-left:" + (lm + lmOffset) + "px;");
+
+    setStyle(e, s) {
+        if (!this.styles.has(e)) {
+            this.styles.set(e, []);
         }
-    });
+        this.styles.get(e).push(s);
+    }
+
+    margins() {
+        let lm = this.leftMargin;
+        let rm = window.innerWidth / 24.0;
+        const m = (window.innerWidth / 2) - 640;
+        if (m > 0) {
+            lm += m;
+            rm += m;
+        }
+        document.getElementById("links").setAttribute("style", "margin-right:" + rm + "px; margin-left:" + lm + "px;");
+        Object.entries(this.lmOnlyItems).forEach(([id, get]) => {
+            const e = get(id);
+            if (e) {
+                e.setAttribute("style", "margin-left:" + (lm + this.lmOffset) + "px;");
+            }
+        });
+        return this;
+    }
+
+    render() {
+        this.styles.forEach(([o, sa]) => {
+            e.setAttribute("style", sa.join("; "));
+        });
+    }
+}
+
+function sizeMargins(leftMargin, lmOnlyItems, lmOffset) {
+    new Resize(leftMargin, lmOnlyItems, lmOffset).margins().render();
 }
