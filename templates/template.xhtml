@@ -110,14 +110,8 @@
                 byId("heading").setAttribute("style", "font-size: " + fh + "%");
                 byId("tagline").setAttribute("style", "font-size: " + ft + "%");
 
-                let lm =  Math.min(62, window.innerWidth / 24.0);
-                let rm = window.innerWidth / 24.0
-                const m = (window.innerWidth / 2) - 640;
-                if (m > 0) {
-                    lm += m;
-                    rm += m;
-                }
-                sizeMargins(lm, rm, {"recent-contents": byId, "content-by-year": byId}, 0);
+                const lm = Math.min(62, window.innerWidth / 24.0);
+                sizeMargins(lm, {"recent-contents": byId, "content-by-year": byId}, 0);
                 sizeFonts();
             }
             resize();
