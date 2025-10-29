@@ -41,7 +41,7 @@ class Resize {
                 return 1.0;
             }
             const isHorizontal = (window.innerWidth / window.innerHeight) > 1.0;
-            return (isHorizontal ? 0.5 : 1.0) * Math.max(1.0, window.devicePixelRatio * 0.7);
+            return Math.max(1.0, window.devicePixelRatio * 0.7 * (isHorizontal ? 0.5 : 1.0));
         })();
 
         const ratios = {
