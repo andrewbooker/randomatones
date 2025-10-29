@@ -17,7 +17,7 @@
         <div id="content">
             <div class="content-item">
                 <div class="content-header">
-                    <div class="when"><a>29 May 2025</a></div>
+                    <div class="when">29 May 2025</div>
                     <div class="post-heading">One hour of relaxing music for concentration</div>
                 </div>
                 <div class="content-main">
@@ -38,24 +38,29 @@
                 w.innerHTML = what;
                 sayTo.appendChild(w);
             }
-            function wipe() {
-                sayTo.innerHTML = "";
+            function revealStyle(addTo) {
+                const style = addTo.getAttribute("style");
+                say(addTo.innerText.substring(0, 40) + ": " + style);
             }
-            function showDimensions() {
-                wipe();
+            function reportAttributes() {
+                revealStyle(document.getElementsByTagName("h1")[0]);
+                revealStyle(document.getElementById("content-by-year"));
+                ["when", "post-heading", "post-text"].forEach(c => revealStyle(document.getElementsByClassName(c)[0]));
+            }
+
+            function report(rs) {
+                sayTo.innerHTML = "";
+                reportAttributes();
+
                 say("window: " + window.innerWidth + "x" + window.innerHeight);
                 say("device pixel ratio: " + window.devicePixelRatio);
-            }
-            function report(rs) {
-                say("left margin: " + rs.leftMargin);
-                say("right margin: " + rs.rightMargin);
+                say("left margin: " + rs.leftMargin.toFixed(2));
+                say("right margin: " + rs.rightMargin.toFixed(2));
             }
         </script>
         <script>
-            showDimensions();
             report(resize());
             window.onresize = function() {
-                showDimensions();
                 report(resize());
             }
         </script>

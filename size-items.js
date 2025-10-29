@@ -24,12 +24,12 @@ class Resize {
     }
 
     margins() {
-        this.setStyle(document.getElementById("links"), "margin-right:" + this.rightMargin + "px");
-        this.setStyle(document.getElementById("links"), "margin-left:" + this.leftMargin + "px;");
+        this.setStyle(document.getElementById("links"), "margin-right:" + this.rightMargin.toFixed(2) + "px");
+        this.setStyle(document.getElementById("links"), "margin-left:" + this.leftMargin.toFixed(2) + "px");
         Object.entries(this.lmOnlyItems).forEach(([id, get]) => {
             const e = get(id);
             if (e) {
-                this.setStyle(e, "margin-left:" + (this.leftMargin + this.lmOffset) + "px;");
+                this.setStyle(e, "margin-left:" + (this.leftMargin + this.lmOffset).toFixed(2) + "px");
             }
         });
         return this;
