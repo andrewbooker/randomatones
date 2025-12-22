@@ -1,5 +1,11 @@
 [
     {
+        "when": "2025-12-20",
+        "heading": "New six-channel amplifier",
+        "image": "https://live.staticflickr.com/65535/55000439100_ab33a432f0_b.jpg",
+        "text": "Another homemade multi-channel amplifier, this time trying out the <a href=\"https://www.ti.com/lit/ds/symlink/tpa3122d2.pdf\">TPA3122D2</a> dual class D amplifier chip. I have two possible uses for this. One is an old motherboard onto which I have added a 5.1 surround sound PCI card. In theory it's a 7.1 card, but while I know how to access one more channel on it, I haven't worked out how to access the 8th, and six channels is adequate for an installation. The only reason I used eight channels in the <a href=\"2025.html/#2025-02-02\">Engine House</a> installation was because I was using the HDMI output of my laptop, and HDMI has eight. This motherboard is so old, it doesn't have HDMI.<br/><br/>The second possible use is a Rasperry Pi, which does have HDMI, but I had problems trying to use it at the beginning of the year, despite having no HDMI problems on the laptop. On the other hand, the Raspberry Pi has four USB ports, so I've been trying those as well. Using ALSA on Linux, you can configure multiple smaller soundcards to act as a single multi-channel composite (<a href=\"https://www.alsa-project.org/main/index.php/Asoundrc\">this page</a> explains how). So I have two USB audio adapters, plus the onboard stereo port (which I have not wanted to use in the past, but seems to work reasonably), as a six-channel output.<br/><br/>The amplifiers are a bit of a fiddle to build, mostly because I am a stickler for colour-coding even the shortest jump-leads. Otherwise, if these work well I may use them more often with onboard DACs or USB adapters in future. The Raspberry Pi/HifiBerry amp combination has worked well so far, but the Raspberry Pi is unreliable and the amp hat was expensive and seems to be no longer available."
+    },
+    {
         "when": "2025-12-05",
         "heading": "First Explorer test",
         "youtube": "xEmXBxsIwjw",
