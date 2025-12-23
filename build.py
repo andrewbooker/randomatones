@@ -267,6 +267,7 @@ class GenerationPage(TemplateDoc):
 class YearPage(TemplateDoc):
     def __init__(self, year):
         TemplateDoc.__init__(self, "template-common.xhtml", f"{year}.html")
+        self.set_metadata(str(year), str(year))
         self.recent = None
         self.year = year
         self.years = dict()
