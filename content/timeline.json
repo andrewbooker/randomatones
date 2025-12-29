@@ -1,5 +1,11 @@
 [
     {
+        "when": "2025-12-29",
+        "heading": "Building a motor control (part three and hopefully the last)",
+        "image": "https://live.staticflickr.com/65535/55012497670_ba807b827b_b.jpg",
+        "text": "Started in August. Continued a bit in early October before I got <a href=\"2025.html#2025-10-04\">sidetracked</a>. Basically now working, although the proof is probably that I can build a second one and have it behave identically. Its job is to make the motor run forwards for a few seconds when a sound begins, and then in reverse for the same length of time when the sound ends."
+    },
+    {
         "when": "2025-12-20",
         "heading": "New six-channel amplifier",
         "image": "https://live.staticflickr.com/65535/55000439100_ab33a432f0_b.jpg",
