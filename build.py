@@ -176,7 +176,7 @@ class MainPage(TemplateDoc):
             d.appendChild(a)
             self.recent.appendChild(d)
 
-        if int(t["when"][:4]) == self.currentYear or len(self.recent.childNodes) < 5:
+        if int(t["when"][:4]) in {self.currentYear, self.currentYear - 1}:
             TemplateDoc.add_content(self, t)
 
 
