@@ -1,5 +1,19 @@
 [
     {
+      "when": "2026-02-02",
+      "orientation": "portrait",
+      "heading": "Randomatones return to the Turbine Room",
+      "image": "https://live.staticflickr.com/65535/55083203646_e8aa546e95_b.jpg",
+      "text": "Exactly a year ago I set up an 8-speaker hanging Randomatones installation in the Turbine Room at the Walthamstow Wetlands Engine House. The Randomatones will be back in the Turbine Room at the end of the month, this time over both weekend days. The format will be similar to last year, except the speaker supports will include small motors to provide rotation. I tried out a prototype rotation mechanism a couple of weeks ago at <a href=\"2026.html#2026-01-18\">Heart Of Noise Cambridge #14</a>. The sounds will be similar to last year, but from completely new software."
+    },
+    {
+        "when": "2026-01-31",
+        "orientation": "portrait",
+        "heading": "Built-in computer",
+        "image": "https://live.staticflickr.com/65535/55082315932_2f01453e1a_b.jpg",
+        "text": "This is the control box I took to the Walthamstow Wetlands Engine House for the Randomatones installation last February. It oiginally had a Raspberry Pi driving the sounds, but that was unreliable, so on the day I just ran everything from my laptop. Soon afterwards I bought a very cheap machine from ebay, so cheap it was less than the Raspberry Pi, and got that working. Finally I have added a sunken shelf to control box on which to put the motherboard. A slight pity is the screen has to be positioned a little off-centre, because the connector lead to the motherboard is too short. I can live with it. On the screen, in case you're curious, is me looking up a script I half finished to run the machine as a Wifi hub."
+    },
+    {
         "when": "2026-01-28",
         "heading": "Ambient music where no-one would dare listen",
         "youtube": "tZOvFMkAnY0",
