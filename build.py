@@ -113,8 +113,8 @@ class TemplateDoc:
             img.setAttribute("height", str(320 if not landscape else 180))
 
             a = self.document.createElement("a")
-            imageId = t["image"].split("/")[-1].split("_")[0]
-            a.setAttribute("href", "https://www.flickr.com/photos/90938695@N06/%s/in/album-72157716077356826/" % imageId)
+            imageId = t["image"].split("/")[-1]
+            a.setAttribute("href", "./viewer.html?img=" + imageId)
             a.setAttribute("target", "_blank")
             a.appendChild(img)
 

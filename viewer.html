@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./common.css"/>
+    </head>
+    <body>
+        <a id="img_link"><img id="img"></img></a>
+        <script>
+            const urlParams = new URLSearchParams(window.location.search);
+            const iid = urlParams.get("img")
+            const img = document.getElementById("img");
+            img.src = "https://live.staticflickr.com/65535/" + iid;
+
+            const link = document.getElementById("img_link");
+            const imageId = iid.split("_")[0]
+            link.setAttribute("href", "https://www.flickr.com/photos/90938695@N06/" + imageId + "/in/album-72157716077356826/")
+        </script>
+    </body>
+</html>
