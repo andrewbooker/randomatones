@@ -1,5 +1,11 @@
 [
     {
+      "when": "2026-04-21",
+      "heading": "USB Audio",
+      "image": "https://live.staticflickr.com/65535/55292118441_ebc221ddf3_b.jpg",
+      "text": "For the last two hanging loudspeaker installations I have used a laptop, or the innards of one, with its HDMI output connected to an 8-channel DAC. I then have an 8-channel audio amplifier to drive the loudspeakers. This works well (although not on a Raspberry Pi, I have found), but needs me to spend £60 on the HDMI DAC. The not-so-broken laptop I bought off ebay for the last installation cost me £10. I like to take any opportunity I can to upcycle old equipent. This USB audio converter is from a broken pair of Microsoft Lifechat headphones. As I discovered, the USB lead into this converter unit had disintegrated, and connection was intermittent at best. So I took off the old cables and soldered in some new ones, and of course it works fine. This is the kind of photo I need to check my USB wiring is correct. The red and black are the 5V and ground lines. The green and white leads are the data pair."
+    },
+    {
         "when": "2026-04-15",
         "heading": "Next installation site",
         "image": "https://live.staticflickr.com/65535/55292269098_ba817b9646_b.jpg",
