@@ -1,5 +1,11 @@
 [
     {
+      "when": "2026-05-02",
+      "heading": "New old motherboard",
+      "image": "https://live.staticflickr.com/65535/55291206592_67d356d1a5_b.jpg",
+      "text": "With an installation coming up at the <a href=\"https://waterandsteam.org.uk/\" target=\"_blank\">London Museum of Water & Steam</a> soon, I want a new driver unit, so that I can keep the Turbine Room box spare in case I have the opportunity of doing another installation there, or a similar one elsewhere. I have had this motherboard at home for a very long time. For a while I used it as the controller for an experimental electronic drum setup. It's a 2005 Fujitsu Siemens W26361-W1372-X-03. I have no idea what any of that means. It has two CPU cores and 2GB ram installed, though I could increase that if I wanted. I don't. This motherboard is easily powerful enough for the job it will soon have. A little too old to have an HDMI port, it does have four USB ports, plus connections onboard for four more if I need them. It has two PCI sockets, and I have tried plugging in a couple of different soundcards to these, but it tends to forget they are connected, and I cannot be bothered to delve into the finer workings of Ubuntu Server to make them re-appear. So I have been experimenting with a composite soundcard setup, where I can make several distinct USB stereo audio devices appear as a single multi-channel device. So far this has worked up to 8 channels. I'm not sure whether the issue beyond 8 channels isn't my player. No matter, for the Water & Steam installation I only want 6, for use with my purpose-built <a href=\"2025.html#2025-12-20\">6-channel amplifier</a>."
+    },
+    {
       "when": "2026-04-21",
       "heading": "USB Audio",
       "image": "https://live.staticflickr.com/65535/55292118441_ebc221ddf3_b.jpg",
