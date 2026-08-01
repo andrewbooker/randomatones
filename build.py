@@ -184,33 +184,41 @@ class PortfolioPage(TemplateDoc):
     def __init__(self):
         TemplateDoc.__init__(self, "template-portfolio.xhtml", "portfolio.html")
         self.set_metadata("Portfolio", "Video portfolio")
-        self.postcard = self.document.getElementById("postcard")
-        self.postcard_items = [
-            ("C7SRY2J_L6c", "53795150323_693d6768b7"),
-            ("PmSZrsthFks", "53795241979_b0e61dd7f7"),
-            ("k2WSEi149CM", "53794930691_7fe02bc0dc"),
-            ("-Iec5qIazRc", "53795241949_051ecc1248")
+        postcard = self.document.getElementById("postcard")
+        postcard_items = [
+            [
+                ("tZOvFMkAnY0", "54919962426_f0214c8a4c"),
+                ("iMTdnAYcTzM", "54842102195_72a90b1762")
+            ],
+            [
+                ("C7SRY2J_L6c", "53795150323_693d6768b7"),
+                ("PmSZrsthFks", "53795241979_b0e61dd7f7"),
+                ("k2WSEi149CM", "53794930691_7fe02bc0dc"),
+                ("-Iec5qIazRc", "53795241949_051ecc1248")
+            ]
         ]
+        
         self.feature = "J9K68wah1nQ"
 
         item = None
-        for i in range(0, 4):            
-            a = self.document.createElement("a")
-            y, f = self.postcard_items[i]
-            if item is None or i % 2 == 0:
-                item = self.document.createElement("div")
-                item.setAttribute("class", "postcard-row")
-                self.postcard.appendChild(item)
-            
-            item.appendChild(a)
-            a.setAttribute("href", f"https://www.youtube.com/watch?v={y}")
-            a.setAttribute("target", "_blank")
-            img = self.document.createElement("img")
-            img.setAttribute("src", f"https://live.staticflickr.com/65535/{f}_b.jpg")
-            img.setAttribute("width", "480")
-            img.setAttribute("height", "270")
-            img.setAttribute("class", "postcard-img")
-            a.appendChild(img)
+        for p in postcard_items: 
+            for i in range(0, len(p)):            
+                a = self.document.createElement("a")
+                y, f = p[i]
+                if item is None or i % 2 == 0:
+                    item = self.document.createElement("div")
+                    item.setAttribute("class", "postcard-row")
+                    postcard.appendChild(item)
+                
+                item.appendChild(a)
+                a.setAttribute("href", f"https://www.youtube.com/watch?v={y}")
+                a.setAttribute("target", "_blank")
+                img = self.document.createElement("img")
+                img.setAttribute("src", f"https://live.staticflickr.com/65535/{f}_b.jpg")
+                img.setAttribute("width", "480")
+                img.setAttribute("height", "270")
+                img.setAttribute("class", "postcard-img")
+                a.appendChild(img)
 
     def add_timeline(self, t):
         add_to = self.document.getElementById("timeline")
