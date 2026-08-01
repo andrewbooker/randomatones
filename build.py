@@ -191,21 +191,7 @@ class PortfolioPage(TemplateDoc):
             ("k2WSEi149CM", "53794930691_7fe02bc0dc"),
             ("-Iec5qIazRc", "53795241949_051ecc1248")
         ]
-        self.feature = "8jH8vtE1S_Q"
-        self.omit_items = {
-            "eIS7tWrvk-c",   #pumpkin
-            "6W2pAlF3pl8",   #armitage
-            "2xTeApzjrQM",   #mcr2
-            "7F-Sw6fVl0I",   #mcr1
-            "jL1AqcHteug",   #sapperton
-            "Ijo-B0MvH2w",   #mimmshall
-            "hvtv9qaenxo",   #bow flyover
-            "RBprgrceOII",   #curzon
-            "_sodYEzFBB0",   #leicester
-            "sFGq1ZAaaPE",   #heart of noise
-            "3FMnYXOUaEg",   #highams pk
-            "sBHxgcOxsO8",   #walthamstow marshians
-        }
+        self.feature = "J9K68wah1nQ"
 
         item = None
         for i in range(0, 4):            
@@ -228,20 +214,11 @@ class PortfolioPage(TemplateDoc):
 
     def add_timeline(self, t):
         add_to = self.document.getElementById("timeline")
-        if "youtube" in t:
-            y = t["youtube"]
-            if y not in {i for i, _ in self.postcard_items} and y not in self.omit_items:
-                if self.feature:
-                    if y == self.feature:
-                        item = self.document.createElement("div")
-                        item.setAttribute("class", "post-yt")
-                        self._add_yt_to(item, t["youtube"], 3.2)
-                        add_to.appendChild(item)
-                else:
-                    item = self.document.createElement("div")
-                    item.setAttribute("class", "post-yt")
-                    self._add_yt_to(item, t["youtube"], 1.3)
-                    add_to.appendChild(item)
+        if "youtube" in t and t["youtube"] == self.feature:
+            item = self.document.createElement("div")
+            item.setAttribute("class", "post-yt")
+            self._add_yt_to(item, t["youtube"], 3.2)
+            add_to.appendChild(item)
 
 
 class AboutPage(TemplateDoc):
