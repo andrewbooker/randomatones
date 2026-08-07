@@ -19,6 +19,12 @@
         "text": "For the first time, all three of the original floating Randomatones made an appearance at the 2026 <a href=\"https://www.emfcamp.org\" target=\"_blank\">EMF Camp</a>, on one of the lakes in the grounds of Eastnor Castle in Herefordshire. They were not a success. The lake was very shallow, and all three got stuck in the mud. The blue one died, literally in flames, before I could steer it into the open water. Also they were very quiet. But they still make a good picture in the dusk."
     },
     {
+        "when": "2026-07-07",
+        "heading": "Finished floating installation controller unit",
+        "image": "https://live.staticflickr.com/65535/55449086283_2a6348c477_b.jpg",
+        "text": "This will be the controller for the three floating units that will feature in my upcoming second <a href=\"https://waterandsteam.org.uk/\" target=\"_blank\">LMWS</a> installation. The large black box is a new ATX power supply. I should really look at upcycling old ones of these from discarded desktop computers, as for me they are solid gold. Underneath it, on a circuit board that is much larger than it needs to be because I did't want to snap it, are five 5W amplifiers. I am not sure they are going to be loud enough, but my experience in the Museum is that a little too quiet is going to be better than a little too noisy. In the middle is a new Rasberry Pi. On the left is the controller for the three propellers that will provide movement in the installation."
+    },
+    {
         "when": "2026-06-08",
         "heading": "Single floating unit working",
         "orientation": "portrait",
