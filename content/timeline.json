@@ -4,7 +4,7 @@
         "heading": "Second Steam Museum controller",
         "image": "https://live.staticflickr.com/65535/55436483375_9a4a283d6e_b.jpg",
         "orientation": "portrait",
-        "text": "I've been setting up my second Randomatones sound installation at the <a href=\"https://waterandsteam.org.uk/\" target=\"_blank\">London Museum of Water & Steam</a> (LMWS). It's a floating installation in the same pool I made a short video in <a href=\"2025.html#2025-05-09\">last year</a>. This is the controller, based on Raspberry Pi. It runs 5 audio channels, two coming out of USB audio ports and one coming out of the onboard stereo jack. I have found this to be a poor audio source in the past, but I'm a little better at doing audio on Linux machines now (this Raspberry Pi is running a version of Ubuntu server), and it's not too bad. The amplifiers sit to the left of the RPi. There are five individual 5W amplifiers, one for each channel. My LMWS Electric Room experience tells me I don't need a lot of volume.<br/><br/>To the right of the RPi is a motor control board, seen here with its three blue LEDs. This board controls three propeller motors. In the past I have used H-bridges for motor control, when I want them to turn in both directions, but the ones I used to buy are not made any more (plus I've set fire to more than one of them in the past), so this controller uses a single power transistor and a direction-switching relay for each motor. That's less efficient than an H-bridge, because the relay draws current when it's on, but I'm running off a mains supply here so I don't need to worry."
+        "text": "I've been setting up my second Randomatones sound installation at the <a href=\"https://waterandsteam.org.uk/\" target=\"_blank\">London Museum of Water & Steam</a> (LMWS). It's a floating installation in the same pool I made a short video in <a href=\"2025.html#2025-05-09\" target=\"_blank\">last year</a>. This is the controller, based on Raspberry Pi. It runs 5 audio channels, two coming out of USB audio ports and one coming out of the onboard stereo jack. I have found this to be a poor audio source in the past, but I'm a little better at doing audio on Linux machines now (this Raspberry Pi is running a version of Ubuntu server), and it's not too bad. The amplifiers sit to the left of the RPi. There are five individual 5W amplifiers, one for each channel. My LMWS Electric Room experience tells me I don't need a lot of volume.<br/><br/>To the right of the RPi is the <a href=\"2026.html#2026-06-06\">motor control board</a>, seen here with its three blue LEDs."
     },
     {
         "when": "2026-07-28",
@@ -17,6 +17,12 @@
         "heading": "Floating Randomatones at EMF Camp 2026",
         "image": "https://live.staticflickr.com/65535/55410832234_7c2d7fa4ed_b.jpg",
         "text": "For the first time, all three of the original floating Randomatones made an appearance at the 2026 <a href=\"https://www.emfcamp.org\" target=\"_blank\">EMF Camp</a>, on one of the lakes in the grounds of Eastnor Castle in Herefordshire. They were not a success. The lake was very shallow, and all three got stuck in the mud. The blue one died, literally in flames, before I could steer it into the open water. Also they were very quiet. But they still make a good picture in the dusk."
+    },
+    {
+        "when": "2026-06-06",
+        "heading": "Propeller controller board",
+        "image": "https://live.staticflickr.com/65535/55449351605_1b46930da3_b.jpg",
+        "text": "My upcoming second <a href=\"https://waterandsteam.org.uk/\" target=\"_blank\">LMWS</a> installation will feature three floating units that will move in a pool of water. This board will control the propeller motors. In the past I have used H-bridges for motor control, when I want them to turn in both directions, but the ones I used to buy are not made any more (plus I've set fire to more than one of them in the past), so this controller uses a single power transistor and a direction-switching relay for each motor. That's less efficient than an H-bridge, because the relay draws current when it's on, but I'm running off a mains supply here so I don't need to worry."
     },
     {
         "when": "2026-05-07",
