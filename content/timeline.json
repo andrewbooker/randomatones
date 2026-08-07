@@ -1,7 +1,13 @@
 [
     {
+        "when": "2026-08-06",
+        "heading": "New floating installation running",
+        "image": "https://live.staticflickr.com/65535/55449133619_c30e24ca81_b.jpg",
+        "text": "My second Randomatones sound installation at the <a href=\"https://waterandsteam.org.uk/\" target=\"_blank\">LMWS</a> is now partially running. The sound is operation. The lighting is working. The movement still needs some work. For one thing, two out of three of the motors have mysteriously lost both propeller and shaft since their first test run last week. This is barely explicable, unless they were simply of exceptionally poor quality. Seems like I need to spend more money on them. The middle unit works, but the movement is jerky and I don't like it. Also there is no position feedback that will keep it more-or-less in the centre of the pool. So I am going to need to add it. But the sound is running, and for now the rather broody red components of the onboard LEDs flickers with the intensity of the sound."
+    },
+    {
         "when": "2026-07-30",
-        "heading": "Second Steam Museum controller",
+        "heading": "Second Steam Museum controller installed",
         "image": "https://live.staticflickr.com/65535/55436483375_9a4a283d6e_b.jpg",
         "orientation": "portrait",
         "text": "I've been setting up my second Randomatones sound installation at the <a href=\"https://waterandsteam.org.uk/\" target=\"_blank\">London Museum of Water & Steam</a> (LMWS). It's a floating installation in the same pool I made a short video in <a href=\"2025.html#2025-05-09\" target=\"_blank\">last year</a>. This is the controller, based on Raspberry Pi. It runs 5 audio channels, two coming out of USB audio ports and one coming out of the onboard stereo jack. I have found this to be a poor audio source in the past, but I'm a little better at doing audio on Linux machines now (this Raspberry Pi is running a version of Ubuntu server), and it's not too bad. The amplifiers sit to the left of the RPi. There are five individual 5W amplifiers, one for each channel. My LMWS Electric Room experience tells me I don't need a lot of volume.<br/><br/>To the right of the RPi is the <a href=\"2026.html#2026-06-06\">motor control board</a>, seen here with its three blue LEDs."
